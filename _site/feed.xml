@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-16T20:49:06+08:00</updated><id>http://localhost:4000/</id><title type="html">李立</title><entry><title type="html">Installing Tomcat on macOS Sierra</title><link href="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html" rel="alternate" type="text/html" title="Installing Tomcat on macOS Sierra" /><published>2017-07-12T00:00:00+08:00</published><updated>2017-07-12T00:00:00+08:00</updated><id>http://localhost:4000/2017/07/12/installing-tomcat-on-mac</id><content type="html" xml:base="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html">&lt;p&gt;Download Apache Tomcat on &lt;a href=&quot;http://tomcat.apache.org&quot;&gt;http://tomcat.apache.org&lt;/a&gt;. Select the latest version, and download the binary distribution of the core module in &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-25T12:37:37+08:00</updated><id>http://localhost:4000/</id><title type="html">李立</title><entry><title type="html">List 1</title><link href="http://localhost:4000/2018/02/25/list-1.html" rel="alternate" type="text/html" title="List 1" /><published>2018-02-25T00:00:00+08:00</published><updated>2018-02-25T00:00:00+08:00</updated><id>http://localhost:4000/2018/02/25/list-1</id><content type="html" xml:base="http://localhost:4000/2018/02/25/list-1.html">&lt;p&gt;&lt;strong&gt;abandon&lt;/strong&gt; oneself to emotion; &lt;strong&gt;abandon&lt;/strong&gt; the home 放纵 放弃&lt;/p&gt;
+
+&lt;p&gt;He was unwilling to &lt;strong&gt;abase&lt;/strong&gt; himself by pleading guilty to a crime that he did not commit. 降低&lt;/p&gt;
+
+&lt;p&gt;feel &lt;strong&gt;abashed&lt;/strong&gt; in public 使尴尬 使羞愧&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;abate&lt;/strong&gt; his rage/pain; &lt;strong&gt;abate&lt;/strong&gt; a tax 减轻 减少&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;abbreviate&lt;/strong&gt; the word “building” as “bldg.” 缩写&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;strong&gt;abdicate&lt;/strong&gt; the throne/crown 正式放弃&lt;/p&gt;</content><author><name></name></author><category term="Vacabulary" /><summary type="html">abandon oneself to emotion; abandon the home 放纵 放弃 He was unwilling to abase himself by pleading guilty to a crime that he did not commit. 降低 feel abashed in public 使尴尬 使羞愧 abate his rage/pain; abate a tax 减轻 减少 abbreviate the word “building” as “bldg.” 缩写</summary></entry><entry><title type="html">Installing Tomcat on macOS Sierra</title><link href="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html" rel="alternate" type="text/html" title="Installing Tomcat on macOS Sierra" /><published>2017-07-12T00:00:00+08:00</published><updated>2017-07-12T00:00:00+08:00</updated><id>http://localhost:4000/2017/07/12/installing-tomcat-on-mac</id><content type="html" xml:base="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html">&lt;p&gt;Download Apache Tomcat on &lt;a href=&quot;http://tomcat.apache.org&quot;&gt;http://tomcat.apache.org&lt;/a&gt;. Select the latest version, and download the binary distribution of the core module in &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Unzip the &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt; file. You may use the freeware app &lt;strong&gt;Unarchiver&lt;/strong&gt;, which is perfect for all kinds of compressed files.&lt;/p&gt;
 
@@ -509,68 +521,4 @@ The heat island effect is created when developed areas have higher temperatures 
   &lt;li&gt;Environmental Product Declaration (EPD)&lt;/li&gt;
   &lt;li&gt;Corporate sustainability report (CSR)&lt;/li&gt;
   &lt;li&gt;Health Product Declaration (HPD)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="LEED" /><summary type="html">Reuse Understand the best thing you can do for the environment is reuse materials. What is the environmental benefit of reusing a building? Adaptive reuse refers to the process of reusing an old site or building for a purpose other than which it was built or designed for. Adaptive reuse is seen by many as a key factor in land conservation and the reduction of urban sprawl. The environment benefits through the reduction of raw materials needed for a brand-new building.</summary></entry><entry><title type="html">Location and transportation</title><link href="http://localhost:4000/2017/04/23/location-and-transportation.html" rel="alternate" type="text/html" title="Location and transportation" /><published>2017-04-23T00:00:00+08:00</published><updated>2017-04-23T00:00:00+08:00</updated><id>http://localhost:4000/2017/04/23/location-and-transportation</id><content type="html" xml:base="http://localhost:4000/2017/04/23/location-and-transportation.html">&lt;h4 id=&quot;site-selection&quot;&gt;Site selection&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Locating a project in a dense area near diverse uses addresses ways to reduce pollution by reducing the number of single occupant drivers.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;What are examples of diverse uses?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Diverse uses are common services that people might use regularly. Diverse uses are determined by measuring 1⁄2 mile (800 meters) walking distance from the building’s main entrance. Here are some examples LEED defines the following as diverse uses:&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bank&lt;/li&gt;
-  &lt;li&gt;Church&lt;/li&gt;
-  &lt;li&gt;Supermarket / convenience store&lt;/li&gt;
-  &lt;li&gt;Day care&lt;/li&gt;
-  &lt;li&gt;Dry cleaner / laundry mat&lt;/li&gt;
-  &lt;li&gt;Fire station&lt;/li&gt;
-  &lt;li&gt;Salon&lt;/li&gt;
-  &lt;li&gt;Hardware store&lt;/li&gt;
-  &lt;li&gt;Library&lt;/li&gt;
-  &lt;li&gt;Medical / dental office&lt;/li&gt;
-  &lt;li&gt;Park&lt;/li&gt;
-  &lt;li&gt;Pharmacy&lt;/li&gt;
-  &lt;li&gt;Post office&lt;/li&gt;
-  &lt;li&gt;Restaurant&lt;/li&gt;
-  &lt;li&gt;School&lt;/li&gt;
-  &lt;li&gt;Theatre / museum&lt;/li&gt;
-  &lt;li&gt;Community center&lt;/li&gt;
-  &lt;li&gt;Gym&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;What are strategies to reduce parking?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;LEED encourages having the minimum amount of parking as required by local code. Project teams should consider:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Underground parking; or&lt;/li&gt;
-  &lt;li&gt;Sharing parking lots with neighboring properties when possible.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;If parking is limited, there might be less automobile use.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What project locations are best for reducing impacts to the environment?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How is pedestrian access provided?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;People must be able to walk between the project and the service without being blocked by walls, highways, or other barriers.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;alternative-transportation&quot;&gt;Alternative transportation&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This objective addresses transportation demand and access to mass transit.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;How can single occupancy driving be reduced?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Building management can create incentives for building users to carpool. There are non-cash incentives such as preferred parking spaces. Another non-cash option is employee recognition. Other ideas are to reward carpoolers with discounted parking, or to reward carpoolers with cash or points for every day they ride together.&lt;/p&gt;
-
-&lt;p&gt;Charging for parking can discourage people from driving to and from work alone. This will not work in all situations, but requiring employees to pay may encourage the use of carpooling and mass transit.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What are examples of alternative transportation?&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="LEED" /><summary type="html">Site selection Locating a project in a dense area near diverse uses addresses ways to reduce pollution by reducing the number of single occupant drivers. What are examples of diverse uses? Diverse uses are common services that people might use regularly. Diverse uses are determined by measuring 1⁄2 mile (800 meters) walking distance from the building’s main entrance. Here are some examples LEED defines the following as diverse uses:</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="LEED" /><summary type="html">Reuse Understand the best thing you can do for the environment is reuse materials. What is the environmental benefit of reusing a building? Adaptive reuse refers to the process of reusing an old site or building for a purpose other than which it was built or designed for. Adaptive reuse is seen by many as a key factor in land conservation and the reduction of urban sprawl. The environment benefits through the reduction of raw materials needed for a brand-new building.</summary></entry></feed>

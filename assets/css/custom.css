@@ -162,6 +162,17 @@ ul.about-list li {
 
 
 
+.cover {
+	width: 100%;
+	text-transform: uppercase;
+}
+.cover tr {
+	height: 350px;
+}
+.cover tr td {
+	width: 50%;
+}
+
 
 
 /* ====== Carousel ====== */
