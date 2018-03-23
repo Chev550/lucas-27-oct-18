@@ -24,7 +24,7 @@ ul li {
 /*--------------------------------------------------------------
 2.0 Languages
 --------------------------------------------------------------*/
-.eng {
+.chn {
 	display: none;
 }
 
@@ -168,7 +168,7 @@ header {
 .front-page {
 	background: white;
 	width: 100%;
-	padding: 5rem 0;
+	padding-top: 5rem;
 	border-top: 7px solid DarkSlateGray;
 	border-bottom: 1px solid #eee;
 	box-shadow: 0 2px 20px 0 gray;
@@ -253,6 +253,7 @@ footer {
 	background: white;
 	height: 50px;
 	z-index: 100;
+	text-transform: uppercase;
 }
 
 /*--------------------------------------------------------------
