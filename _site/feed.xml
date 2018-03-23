@@ -1,16 +1,124 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-25T12:37:37+08:00</updated><id>http://localhost:4000/</id><title type="html">李立</title><entry><title type="html">List 1</title><link href="http://localhost:4000/2018/02/25/list-1.html" rel="alternate" type="text/html" title="List 1" /><published>2018-02-25T00:00:00+08:00</published><updated>2018-02-25T00:00:00+08:00</updated><id>http://localhost:4000/2018/02/25/list-1</id><content type="html" xml:base="http://localhost:4000/2018/02/25/list-1.html">&lt;p&gt;&lt;strong&gt;abandon&lt;/strong&gt; oneself to emotion; &lt;strong&gt;abandon&lt;/strong&gt; the home 放纵 放弃&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-23T09:40:56+08:00</updated><id>http://localhost:4000/</id><title type="html">李立</title><entry><title type="html">Installing Tomcat on macOS Sierra</title><link href="http://localhost:4000/2018/03/23/sd2017.html" rel="alternate" type="text/html" title="Installing Tomcat on macOS Sierra" /><published>2018-03-23T00:00:00+08:00</published><updated>2018-03-23T00:00:00+08:00</updated><id>http://localhost:4000/2018/03/23/sd2017</id><content type="html" xml:base="http://localhost:4000/2018/03/23/sd2017.html">&lt;!-- 为ECharts准备一个具备大小（宽高）的Dom --&gt;
+&lt;div id=&quot;standing&quot; style=&quot;width:100%; height:500px;&quot;&gt;&lt;/div&gt;
 
-&lt;p&gt;He was unwilling to &lt;strong&gt;abase&lt;/strong&gt; himself by pleading guilty to a crime that he did not commit. 降低&lt;/p&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('standing'));
 
-&lt;p&gt;feel &lt;strong&gt;abashed&lt;/strong&gt; in public 使尴尬 使羞愧&lt;/p&gt;
+        // 指定图表的配置项和数据
+        var option = {
+        	tooltip : {
+        		trigger: 'axis',
+        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+        }
+    },
+    legend: {
+    	data:['Architecture', 'Market Appeal','Engineering','Communications','Innovation', 'Comfort Zone', 'Appliances', 'Home Life', 'Commuting', 'Energy']
+    },
+    toolbox: {
+    	show: true,
+        bottom: 0,
+    	feature: {
+    		mark: {show: true},
+    		dataView: {show: true, readOnly: false},
+    		magicType: {show: true, type: ['line', 'bar', 'stack', 'tiled']},
+    		restore: {show: true},
+    		saveAsImage: {show: true}
+    	}
+    },
+    calculable : true,
+    xAxis: [
+    {
+    	type: 'value',
+        name: 'Points'
+    }
+    ],
+    yAxis: [
+    {
+    	type: 'category',
+        name: 'Team',
+    	data: ['HKU','PKU*','THU','XJTU-WNEU','YI','WashU-BLD*','Istanbul', 'SUES-XD', 'Shunya', 'Montreal', 'JIA+', 'NJFJ', 'TUBSEU', 'XAUAT', 'SJTUIUC', 'BJTU', 'SIE', 'TJU-TUDA', 'Solar Offspring', 'SCUT-POLITO', 'UNNC Alpha', 'Israel']
+    }
+    ],
+    series: [
+    {
+    	name:'Architecture',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
+    },
+    {
+    	name:'Market Appeal',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
+    },
+    {
+    	name:'Engineering',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
+    },
+    {
+    	name:'Communications',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
+    },
+    {
+    	name:'Innovation',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
+    },
+    {
+    	name:'Comfort Zone',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
+    },
+    {
+    	name:'Appliances',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
+    },
+    {
+    	name:'Home Life',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
+    },
+    {
+    	name:'Commuting',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
+    },
+    {
+    	name:'Energy',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
+    }
+    ]
+};
 
-&lt;p&gt;&lt;strong&gt;abate&lt;/strong&gt; his rage/pain; &lt;strong&gt;abate&lt;/strong&gt; a tax 减轻 减少&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;abbreviate&lt;/strong&gt; the word “building” as “bldg.” 缩写&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;&lt;strong&gt;abdicate&lt;/strong&gt; the throne/crown 正式放弃&lt;/p&gt;</content><author><name></name></author><category term="Vacabulary" /><summary type="html">abandon oneself to emotion; abandon the home 放纵 放弃 He was unwilling to abase himself by pleading guilty to a crime that he did not commit. 降低 feel abashed in public 使尴尬 使羞愧 abate his rage/pain; abate a tax 减轻 减少 abbreviate the word “building” as “bldg.” 缩写</summary></entry><entry><title type="html">Installing Tomcat on macOS Sierra</title><link href="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html" rel="alternate" type="text/html" title="Installing Tomcat on macOS Sierra" /><published>2017-07-12T00:00:00+08:00</published><updated>2017-07-12T00:00:00+08:00</updated><id>http://localhost:4000/2017/07/12/installing-tomcat-on-mac</id><content type="html" xml:base="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html">&lt;p&gt;Download Apache Tomcat on &lt;a href=&quot;http://tomcat.apache.org&quot;&gt;http://tomcat.apache.org&lt;/a&gt;. Select the latest version, and download the binary distribution of the core module in &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt;.&lt;/p&gt;
+// 使用刚指定的配置项和数据显示图表。
+myChart.setOption(option);
+&lt;/script&gt;</content><author><name></name></author><category term="Java" /><summary type="html"></summary></entry><entry><title type="html">Installing Tomcat on macOS Sierra</title><link href="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html" rel="alternate" type="text/html" title="Installing Tomcat on macOS Sierra" /><published>2017-07-12T00:00:00+08:00</published><updated>2017-07-12T00:00:00+08:00</updated><id>http://localhost:4000/2017/07/12/installing-tomcat-on-mac</id><content type="html" xml:base="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html">&lt;p&gt;Download Apache Tomcat on &lt;a href=&quot;http://tomcat.apache.org&quot;&gt;http://tomcat.apache.org&lt;/a&gt;. Select the latest version, and download the binary distribution of the core module in &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Unzip the &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt; file. You may use the freeware app &lt;strong&gt;Unarchiver&lt;/strong&gt;, which is perfect for all kinds of compressed files.&lt;/p&gt;
 
@@ -100,10 +208,32 @@ Your browser does not support the audio element.
       &lt;p&gt;&lt;a href=&quot;http://news.stanford.edu/2005/06/14/jobs-061505/&quot;&gt;“‘You’ve got to find what you love,’ Jobs says”&lt;/a&gt;, Stanford University &lt;a href=&quot;#fnref:ref&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="Speech" /><summary type="html">Your browser does not support the audio element. This is the Commencement address delivered by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, on June 12, 2005.1 I am honored to be with you today at your commencement from one of the finest universities in the world. I never graduated from college. Truth be told, this is the closest I’ve ever gotten to a college graduation. Today I want to tell you three stories from my life. That’s it. No big deal. Just three stories. “‘You’ve got to find what you love,’ Jobs says”, Stanford University &amp;#8617;</summary></entry><entry><title type="html">Jekyll Commend Lines</title><link href="http://localhost:4000/2017/06/03/jekyll-commend-lines.html" rel="alternate" type="text/html" title="Jekyll Commend Lines" /><published>2017-06-03T00:00:00+08:00</published><updated>2017-06-03T00:00:00+08:00</updated><id>http://localhost:4000/2017/06/03/jekyll-commend-lines</id><content type="html" xml:base="http://localhost:4000/2017/06/03/jekyll-commend-lines.html">&lt;p&gt;Run Jekyll:&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="Speech" /><summary type="html">Your browser does not support the audio element. This is the Commencement address delivered by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, on June 12, 2005.1 I am honored to be with you today at your commencement from one of the finest universities in the world. I never graduated from college. Truth be told, this is the closest I’ve ever gotten to a college graduation. Today I want to tell you three stories from my life. That’s it. No big deal. Just three stories. “‘You’ve got to find what you love,’ Jobs says”, Stanford University &amp;#8617;</summary></entry><entry><title type="html">Jekyll Command Lines</title><link href="http://localhost:4000/2017/06/03/jekyll-command-lines.html" rel="alternate" type="text/html" title="Jekyll Command Lines" /><published>2017-06-03T00:00:00+08:00</published><updated>2017-06-03T00:00:00+08:00</updated><id>http://localhost:4000/2017/06/03/jekyll-command-lines</id><content type="html" xml:base="http://localhost:4000/2017/06/03/jekyll-command-lines.html">&lt;p&gt;Quick Start:&lt;sup id=&quot;fnref:ref&quot;&gt;&lt;a href=&quot;#fn:ref&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle exec jekyll serve --watch --drafts --baseurl &quot;&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="Jekyll" /><summary type="html">Run Jekyll: bundle exec jekyll serve --watch --drafts --baseurl &quot;&quot;</summary></entry><entry><title type="html">Residential cooling and heating load calculations</title><link href="http://localhost:4000/2017/05/06/residential-cooling-and-heating-load-calculations.html" rel="alternate" type="text/html" title="Residential cooling and heating load calculations" /><published>2017-05-06T00:00:00+08:00</published><updated>2017-05-06T00:00:00+08:00</updated><id>http://localhost:4000/2017/05/06/residential-cooling-and-heating-load-calculations</id><content type="html" xml:base="http://localhost:4000/2017/05/06/residential-cooling-and-heating-load-calculations.html">&lt;h4 id=&quot;residential-features&quot;&gt;Residential features&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~ $ gem install jekyll bundler
+~ $ jekyll new my-awesome-site
+~ $ cd my-awsome-site
+~/my-awesome-site $ bundle exec jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now browse to &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Previous version to run Jekyll:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll serve --watch --drafts --baseurl &quot;&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:ref&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://jekyllrb.com&quot;&gt;“Jekyll”&lt;/a&gt;, Simple, blog-aware, static sites &lt;a href=&quot;#fnref:ref&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="Jekyll" /><summary type="html">Quick Start:1 ~ $ gem install jekyll bundler ~ $ jekyll new my-awesome-site ~ $ cd my-awsome-site ~/my-awesome-site $ bundle exec jekyll serve Now browse to http://localhost:4000 “Jekyll”, Simple, blog-aware, static sites &amp;#8617;</summary></entry><entry><title type="html">Residential cooling and heating load calculations</title><link href="http://localhost:4000/2017/05/06/residential-cooling-and-heating-load-calculations.html" rel="alternate" type="text/html" title="Residential cooling and heating load calculations" /><published>2017-05-06T00:00:00+08:00</published><updated>2017-05-06T00:00:00+08:00</updated><id>http://localhost:4000/2017/05/06/residential-cooling-and-heating-load-calculations</id><content type="html" xml:base="http://localhost:4000/2017/05/06/residential-cooling-and-heating-load-calculations.html">&lt;h4 id=&quot;residential-features&quot;&gt;Residential features&lt;/h4&gt;
 
 &lt;p&gt;The following unique features distinguish residences from other types of buildings:&lt;/p&gt;
 

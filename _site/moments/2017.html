@@ -15,12 +15,8 @@
 
 	<script src="/assets/js/jquery-1.11.3.js"></script>
 	<script src="/assets/js/bootstrap.js"></script>
+	<script src="/assets/js/echarts.js"></script>
 	<script src="/assets/js/custom.js"></script>
-
-
-	<!-- Timeline -->
-	<link rel="stylesheet" type="text/css" href="/assets/css/timeline.css" />
-	<script type="text/javascript" src="/assets/js/timeline.js"></script>
 </head>
 
 
@@ -33,14 +29,6 @@
 				<a href="/">
 					<li>
 						<img class="logo" src="/assets/img/profile.png">
-					</li>
-				</a>
-
-
-				<a class="" href="/portfolio.html">
-					<li>
-						作品<br>
-						<span class="x-small slim">PORTFOLIO</span>
 					</li>
 				</a>
 
@@ -61,298 +49,342 @@
 				</a>
 
 				<a class="active" href="/moments/2018.html">
-					<li class="pull-right">
-						<i class="glyphicon glyphicon-eye-open"></i><br>
+					<li>
+						动态<br>
 						<span class="x-small slim">FOLLOW</span>
 					</li>
 				</a>
-			</ul>	
+
+
+				
+				<span class="pull-right language small">
+					<a href="javascript:;" onclick="chn()">中文</a> /
+					<a href="javascript:;" onclick="eng()">ENG</a>
+				</span>
+			</ul>
 		</nav>
+		
 	</div>
 </header>
 
 	<div class="container clearance">
 		<section>
 			<p class="page-title">
-	<span class="glyphicon glyphicon-eye-open"></span> &nbsp;
-	<span class="chn">动态</span>
-	<span class="eng">MOMENTS</span>
+	<span class="btn btn-sm btn-round btn-highlight disabled">
+		<span class="glyphicon glyphicon-refresh"></span> &nbsp;
+		<span class="chn">动态</span>
+		<span class="eng">MOMENTS</span>
+	</span>
 </p>
 
 
 
 
-<section>
-	<div class="row">
-		<div class="col-md-12">
-			<div class="VivaTimeline">
-				<dl>
-					<div class="pull-right">
-						<a href="/moments/2018.html">&#9656; 2018</a>
-					</div>
+<table class="cover">
+	
+	
+	
+	<tr>
+		<td style="background: url(/assets/img/moments/2017/2017-11-05.jpg) center center; background-size: cover;"></td>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim"><span class="glyphicon glyphicon-hand-left"></span> 2017-11-05</p>
+				<p>
+					<span class="eng">Sketching</span>
+					<span class="chn">重拾起了我尘封多年的素描本</span>
+				</p>
+			</center>
+		</td>
+	</tr>
+	
+	
+	
+	
+	<tr>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim">2017-10-18 <span class="glyphicon glyphicon-hand-right"></span></p>
+				<p>
+					<span class="eng">The Golden Gate Bridge</span>
+					<span class="chn">金门大桥</span>
+				</p>
+			</center>
+		</td>
+		<td style="background: url(/assets/img/moments/2017/2017-10-18.jpg) center center; background-size: cover;"></td>
+	</tr>
+	
 
-					<dt class="slim">2017</dt>
+	
+	
+	
+	
+	<tr>
+		<td style="background: url(/assets/img/moments/2017/2017-10-08.jpg) center center; background-size: cover;"></td>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim"><span class="glyphicon glyphicon-hand-left"></span> 2017-10-08</p>
+				<p>
+					<span class="eng">Cloudy Chicago</span>
+					<span class="chn">芝加哥</span>
+				</p>
+			</center>
+		</td>
+	</tr>
+	
+	
+	
+	
+	<tr>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim">2017-10-05 <span class="glyphicon glyphicon-hand-right"></span></p>
+				<p>
+					<span class="eng">NREL</span>
+					<span class="chn">国家可再生能源实验室</span>
+				</p>
+			</center>
+		</td>
+		<td style="background: url(/assets/img/moments/2017/2017-10-05.jpg) center center; background-size: cover;"></td>
+	</tr>
+	
+
+	
+	
+	
+	
+	<tr>
+		<td style="background: url(/assets/img/moments/2017/2017-10-04.jpg) center center; background-size: cover;"></td>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim"><span class="glyphicon glyphicon-hand-left"></span> 2017-10-04</p>
+				<p>
+					<span class="eng">Seattle</span>
+					<span class="chn">西雅图</span>
+				</p>
+			</center>
+		</td>
+	</tr>
+	
+	
+	
+	
+	<tr>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim">2017-10-03 <span class="glyphicon glyphicon-hand-right"></span></p>
+				<p>
+					<span class="eng">Flying to the U.S.</span>
+					<span class="chn">准备起飞</span>
+				</p>
+			</center>
+		</td>
+		<td style="background: url(/assets/img/moments/2017/2017-10-03.jpg) center center; background-size: cover;"></td>
+	</tr>
+	
+
+	
+	
+	
+	
+	<tr>
+		<td style="background: url(/assets/img/moments/2017/2017-09-16.jpg) center center; background-size: cover;"></td>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim"><span class="glyphicon glyphicon-hand-left"></span> 2017-09-16</p>
+				<p>
+					<span class="eng">Beautiful Xiamen</span>
+					<span class="chn">最美厦门</span>
+				</p>
+			</center>
+		</td>
+	</tr>
+	
+	
+	
+	
+	<tr>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim">2017-08-25 <span class="glyphicon glyphicon-hand-right"></span></p>
+				<p>
+					<span class="eng">Jay Chou concert</span>
+					<span class="chn">地表最强</span>
+				</p>
+			</center>
+		</td>
+		<td style="background: url(/assets/img/moments/2017/2017-08-25.jpg) center center; background-size: cover;"></td>
+	</tr>
+	
+
+	
+	
+	
+	
+	<tr>
+		<td style="background: url(/assets/img/moments/2017/2017-07-28.jpg) center center; background-size: cover;"></td>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim"><span class="glyphicon glyphicon-hand-left"></span> 2017-07-28</p>
+				<p>
+					<span class="eng">The Simatai Great Wall</span>
+					<span class="chn">司马台长城</span>
+				</p>
+			</center>
+		</td>
+	</tr>
+	
+	
+	
+	
+	<tr>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim">2017-07-13 <span class="glyphicon glyphicon-hand-right"></span></p>
+				<p>
+					<span class="eng">Tianjin</span>
+					<span class="chn">天津</span>
+				</p>
+			</center>
+		</td>
+		<td style="background: url(/assets/img/moments/2017/2017-07-13.jpg) center center; background-size: cover;"></td>
+	</tr>
+	
+
+	
+	
+	
+	
+	<tr>
+		<td style="background: url(/assets/img/moments/2017/2017-06-11.jpg) center center; background-size: cover;"></td>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim"><span class="glyphicon glyphicon-hand-left"></span> 2017-06-11</p>
+				<p>
+					<span class="eng">Study hard!</span>
+					<span class="chn">国家图书馆</span>
+				</p>
+			</center>
+		</td>
+	</tr>
+	
+	
+	
+	
+	<tr>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim">2017-05-19 <span class="glyphicon glyphicon-hand-right"></span></p>
+				<p>
+					<span class="eng">So lucky!</span>
+					<span class="chn">压线过</span>
+				</p>
+			</center>
+		</td>
+		<td style="background: url(/assets/img/moments/2017/2017-05-19.jpg) center center; background-size: cover;"></td>
+	</tr>
+	
+
+	
+	
+	
+	
+	<tr>
+		<td style="background: url(/assets/img/moments/2017/2017-03-31.jpg) center center; background-size: cover;"></td>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim"><span class="glyphicon glyphicon-hand-left"></span> 2017-03-31</p>
+				<p>
+					<span class="eng">Beijing Jiaotong University</span>
+					<span class="chn">北京交通大学</span>
+				</p>
+			</center>
+		</td>
+	</tr>
+	
+	
+	
+	
+	<tr>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim">2017-02-02 <span class="glyphicon glyphicon-hand-right"></span></p>
+				<p>
+					<span class="eng">Had a wonderful time with my cousins during the Spring Festival</span>
+					<span class="chn">南国之春</span>
+				</p>
+			</center>
+		</td>
+		<td style="background: url(/assets/img/moments/2017/2017-02-02.jpg) center center; background-size: cover;"></td>
+	</tr>
+	
+
+	
+	
+	
+	
+	<tr>
+		<td style="background: url(/assets/img/moments/2017/2017-01-21.jpg) center center; background-size: cover;"></td>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim"><span class="glyphicon glyphicon-hand-left"></span> 2017-01-21</p>
+				<p>
+					<span class="eng">Freezing winter in Beijing</span>
+					<span class="chn">北国之冬</span>
+				</p>
+			</center>
+		</td>
+	</tr>
+	
+	
+	
+	
+	<tr>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim">2017-01-08 <span class="glyphicon glyphicon-hand-right"></span></p>
+				<p>
+					<span class="eng">Biangbiang noodles, yummy!</span>
+					<span class="chn">Biangbiang面</span>
+				</p>
+			</center>
+		</td>
+		<td style="background: url(/assets/img/moments/2017/2017-01-08.jpg) center center; background-size: cover;"></td>
+	</tr>
+	
+
+	
+	
+	
+	
+	<tr>
+		<td style="background: url(/assets/img/moments/2017/2017-01-07.jpg) center center; background-size: cover;"></td>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim"><span class="glyphicon glyphicon-hand-left"></span> 2017-01-07</p>
+				<p>
+					<span class="eng">First time in Xi'an, exciting!</span>
+					<span class="chn">西安</span>
+				</p>
+			</center>
+		</td>
+	</tr>
+	
+	
+</table>
 
 
-					
-					
-					<dd class="pos-left clearfix">
-						<div class="circ"></div>
-						<div class="time">11-05</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/11-05.jpg" />
-							</div>
-							<div class="events-body">
-								Sketching
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-right clearfix">
-						<div class="circ"></div>
-						<div class="time">10-18</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/10-18.jpg" />
-							</div>
-							<div class="events-body">
-								The Golden Gate Bridge
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-left clearfix">
-						<div class="circ"></div>
-						<div class="time">10-08</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/10-08.jpg" />
-							</div>
-							<div class="events-body">
-								Cloudy Chicago
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-right clearfix">
-						<div class="circ"></div>
-						<div class="time">10-05</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/10-05.jpg" />
-							</div>
-							<div class="events-body">
-								Visiting NREL
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-left clearfix">
-						<div class="circ"></div>
-						<div class="time">10-04</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/10-04.jpg" />
-							</div>
-							<div class="events-body">
-								Seattle
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-right clearfix">
-						<div class="circ"></div>
-						<div class="time">10-03</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/10-03.jpg" />
-							</div>
-							<div class="events-body">
-								Flying to the U.S.
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-left clearfix">
-						<div class="circ"></div>
-						<div class="time">09-16</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/09-16.jpg" />
-							</div>
-							<div class="events-body">
-								Beautiful Xiamen
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-right clearfix">
-						<div class="circ"></div>
-						<div class="time">08-25</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/08-25.jpg" />
-							</div>
-							<div class="events-body">
-								Jay Chou concert
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-left clearfix">
-						<div class="circ"></div>
-						<div class="time">07-28</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/07-28.jpg" />
-							</div>
-							<div class="events-body">
-								The Simatai Great Wall
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-right clearfix">
-						<div class="circ"></div>
-						<div class="time">07-13</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/07-13.jpg" />
-							</div>
-							<div class="events-body">
-								Tianjin
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-left clearfix">
-						<div class="circ"></div>
-						<div class="time">06-11</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/06-11.jpg" />
-							</div>
-							<div class="events-body">
-								Study hard!
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-right clearfix">
-						<div class="circ"></div>
-						<div class="time">05-19</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/05-19.jpg" />
-							</div>
-							<div class="events-body">
-								So lucky!
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-left clearfix">
-						<div class="circ"></div>
-						<div class="time">03-31</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/03-31.jpg" />
-							</div>
-							<div class="events-body">
-								Visiting Beijing Jiaotong University
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-right clearfix">
-						<div class="circ"></div>
-						<div class="time">02-02</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/02-02.jpg" />
-							</div>
-							<div class="events-body">
-								Had a wonderful time with my cousins during the Spring Festival
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-left clearfix">
-						<div class="circ"></div>
-						<div class="time">01-21</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/01-21.jpg" />
-							</div>
-							<div class="events-body">
-								Freezing winter in Beijing
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-right clearfix">
-						<div class="circ"></div>
-						<div class="time">01-08</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/01-08.jpg" />
-							</div>
-							<div class="events-body">
-								Biangbiang noodles, yummy!
-							</div>        
-						</div>
-					</dd>
-					
-					
-					<dd class="pos-left clearfix">
-						<div class="circ"></div>
-						<div class="time">01-07</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/01-07.jpg" />
-							</div>
-							<div class="events-body">
-								First time in Xi'an, exciting!
-							</div>        
-						</div>
-					</dd>
-					
-				</dl>
-			</div>
-		</div>
-	</div>
-</section>
 
+<p style="margin-top: 7rem;">
+	<span class="btn btn-round btn-sm disabled">
+		<span class="eng">PREV</span>
+		<span class="chn">上一年</span>
+	</span>
 
-
-
-
-
-
-<script type="text/javascript">
-$(document).ready(function(){
-	$('.VivaTimeline').vivaTimeline({
-		carousel: false,
-		carouselTime: 3000
-	});
-});
-</script>
+	<a class="btn btn-round btn-sm pull-right" href="/moments/2018.html">
+		<span class="eng">NEXT</span>
+		<span class="chn">下一年</span>
+	</a>
+</p>
 		</section>
 	</div>
 
@@ -362,14 +394,16 @@ $(document).ready(function(){
 		<span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
 		Lucas Li &sdot;
 
-		<a href="/stats.html"><span class="glyphicon glyphicon-stats"></span></a> &sdot;
+		<a href="http://statcounter.com" target="_blank"><span class="glyphicon glyphicon-stats"></span></a> &sdot;
 
-		<a href="mailto:lucas.li@sdchina.org.cn"><span class="glyphicon glyphicon-envelope"></span></a> &sdot;
-
-		<a href="/support.html"><span class="glyphicon glyphicon-thumbs-up"></span></a>
+		<a href="mailto:lucas.li@sdchina.org.cn"><span class="glyphicon glyphicon-envelope"></span></a>
 
 
-		<span class="pull-right"><a href="javascript:;" onclick="chn()">中文</a> / <a href="javascript:;" onclick="eng()">ENG</a></span>
+		<span class="pull-right">
+			<a href="https://www.facebook.com/lucaslionline" target="_blank"><?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="icon" width="200px" height="200.00px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M965.7344 2.7648c14.848 0 28.2624 5.5296 40.2432 16.6912C1017.9584 30.5152 1024 43.52 1024 58.2656l0 910.2336c0 14.848-6.0416 27.7504-18.0224 38.8096C993.8944 1018.4704 980.48 1024 965.7344 1024L704.9216 1024 704.9216 629.9648l133.2224 0 19.456-155.4432-152.576 0L705.024 373.0432c0-50.688 25.9072-76.0832 77.7216-76.0832l80.4864 0L863.232 163.5328c-27.7504-5.4272-67.4816-8.192-119.296-8.192-59.1872 0-106.8032 18.0224-142.9504 54.0672C564.736 245.5552 546.7136 296.0384 546.7136 360.7552l0 113.7664L413.4912 474.5216l0 155.4432 133.2224 0L546.7136 1024 55.5008 1024c-14.848 0-27.7504-5.5296-38.8096-16.6912C5.5296 996.2496 0 983.3472 0 968.4992L0 58.2656C0 43.52 5.5296 30.5152 16.6912 19.456c11.0592-11.0592 24.064-16.6912 38.8096-16.6912L965.7344 2.7648z" /></svg></a>
+		</span>
+
+		
 	</div>
 </footer>
 </body>

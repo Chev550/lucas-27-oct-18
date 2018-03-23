@@ -6,58 +6,61 @@ title: "动态"
 
 
 <p class="page-title">
-	<span class="glyphicon glyphicon-eye-open"></span> &nbsp;
-	<span class="chn">动态</span>
-	<span class="eng">MOMENTS</span>
+	<span class="btn btn-sm btn-round btn-highlight disabled">
+		<span class="glyphicon glyphicon-eye-open"></span> &nbsp;
+		<span class="chn">动态</span>
+		<span class="eng">MOMENTS</span>
+	</span>
 </p>
 
 
 
 
-<section>
-	<div class="row">
-		<div class="col-md-12">
-			<div class="VivaTimeline">
-				<dl>
-					<div class="pull-right">
-						<a href="/moments/2017.html">&#9656; 2017</a>
-					</div>
+<table class="cover">
+	{% for item in site.data.moments.timeline2018 %}
+	{% assign mod = forloop.index | modulo: 2 %}
+	{% if mod == 0 %}
+	<tr>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim">{{ item.src }} <span class="glyphicon glyphicon-hand-right"></span></p>
+				<p>
+					<span class="eng">{{ item.eng }}</span>
+					<span class="chn">{{ item.chn }}</span>
+				</p>
+			</center>
+		</td>
+		<td style="background: url(/assets/img/moments/2018/{{ item.src }}.jpg) center center; background-size: cover;"></td>
+	</tr>
+	
 
-					<dt class="slim">2018</dt>
-
-
-					{% for item in site.data.moments.timeline2018 %}
-					{% assign mod = forloop.index | modulo: 2 %}
-					<dd class="{% if mod == 0 %}pos-right{% else %}pos-left{% endif %} clearfix">
-						<div class="circ"></div>
-						<div class="time">{{ item.src }}</div>
-						<div class="events">
-							<div class="events-header">
-								<img class="img-responsive" src="/assets/img/moments/2017/{{ item.src }}.jpg" />
-							</div>
-							<div class="events-body">
-								{{ item.txt }}
-							</div>        
-						</div>
-					</dd>
-					{% endfor %}
-				</dl>
-			</div>
-		</div>
-	</div>
-</section>
-
-
-
-
+	{% else %}
+	<tr>
+		<td style="background: url(/assets/img/moments/2018/{{ item.src }}.jpg) center center; background-size: cover;"></td>
+		<td style="background: white; padding: 2em;">
+			<center>
+				<p class="slim"><span class="glyphicon glyphicon-hand-left"></span> {{ item.src }}</p>
+				<p>
+					<span class="eng">{{ item.eng }}</span>
+					<span class="chn">{{ item.chn }}</span>
+				</p>
+			</center>
+		</td>
+	</tr>
+	{% endif %}
+	{% endfor %}
+</table>
 
 
 
-<script type="text/javascript">
-$(document).ready(function(){
-	$('.VivaTimeline').vivaTimeline({
-		carousel: false,
-		carouselTime: 3000
-	});
-});
-</script>
+<p style="margin-top: 7rem;">
+	<a class="btn btn-round btn-sm" href="/moments/2017.html">
+		<span class="eng">PREV</span>
+		<span class="chn">上一年</span>
+	</a>
+
+	<span class="btn btn-round btn-sm pull-right disabled">
+		<span class="eng">NEXT</span>
+		<span class="chn">下一年</span>
+	</span>
+</p>

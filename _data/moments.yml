@@ -1,52 +1,88 @@
+timeline2018:
+
+- src: "2018-03-19"
+  eng: "One more headset"
+  chn: "长了一副缺耳机的样子"
+
+- src: "2018-03-11"
+  eng: "Watching Diving at the Water Cube"
+  chn: "水立方看跳水"
+
+- src: "2018-02-20"
+  eng: "Hello, Scene Stealer"
+  chn: "抢个镜头"
+
+
+
+
+
+
 timeline2017:
 
-- src: "11-05"
-  txt: "Sketching"
+- src: "2017-11-05"
+  eng: "Sketching"
+  chn: "重拾起了我尘封多年的素描本"
 
-- src: "10-18"
-  txt: "The Golden Gate Bridge"
+- src: "2017-10-18"
+  eng: "The Golden Gate Bridge"
+  chn: "金门大桥"
 
-- src: "10-08"
-  txt: "Cloudy Chicago"
-  
-- src: "10-05"
-  txt: "Visiting NREL"
+- src: "2017-10-08"
+  eng: "Cloudy Chicago"
+  chn: "芝加哥"
 
-- src: "10-04"
-  txt: "Seattle"
+- src: "2017-10-05"
+  eng: "NREL"
+  chn: "国家可再生能源实验室"
 
-- src: "10-03"
-  txt: "Flying to the U.S."
+- src: "2017-10-04"
+  eng: "Seattle"
+  chn: "西雅图"
 
-- src: "09-16"
-  txt: "Beautiful Xiamen"
+- src: "2017-10-03"
+  eng: "Flying to the U.S."
+  chn: "准备起飞"
 
-- src: "08-25"
-  txt: "Jay Chou concert"
+- src: "2017-09-16"
+  eng: "Beautiful Xiamen"
+  chn: "最美厦门"
 
-- src: "07-28"
-  txt: "The Simatai Great Wall"
+- src: "2017-08-25"
+  eng: "Jay Chou concert"
+  chn: "地表最强"
 
-- src: "07-13"
-  txt: "Tianjin"
+- src: "2017-07-28"
+  eng: "The Simatai Great Wall"
+  chn: "司马台长城"
 
-- src: "06-11"
-  txt: "Study hard!"
+- src: "2017-07-13"
+  eng: "Tianjin"
+  chn: "天津"
 
-- src: "05-19"
-  txt: "So lucky!"
+- src: "2017-06-11"
+  eng: "Study hard!"
+  chn: "国家图书馆"
 
-- src: "03-31"
-  txt: "Visiting Beijing Jiaotong University"
+- src: "2017-05-19"
+  eng: "So lucky!"
+  chn: "压线过"
 
-- src: "02-02"
-  txt: "Had a wonderful time with my cousins during the Spring Festival"
+- src: "2017-03-31"
+  eng: "Beijing Jiaotong University"
+  chn: "北京交通大学"
 
-- src: "01-21"
-  txt: "Freezing winter in Beijing"
+- src: "2017-02-02"
+  eng: "Had a wonderful time with my cousins during the Spring Festival"
+  chn: "南国之春"
 
-- src: "01-08"
-  txt: "Biangbiang noodles, yummy!"
+- src: "2017-01-21"
+  eng: "Freezing winter in Beijing"
+  chn: "北国之冬"
 
-- src: "01-07"
-  txt: "First time in Xi'an, exciting!"
+- src: "2017-01-08"
+  eng: "Biangbiang noodles, yummy!"
+  chn: "Biangbiang面"
+
+- src: "2017-01-07"
+  eng: "First time in Xi'an, exciting!"
+  chn: "西安"

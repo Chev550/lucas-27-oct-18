@@ -1393,17 +1393,13 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 676px) {
-  .container {
-    width: 660px;
-  }
-}
-/*
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
 }
+/*
 @media (min-width: 992px) {
   .container {
     width: 970px;

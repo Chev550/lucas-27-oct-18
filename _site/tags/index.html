@@ -15,12 +15,8 @@
 
 	<script src="/assets/js/jquery-1.11.3.js"></script>
 	<script src="/assets/js/bootstrap.js"></script>
+	<script src="/assets/js/echarts.js"></script>
 	<script src="/assets/js/custom.js"></script>
-
-
-	<!-- Timeline -->
-	<link rel="stylesheet" type="text/css" href="/assets/css/timeline.css" />
-	<script type="text/javascript" src="/assets/js/timeline.js"></script>
 </head>
 
 
@@ -33,14 +29,6 @@
 				<a href="/">
 					<li>
 						<img class="logo" src="/assets/img/profile.png">
-					</li>
-				</a>
-
-
-				<a class="" href="/portfolio.html">
-					<li>
-						作品<br>
-						<span class="x-small slim">PORTFOLIO</span>
 					</li>
 				</a>
 
@@ -61,41 +49,51 @@
 				</a>
 
 				<a class="" href="/moments/2018.html">
-					<li class="pull-right">
-						<i class="glyphicon glyphicon-eye-open"></i><br>
+					<li>
+						动态<br>
 						<span class="x-small slim">FOLLOW</span>
 					</li>
 				</a>
-			</ul>	
+
+
+				
+				<span class="pull-right language small">
+					<a href="javascript:;" onclick="chn()">中文</a> /
+					<a href="javascript:;" onclick="eng()">ENG</a>
+				</span>
+			</ul>
 		</nav>
+		
 	</div>
 </header>
 
 	<div class="container clearance">
 		<section>
 			<p class="page-title">
-	<span class="glyphicon glyphicon-tag"></span> &nbsp;
-	<span class="chn">标签</span>
-	<span class="eng">TAGS</span>
+	<span class="btn btn-sm btn-round btn-highlight disabled">
+		<span class="glyphicon glyphicon-tag"></span> &nbsp;
+		<span class="chn">标签</span>
+		<span class="eng">TAGS</span>
+	</span>
 </p>
 
 <p style="margin-bottom: 7rem;">
 	
-	<a class="btn btn-xs btn-default" href="#Jekyll">#Jekyll</a></li>
+	<a class="btn btn-xs btn-round" style="margin-bottom: 0.5em;" href="#Drawings">#Drawings</a></li>
 	
-	<a class="btn btn-xs btn-default" href="#MySQL">#MySQL</a></li>
+	<a class="btn btn-xs btn-round" style="margin-bottom: 0.5em;" href="#Jekyll">#Jekyll</a></li>
 	
-	<a class="btn btn-xs btn-default" href="#Java">#Java</a></li>
+	<a class="btn btn-xs btn-round" style="margin-bottom: 0.5em;" href="#MySQL">#MySQL</a></li>
 	
-	<a class="btn btn-xs btn-default" href="#GitHub">#GitHub</a></li>
+	<a class="btn btn-xs btn-round" style="margin-bottom: 0.5em;" href="#Java">#Java</a></li>
 	
-	<a class="btn btn-xs btn-default" href="#LEED">#LEED</a></li>
+	<a class="btn btn-xs btn-round" style="margin-bottom: 0.5em;" href="#GitHub">#GitHub</a></li>
 	
-	<a class="btn btn-xs btn-default" href="#ASHRAE">#ASHRAE</a></li>
+	<a class="btn btn-xs btn-round" style="margin-bottom: 0.5em;" href="#LEED">#LEED</a></li>
 	
-	<a class="btn btn-xs btn-default" href="#Speech">#Speech</a></li>
+	<a class="btn btn-xs btn-round" style="margin-bottom: 0.5em;" href="#ASHRAE">#ASHRAE</a></li>
 	
-	<a class="btn btn-xs btn-default" href="#Vacabulary">#Vacabulary</a></li>
+	<a class="btn btn-xs btn-round" style="margin-bottom: 0.5em;" href="#Speech">#Speech</a></li>
 	
 </p>
 
@@ -103,140 +101,171 @@
 
 
 <p style="margin-top: 4rem;">
-	<a name="Jekyll"></a>
-	<span id="#Jekyll" class="slim gray">#Jekyll</span>
-	<ul>
-		
-		<span class="gray slim pull-right">03 Jun 2017</span>
-		<li><a href="/2017/06/03/jekyll-commend-lines.html">Jekyll Commend Lines</a></li>
-		
-		<span class="gray slim pull-right">16 Apr 2017</span>
-		<li><a href="/2017/04/16/pagination.html">Pagination</a></li>
-		
-		<span class="gray slim pull-right">11 May 2016</span>
-		<li><a href="/2016/05/11/group-posts-by-year.html">Group posts by year</a></li>
-		
-		<span class="gray slim pull-right">20 Mar 2016</span>
-		<li><a href="/2016/03/20/previous-next-post-within-a-category.html">Previous/next post within a category</a></li>
-		
-	</ul>
+	<div class="section-border section-bg">
+		<a name="Drawings"></a>
+		<span id="#Drawings" class="slim gray">#Drawings</span>
+		<ul>
+			
+			<span class="gray slim pull-right">11 Sep 2015</span>
+			<li><a href="/2015/09/11/dan-stevens.html">Dan Stevens</a></li>
+			
+			<span class="gray slim pull-right">02 Nov 2014</span>
+			<li><a href="/2014/11/02/bowing-to-him.html">Bowing To Him</a></li>
+			
+			<span class="gray slim pull-right">04 Oct 2014</span>
+			<li><a href="/2014/10/04/parker-ellis.html">Parker Ellis</a></li>
+			
+			<span class="gray slim pull-right">18 Jul 2014</span>
+			<li><a href="/2014/07/18/leonardo-dicaprio.html">Leonardo Dicaprio</a></li>
+			
+			<span class="gray slim pull-right">05 Jun 2014</span>
+			<li><a href="/2014/06/05/brokeback-mountain.html">Brokeback Mountain</a></li>
+			
+		</ul>
+	</div>
 </p>
 
 
 <p style="margin-top: 4rem;">
-	<a name="MySQL"></a>
-	<span id="#MySQL" class="slim gray">#MySQL</span>
-	<ul>
-		
-		<span class="gray slim pull-right">22 Apr 2017</span>
-		<li><a href="/2017/04/22/making-the-connection-to-mysql-with-java.html">Making the connection to MySQL with Java</a></li>
-		
-		<span class="gray slim pull-right">22 Apr 2017</span>
-		<li><a href="/2017/04/22/installing-mysql-on-macos.html">Installing MySQL on MacOS</a></li>
-		
-	</ul>
+	<div class="section-border section-bg">
+		<a name="Jekyll"></a>
+		<span id="#Jekyll" class="slim gray">#Jekyll</span>
+		<ul>
+			
+			<span class="gray slim pull-right">03 Jun 2017</span>
+			<li><a href="/2017/06/03/jekyll-command-lines.html">Jekyll Command Lines</a></li>
+			
+			<span class="gray slim pull-right">16 Apr 2017</span>
+			<li><a href="/2017/04/16/pagination.html">Pagination</a></li>
+			
+			<span class="gray slim pull-right">11 May 2016</span>
+			<li><a href="/2016/05/11/group-posts-by-year.html">Group posts by year</a></li>
+			
+			<span class="gray slim pull-right">20 Mar 2016</span>
+			<li><a href="/2016/03/20/previous-next-post-within-a-category.html">Previous/next post within a category</a></li>
+			
+		</ul>
+	</div>
 </p>
 
 
 <p style="margin-top: 4rem;">
-	<a name="Java"></a>
-	<span id="#Java" class="slim gray">#Java</span>
-	<ul>
-		
-		<span class="gray slim pull-right">12 Jul 2017</span>
-		<li><a href="/2017/07/12/installing-tomcat-on-mac.html">Installing Tomcat on macOS Sierra</a></li>
-		
-		<span class="gray slim pull-right">22 Apr 2017</span>
-		<li><a href="/2017/04/22/making-the-connection-to-mysql-with-java.html">Making the connection to MySQL with Java</a></li>
-		
-	</ul>
+	<div class="section-border section-bg">
+		<a name="MySQL"></a>
+		<span id="#MySQL" class="slim gray">#MySQL</span>
+		<ul>
+			
+			<span class="gray slim pull-right">22 Apr 2017</span>
+			<li><a href="/2017/04/22/making-the-connection-to-mysql-with-java.html">Making the connection to MySQL with Java</a></li>
+			
+			<span class="gray slim pull-right">22 Apr 2017</span>
+			<li><a href="/2017/04/22/installing-mysql-on-macos.html">Installing MySQL on MacOS</a></li>
+			
+		</ul>
+	</div>
 </p>
 
 
 <p style="margin-top: 4rem;">
-	<a name="GitHub"></a>
-	<span id="#GitHub" class="slim gray">#GitHub</span>
-	<ul>
-		
-		<span class="gray slim pull-right">22 Apr 2017</span>
-		<li><a href="/2017/04/22/setting-up-a-custom-domain-for-your-github-site.html">Setting up a custom domain for your GitHub site</a></li>
-		
-	</ul>
+	<div class="section-border section-bg">
+		<a name="Java"></a>
+		<span id="#Java" class="slim gray">#Java</span>
+		<ul>
+			
+			<span class="gray slim pull-right">23 Mar 2018</span>
+			<li><a href="/2018/03/23/sd2017.html">Installing Tomcat on macOS Sierra</a></li>
+			
+			<span class="gray slim pull-right">12 Jul 2017</span>
+			<li><a href="/2017/07/12/installing-tomcat-on-mac.html">Installing Tomcat on macOS Sierra</a></li>
+			
+			<span class="gray slim pull-right">22 Apr 2017</span>
+			<li><a href="/2017/04/22/making-the-connection-to-mysql-with-java.html">Making the connection to MySQL with Java</a></li>
+			
+		</ul>
+	</div>
 </p>
 
 
 <p style="margin-top: 4rem;">
-	<a name="LEED"></a>
-	<span id="#LEED" class="slim gray">#LEED</span>
-	<ul>
-		
-		<span class="gray slim pull-right">23 Apr 2017</span>
-		<li><a href="/2017/04/23/water-efficiency.html">Water efficiency</a></li>
-		
-		<span class="gray slim pull-right">23 Apr 2017</span>
-		<li><a href="/2017/04/23/sustainable-sites.html">Sustainable sites</a></li>
-		
-		<span class="gray slim pull-right">23 Apr 2017</span>
-		<li><a href="/2017/04/23/project-surroundings-and-public-outreach.html">Project surroundings and public outreach</a></li>
-		
-		<span class="gray slim pull-right">23 Apr 2017</span>
-		<li><a href="/2017/04/23/materials-and-resources.html">Materials and resources</a></li>
-		
-		<span class="gray slim pull-right">23 Apr 2017</span>
-		<li><a href="/2017/04/23/location-and-transportation.html">Location and transportation</a></li>
-		
-		<span class="gray slim pull-right">23 Apr 2017</span>
-		<li><a href="/2017/04/23/leed-process.html">LEED process</a></li>
-		
-		<span class="gray slim pull-right">23 Apr 2017</span>
-		<li><a href="/2017/04/23/integrative-strategies.html">Integrative strategies</a></li>
-		
-		<span class="gray slim pull-right">23 Apr 2017</span>
-		<li><a href="/2017/04/23/indoor-environmental-quality.html">Indoor environmental quality</a></li>
-		
-		<span class="gray slim pull-right">23 Apr 2017</span>
-		<li><a href="/2017/04/23/energy-and-atmosphere.html">Energy and atmosphere</a></li>
-		
-	</ul>
+	<div class="section-border section-bg">
+		<a name="GitHub"></a>
+		<span id="#GitHub" class="slim gray">#GitHub</span>
+		<ul>
+			
+			<span class="gray slim pull-right">22 Apr 2017</span>
+			<li><a href="/2017/04/22/setting-up-a-custom-domain-for-your-github-site.html">Setting up a custom domain for your GitHub site</a></li>
+			
+		</ul>
+	</div>
 </p>
 
 
 <p style="margin-top: 4rem;">
-	<a name="ASHRAE"></a>
-	<span id="#ASHRAE" class="slim gray">#ASHRAE</span>
-	<ul>
-		
-		<span class="gray slim pull-right">06 May 2017</span>
-		<li><a href="/2017/05/06/residential-cooling-and-heating-load-calculations.html">Residential cooling and heating load calculations</a></li>
-		
-		<span class="gray slim pull-right">06 May 2017</span>
-		<li><a href="/2017/05/06/climatic-design-information.html">Climatic design information</a></li>
-		
-	</ul>
+	<div class="section-border section-bg">
+		<a name="LEED"></a>
+		<span id="#LEED" class="slim gray">#LEED</span>
+		<ul>
+			
+			<span class="gray slim pull-right">23 Apr 2017</span>
+			<li><a href="/2017/04/23/water-efficiency.html">Water efficiency</a></li>
+			
+			<span class="gray slim pull-right">23 Apr 2017</span>
+			<li><a href="/2017/04/23/sustainable-sites.html">Sustainable sites</a></li>
+			
+			<span class="gray slim pull-right">23 Apr 2017</span>
+			<li><a href="/2017/04/23/project-surroundings-and-public-outreach.html">Project surroundings and public outreach</a></li>
+			
+			<span class="gray slim pull-right">23 Apr 2017</span>
+			<li><a href="/2017/04/23/materials-and-resources.html">Materials and resources</a></li>
+			
+			<span class="gray slim pull-right">23 Apr 2017</span>
+			<li><a href="/2017/04/23/location-and-transportation.html">Location and transportation</a></li>
+			
+			<span class="gray slim pull-right">23 Apr 2017</span>
+			<li><a href="/2017/04/23/leed-process.html">LEED process</a></li>
+			
+			<span class="gray slim pull-right">23 Apr 2017</span>
+			<li><a href="/2017/04/23/integrative-strategies.html">Integrative strategies</a></li>
+			
+			<span class="gray slim pull-right">23 Apr 2017</span>
+			<li><a href="/2017/04/23/indoor-environmental-quality.html">Indoor environmental quality</a></li>
+			
+			<span class="gray slim pull-right">23 Apr 2017</span>
+			<li><a href="/2017/04/23/energy-and-atmosphere.html">Energy and atmosphere</a></li>
+			
+		</ul>
+	</div>
 </p>
 
 
 <p style="margin-top: 4rem;">
-	<a name="Speech"></a>
-	<span id="#Speech" class="slim gray">#Speech</span>
-	<ul>
-		
-		<span class="gray slim pull-right">11 Jun 2017</span>
-		<li><a href="/bookmarked/2017/06/11/steve-jobs-standford-commencement-speech.html">You've got to find what you love</a></li>
-		
-	</ul>
+	<div class="section-border section-bg">
+		<a name="ASHRAE"></a>
+		<span id="#ASHRAE" class="slim gray">#ASHRAE</span>
+		<ul>
+			
+			<span class="gray slim pull-right">06 May 2017</span>
+			<li><a href="/2017/05/06/residential-cooling-and-heating-load-calculations.html">Residential cooling and heating load calculations</a></li>
+			
+			<span class="gray slim pull-right">06 May 2017</span>
+			<li><a href="/2017/05/06/climatic-design-information.html">Climatic design information</a></li>
+			
+		</ul>
+	</div>
 </p>
 
 
 <p style="margin-top: 4rem;">
-	<a name="Vacabulary"></a>
-	<span id="#Vacabulary" class="slim gray">#Vacabulary</span>
-	<ul>
-		
-		<span class="gray slim pull-right">25 Feb 2018</span>
-		<li><a href="/2018/02/25/list-1.html">List 1</a></li>
-		
-	</ul>
+	<div class="section-border section-bg">
+		<a name="Speech"></a>
+		<span id="#Speech" class="slim gray">#Speech</span>
+		<ul>
+			
+			<span class="gray slim pull-right">11 Jun 2017</span>
+			<li><a href="/bookmarked/2017/06/11/steve-jobs-standford-commencement-speech.html">You've got to find what you love</a></li>
+			
+		</ul>
+	</div>
 </p>
 
 		</section>
@@ -248,14 +277,16 @@
 		<span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
 		Lucas Li &sdot;
 
-		<a href="/stats.html"><span class="glyphicon glyphicon-stats"></span></a> &sdot;
+		<a href="http://statcounter.com" target="_blank"><span class="glyphicon glyphicon-stats"></span></a> &sdot;
 
-		<a href="mailto:lucas.li@sdchina.org.cn"><span class="glyphicon glyphicon-envelope"></span></a> &sdot;
-
-		<a href="/support.html"><span class="glyphicon glyphicon-thumbs-up"></span></a>
+		<a href="mailto:lucas.li@sdchina.org.cn"><span class="glyphicon glyphicon-envelope"></span></a>
 
 
-		<span class="pull-right"><a href="javascript:;" onclick="chn()">中文</a> / <a href="javascript:;" onclick="eng()">ENG</a></span>
+		<span class="pull-right">
+			<a href="https://www.facebook.com/lucaslionline" target="_blank"><?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="icon" width="200px" height="200.00px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M965.7344 2.7648c14.848 0 28.2624 5.5296 40.2432 16.6912C1017.9584 30.5152 1024 43.52 1024 58.2656l0 910.2336c0 14.848-6.0416 27.7504-18.0224 38.8096C993.8944 1018.4704 980.48 1024 965.7344 1024L704.9216 1024 704.9216 629.9648l133.2224 0 19.456-155.4432-152.576 0L705.024 373.0432c0-50.688 25.9072-76.0832 77.7216-76.0832l80.4864 0L863.232 163.5328c-27.7504-5.4272-67.4816-8.192-119.296-8.192-59.1872 0-106.8032 18.0224-142.9504 54.0672C564.736 245.5552 546.7136 296.0384 546.7136 360.7552l0 113.7664L413.4912 474.5216l0 155.4432 133.2224 0L546.7136 1024 55.5008 1024c-14.848 0-27.7504-5.5296-38.8096-16.6912C5.5296 996.2496 0 983.3472 0 968.4992L0 58.2656C0 43.52 5.5296 30.5152 16.6912 19.456c11.0592-11.0592 24.064-16.6912 38.8096-16.6912L965.7344 2.7648z" /></svg></a>
+		</span>
+
+		
 	</div>
 </footer>
 </body>

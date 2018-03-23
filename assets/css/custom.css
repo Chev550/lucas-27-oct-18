@@ -1,4 +1,6 @@
-
+body {
+	background: #eee;
+}
 header {
 	border-top: 7px solid #800000;
 	border-bottom: 1px solid #eee;
@@ -95,8 +97,10 @@ post img {
 .list-title {
 	margin-bottom: 2rem;
 }
+
+
+
 .item-title {
-	margin-top: 7rem;
 	margin-bottom: 2rem;
 }
 .item-title h2 a:hover {
@@ -116,7 +120,62 @@ post img {
 }
 
 
+.section-border {
+	padding: 2em;
+	border-radius: 1em;
+	border: 1px solid #ccc;
+}
+.section-clear {
+	margin-top: 5rem;
+}
+.section-bg {
+	background: white;
+}
 
+.profile-img {
+	border-radius: 1em;
+	border: 1px solid #ccc;
+}
+
+.btn-round {
+	border-radius: 1em;
+	border: 1px solid #800000;
+	line-height: 2em;
+	padding: 0 2em;
+}
+.btn-round:hover,
+.btn-logo:hover {
+	background: #800000;
+	color: white;
+	box-shadow: 0 2px 5px 0 gray;
+}
+.btn-highlight {
+	background: #800000;
+	color: white;
+}
+.btn-logo {
+	padding: 0.5em 2em;
+	border-radius: 1em;
+	border: 1px solid #800000;
+	background: white;
+}
+.btn-logo img {
+	height: 80px;
+}
+
+.language {
+	margin-top: 0.5em;
+}
+.language a {
+	margin: 0;
+}
+
+.post-img {
+	margin: 0 -2em;
+}
+.post-img img {
+	width: 100%;
+}
 
 ul.image,
 ul.about-list {
@@ -157,6 +216,23 @@ ul.about-list li {
 }
 .footnotes p {
 	margin: 0;
+}
+
+
+
+/* default */
+svg {
+	width: 1em;
+	height: 1em;
+}
+path {
+	fill: #333333;
+}
+a path {
+	fill: #800000;
+}
+a:hover path {
+	fill: gray;
 }
 
 
@@ -274,4 +350,20 @@ ul.about-list li {
 }
 .timeline a:hover {
 	opacity: 0.8;
+}
+
+
+
+
+
+
+.org-logo {
+	margin-top: 5rem;
+}
+.org-logo img {
+	width: 60px;
+	margin: 0 0.5em;
+}
+.org-logo a:hover {
+	opacity: 0.5;
 }

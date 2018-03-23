@@ -15,12 +15,8 @@
 
 	<script src="/assets/js/jquery-1.11.3.js"></script>
 	<script src="/assets/js/bootstrap.js"></script>
+	<script src="/assets/js/echarts.js"></script>
 	<script src="/assets/js/custom.js"></script>
-
-
-	<!-- Timeline -->
-	<link rel="stylesheet" type="text/css" href="/assets/css/timeline.css" />
-	<script type="text/javascript" src="/assets/js/timeline.js"></script>
 </head>
 
 
@@ -33,14 +29,6 @@
 				<a href="/">
 					<li>
 						<img class="logo" src="/assets/img/profile.png">
-					</li>
-				</a>
-
-
-				<a class="" href="/portfolio.html">
-					<li>
-						作品<br>
-						<span class="x-small slim">PORTFOLIO</span>
 					</li>
 				</a>
 
@@ -61,29 +49,40 @@
 				</a>
 
 				<a class="" href="/moments/2018.html">
-					<li class="pull-right">
-						<i class="glyphicon glyphicon-eye-open"></i><br>
+					<li>
+						动态<br>
 						<span class="x-small slim">FOLLOW</span>
 					</li>
 				</a>
-			</ul>	
+
+
+				
+				<span class="pull-right language small">
+					<a href="javascript:;" onclick="chn()">中文</a> /
+					<a href="javascript:;" onclick="eng()">ENG</a>
+				</span>
+			</ul>
 		</nav>
+		
 	</div>
 </header>
 
 	<div class="container clearance">
 		<section>
 			<p class="page-title">
-	<span class="glyphicon glyphicon-edit"></span> &nbsp;
-	<span class="chn">博客</span>
-	<span class="eng">BLOG</span>
+	<span class="btn btn-sm btn-round btn-highlight disabled">
+		<span class="glyphicon glyphicon-edit"></span> &nbsp;
+		<span class="chn">博客</span>
+		<span class="eng">BLOG</span>
+	</span>
 </p>
 
 
 
 
+<div class="section-border section-clear section-bg">
 <div class="item-title">
-	<h2 class="slim">
+	<h2>
 		
 
 		<a href="/2017/04/22/setting-up-a-custom-domain-for-your-github-site.html">Setting up a custom domain for your GitHub site</a>
@@ -125,15 +124,17 @@
 </div>
 
 
-<p class="slim" style="margin-top: 2rem;">
-	<a href="/2017/04/22/setting-up-a-custom-domain-for-your-github-site.html">
+<p style="margin-top: 2rem;">
+	<a class="btn btn-round btn-sm" href="/2017/04/22/setting-up-a-custom-domain-for-your-github-site.html">
 		<span class="chn">继续阅读 &raquo;</span>
-		<span class="eng">Read More &raquo;</span>
+		<span class="eng">READ MORE &raquo;</span>
 	</a>
 </p>
+</div>
 
+<div class="section-border section-clear section-bg">
 <div class="item-title">
-	<h2 class="slim">
+	<h2>
 		
 
 		<a href="/2017/04/22/making-the-connection-to-mysql-with-java.html">Making the connection to MySQL with Java</a>
@@ -167,15 +168,17 @@
 </div>
 
 
-<p class="slim" style="margin-top: 2rem;">
-	<a href="/2017/04/22/making-the-connection-to-mysql-with-java.html">
+<p style="margin-top: 2rem;">
+	<a class="btn btn-round btn-sm" href="/2017/04/22/making-the-connection-to-mysql-with-java.html">
 		<span class="chn">继续阅读 &raquo;</span>
-		<span class="eng">Read More &raquo;</span>
+		<span class="eng">READ MORE &raquo;</span>
 	</a>
 </p>
+</div>
 
+<div class="section-border section-clear section-bg">
 <div class="item-title">
-	<h2 class="slim">
+	<h2>
 		
 
 		<a href="/2017/04/22/installing-mysql-on-macos.html">Installing MySQL on MacOS</a>
@@ -209,15 +212,17 @@
 </div>
 
 
-<p class="slim" style="margin-top: 2rem;">
-	<a href="/2017/04/22/installing-mysql-on-macos.html">
+<p style="margin-top: 2rem;">
+	<a class="btn btn-round btn-sm" href="/2017/04/22/installing-mysql-on-macos.html">
 		<span class="chn">继续阅读 &raquo;</span>
-		<span class="eng">Read More &raquo;</span>
+		<span class="eng">READ MORE &raquo;</span>
 	</a>
 </p>
+</div>
 
+<div class="section-border section-clear section-bg">
 <div class="item-title">
-	<h2 class="slim">
+	<h2>
 		
 
 		<a href="/2017/04/16/pagination.html">Pagination</a>
@@ -252,15 +257,17 @@
 </div>
 
 
-<p class="slim" style="margin-top: 2rem;">
-	<a href="/2017/04/16/pagination.html">
+<p style="margin-top: 2rem;">
+	<a class="btn btn-round btn-sm" href="/2017/04/16/pagination.html">
 		<span class="chn">继续阅读 &raquo;</span>
-		<span class="eng">Read More &raquo;</span>
+		<span class="eng">READ MORE &raquo;</span>
 	</a>
 </p>
+</div>
 
+<div class="section-border section-clear section-bg">
 <div class="item-title">
-	<h2 class="slim">
+	<h2>
 		
 
 		<a href="/2016/05/11/group-posts-by-year.html">Group posts by year</a>
@@ -305,12 +312,13 @@
 </div>
 
 
-<p class="slim" style="margin-top: 2rem;">
-	<a href="/2016/05/11/group-posts-by-year.html">
+<p style="margin-top: 2rem;">
+	<a class="btn btn-round btn-sm" href="/2016/05/11/group-posts-by-year.html">
 		<span class="chn">继续阅读 &raquo;</span>
-		<span class="eng">Read More &raquo;</span>
+		<span class="eng">READ MORE &raquo;</span>
 	</a>
 </p>
+</div>
 
 
 
@@ -319,7 +327,10 @@
 	
 	<div class="pagination">
 		
-		<a href="/blog/page3/"><span class="glyphicon glyphicon-circle-arrow-left"></span></a>
+		<a class="btn btn-sm btn-round" href="/blog/page3/">
+			<span class="eng">PREV</span>
+			<span class="chn">上一页</span>
+		</a>
 		
 
 		
@@ -336,16 +347,24 @@
 		
 		
 		
-		<em>4</em>
+		<span class="btn btn-round btn-sm btn-highlight disabled">4</span>
+		
 		
 		
 		
 		<a href="/blog/page5/">5</a>
 		
 		
+		
+		<a href="/blog/page6/">6</a>
+		
+		
 
 		
-		<a href="/blog/page5/"><span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+		<a class="btn btn-sm btn-round" href="/blog/page5/">
+			<span class="eng">NEXT</span>
+			<span class="chn">下一页</span>
+		</a>
 		
 	</div>
 	
@@ -359,14 +378,16 @@
 		<span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
 		Lucas Li &sdot;
 
-		<a href="/stats.html"><span class="glyphicon glyphicon-stats"></span></a> &sdot;
+		<a href="http://statcounter.com" target="_blank"><span class="glyphicon glyphicon-stats"></span></a> &sdot;
 
-		<a href="mailto:lucas.li@sdchina.org.cn"><span class="glyphicon glyphicon-envelope"></span></a> &sdot;
-
-		<a href="/support.html"><span class="glyphicon glyphicon-thumbs-up"></span></a>
+		<a href="mailto:lucas.li@sdchina.org.cn"><span class="glyphicon glyphicon-envelope"></span></a>
 
 
-		<span class="pull-right"><a href="javascript:;" onclick="chn()">中文</a> / <a href="javascript:;" onclick="eng()">ENG</a></span>
+		<span class="pull-right">
+			<a href="https://www.facebook.com/lucaslionline" target="_blank"><?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="icon" width="200px" height="200.00px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M965.7344 2.7648c14.848 0 28.2624 5.5296 40.2432 16.6912C1017.9584 30.5152 1024 43.52 1024 58.2656l0 910.2336c0 14.848-6.0416 27.7504-18.0224 38.8096C993.8944 1018.4704 980.48 1024 965.7344 1024L704.9216 1024 704.9216 629.9648l133.2224 0 19.456-155.4432-152.576 0L705.024 373.0432c0-50.688 25.9072-76.0832 77.7216-76.0832l80.4864 0L863.232 163.5328c-27.7504-5.4272-67.4816-8.192-119.296-8.192-59.1872 0-106.8032 18.0224-142.9504 54.0672C564.736 245.5552 546.7136 296.0384 546.7136 360.7552l0 113.7664L413.4912 474.5216l0 155.4432 133.2224 0L546.7136 1024 55.5008 1024c-14.848 0-27.7504-5.5296-38.8096-16.6912C5.5296 996.2496 0 983.3472 0 968.4992L0 58.2656C0 43.52 5.5296 30.5152 16.6912 19.456c11.0592-11.0592 24.064-16.6912 38.8096-16.6912L965.7344 2.7648z" /></svg></a>
+		</span>
+
+		
 	</div>
 </footer>
 </body>
