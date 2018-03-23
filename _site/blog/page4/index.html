@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
 
+	<link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
 
 	<script src="/assets/js/jquery-1.11.3.js"></script>
 	<script src="/assets/js/bootstrap.js"></script>
@@ -74,56 +75,6 @@
 
 
 
-
-<section>
-	<h2 class="post-title">
-		
-
-		<a href="/2017/04/22/setting-up-a-custom-domain-for-your-github-site.html">Setting up a custom domain for your GitHub site</a>
-	</h2>
-
-	<p class="gray slim" style="margin-bottom: 2rem;">
-		<span class="glyphicon glyphicon-time"></span> 22 Apr 2017
-		&nbsp;
-		<span class="glyphicon glyphicon-tag"></span>
-		
-
-
-<span class="post-tags"><a href="/tags/#GitHub">#GitHub</a></span>
-
-		<!--a href="/2017/04/22/setting-up-a-custom-domain-for-your-github-site.html#disqus_thread"></a-->
-	</p>
-
-	<p>Configure the custom domain on your GitHub Pages site<sup id="fnref:ref1"><a href="#fn:ref1" class="footnote">1</a></sup>:</p>
-
-<ol>
-  <li>
-    <p>On GitHub, navigate to your GitHub Pages site’s repository.</p>
-  </li>
-  <li>
-    <p>Under your repository name, click <code class="highlighter-rouge">Settings</code>.</p>
-  </li>
-  <li>
-    <p>Under “Custom domain”, add or remove your custom domain and click <code class="highlighter-rouge">Save</code>.</p>
-  </li>
-</ol>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:ref1">
-      <p><a href="https://help.github.com/articles/adding-or-removing-a-custom-domain-for-your-github-pages-site/">“Adding or removing a custom domain for your GitHub Pages site”</a>, GitHub Help. <a href="#fnref:ref1" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-
-
-	<p style="margin-top: 2rem;">
-		<a class="btn btn-round btn-sm" href="/2017/04/22/setting-up-a-custom-domain-for-your-github-site.html">
-			<span class="chn">繼續閱讀 &raquo;</span>
-			<span class="eng">READ MORE &raquo;</span>
-		</a>
-	</p>
-</section>
 
 <section>
 	<h2 class="post-title">
@@ -305,6 +256,47 @@
 	</p>
 </section>
 
+<section>
+	<h2 class="post-title">
+		
+
+		<a href="/2016/03/20/previous-next-post-within-a-category.html">Previous/next post within a category</a>
+	</h2>
+
+	<p class="gray slim" style="margin-bottom: 2rem;">
+		<span class="glyphicon glyphicon-time"></span> 20 Mar 2016
+		&nbsp;
+		<span class="glyphicon glyphicon-tag"></span>
+		
+
+
+<span class="post-tags"><a href="/tags/#Jekyll">#Jekyll</a></span>
+
+		<!--a href="/2016/03/20/previous-next-post-within-a-category.html#disqus_thread"></a-->
+	</p>
+
+	<p>If your blog lists all posts in only one section, you can always use <code class="highlighter-rouge">{{post.previous.url}}</code> and <code class="highlighter-rouge">{{post.next.url}}</code> to make links to previous and next posts<sup id="fnref:jek"><a href="#fn:jek" class="footnote">1</a></sup>. However, sometimes we group our posts in defferent sections by category. In this case, <code class="highlighter-rouge">post.previous</code> and <code class="highlighter-rouge">post.next</code> are no longer handy to navigate because they will link to posts in other categries which are not supposed to be shown in current section. To navigate previous/next post within one category, the following code template is presented<sup id="fnref:tem"><a href="#fn:tem" class="footnote">2</a></sup>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:jek">
+      <p><a href="http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html">“Jekyll – how to link to next/previous post on your blog”</a>, David Elbe. <a href="#fnref:jek" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:tem">
+      <p><a href="https://github.com/jekyll/jekyll/issues/260">“Template Variables for Next/Previous Posts Within a Category”</a>, surajram. <a href="#fnref:tem" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+	<p style="margin-top: 2rem;">
+		<a class="btn btn-round btn-sm" href="/2016/03/20/previous-next-post-within-a-category.html">
+			<span class="chn">繼續閱讀 &raquo;</span>
+			<span class="eng">READ MORE &raquo;</span>
+		</a>
+	</p>
+</section>
+
 
 
 
@@ -338,10 +330,6 @@
 	
 	
 	<a href="/blog/page5/">5</a>
-	
-	
-	
-	<a href="/blog/page6/">6</a>
 	
 	
 

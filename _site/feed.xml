@@ -1,124 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-24T00:47:57+08:00</updated><id>http://localhost:4000/</id><title type="html">李立</title><entry><title type="html">Installing Tomcat on macOS Sierra</title><link href="http://localhost:4000/2018/03/23/sd2017.html" rel="alternate" type="text/html" title="Installing Tomcat on macOS Sierra" /><published>2018-03-23T00:00:00+08:00</published><updated>2018-03-23T00:00:00+08:00</updated><id>http://localhost:4000/2018/03/23/sd2017</id><content type="html" xml:base="http://localhost:4000/2018/03/23/sd2017.html">&lt;!-- 为ECharts准备一个具备大小（宽高）的Dom --&gt;
-&lt;div id=&quot;standing&quot; style=&quot;width:100%; height:500px;&quot;&gt;&lt;/div&gt;
-
-&lt;script type=&quot;text/javascript&quot;&gt;
-        // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('standing'));
-
-        // 指定图表的配置项和数据
-        var option = {
-        	tooltip : {
-        		trigger: 'axis',
-        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
-            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
-        }
-    },
-    legend: {
-    	data:['Architecture', 'Market Appeal','Engineering','Communications','Innovation', 'Comfort Zone', 'Appliances', 'Home Life', 'Commuting', 'Energy']
-    },
-    toolbox: {
-    	show: true,
-        bottom: 0,
-    	feature: {
-    		mark: {show: true},
-    		dataView: {show: true, readOnly: false},
-    		magicType: {show: true, type: ['line', 'bar', 'stack', 'tiled']},
-    		restore: {show: true},
-    		saveAsImage: {show: true}
-    	}
-    },
-    calculable : true,
-    xAxis: [
-    {
-    	type: 'value',
-        name: 'Points'
-    }
-    ],
-    yAxis: [
-    {
-    	type: 'category',
-        name: 'Team',
-    	data: ['HKU','PKU*','THU','XJTU-WNEU','YI','WashU-BLD*','Istanbul', 'SUES-XD', 'Shunya', 'Montreal', 'JIA+', 'NJFJ', 'TUBSEU', 'XAUAT', 'SJTUIUC', 'BJTU', 'SIE', 'TJU-TUDA', 'Solar Offspring', 'SCUT-POLITO', 'UNNC Alpha', 'Israel']
-    }
-    ],
-    series: [
-    {
-    	name:'Architecture',
-    	type:'bar',
-    	stack: 'Total',
-    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
-    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
-    },
-    {
-    	name:'Market Appeal',
-    	type:'bar',
-    	stack: 'Total',
-    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
-    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
-    },
-    {
-    	name:'Engineering',
-    	type:'bar',
-    	stack: 'Total',
-    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
-    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
-    },
-    {
-    	name:'Communications',
-    	type:'bar',
-    	stack: 'Total',
-    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
-    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
-    },
-    {
-    	name:'Innovation',
-    	type:'bar',
-    	stack: 'Total',
-    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
-    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
-    },
-    {
-    	name:'Comfort Zone',
-    	type:'bar',
-    	stack: 'Total',
-    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
-    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
-    },
-    {
-    	name:'Appliances',
-    	type:'bar',
-    	stack: 'Total',
-    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
-    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
-    },
-    {
-    	name:'Home Life',
-    	type:'bar',
-    	stack: 'Total',
-    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
-    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
-    },
-    {
-    	name:'Commuting',
-    	type:'bar',
-    	stack: 'Total',
-    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
-    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
-    },
-    {
-    	name:'Energy',
-    	type:'bar',
-    	stack: 'Total',
-    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
-    	data:[Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50), Math.floor(Math.random()*50+50)]
-    }
-    ]
-};
-
-
-// 使用刚指定的配置项和数据显示图表。
-myChart.setOption(option);
-&lt;/script&gt;</content><author><name></name></author><category term="Java" /><summary type="html"></summary></entry><entry><title type="html">Installing Tomcat on macOS Sierra</title><link href="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html" rel="alternate" type="text/html" title="Installing Tomcat on macOS Sierra" /><published>2017-07-12T00:00:00+08:00</published><updated>2017-07-12T00:00:00+08:00</updated><id>http://localhost:4000/2017/07/12/installing-tomcat-on-mac</id><content type="html" xml:base="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html">&lt;p&gt;Download Apache Tomcat on &lt;a href=&quot;http://tomcat.apache.org&quot;&gt;http://tomcat.apache.org&lt;/a&gt;. Select the latest version, and download the binary distribution of the core module in &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-24T01:42:05+08:00</updated><id>http://localhost:4000/</id><title type="html">李立</title><entry><title type="html">Installing Tomcat on macOS Sierra</title><link href="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html" rel="alternate" type="text/html" title="Installing Tomcat on macOS Sierra" /><published>2017-07-12T00:00:00+08:00</published><updated>2017-07-12T00:00:00+08:00</updated><id>http://localhost:4000/2017/07/12/installing-tomcat-on-mac</id><content type="html" xml:base="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html">&lt;p&gt;Download Apache Tomcat on &lt;a href=&quot;http://tomcat.apache.org&quot;&gt;http://tomcat.apache.org&lt;/a&gt;. Select the latest version, and download the binary distribution of the core module in &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Unzip the &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt; file. You may use the freeware app &lt;strong&gt;Unarchiver&lt;/strong&gt;, which is perfect for all kinds of compressed files.&lt;/p&gt;
 
@@ -651,4 +531,68 @@ The heat island effect is created when developed areas have higher temperatures 
   &lt;li&gt;Environmental Product Declaration (EPD)&lt;/li&gt;
   &lt;li&gt;Corporate sustainability report (CSR)&lt;/li&gt;
   &lt;li&gt;Health Product Declaration (HPD)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="LEED" /><summary type="html">Reuse Understand the best thing you can do for the environment is reuse materials. What is the environmental benefit of reusing a building? Adaptive reuse refers to the process of reusing an old site or building for a purpose other than which it was built or designed for. Adaptive reuse is seen by many as a key factor in land conservation and the reduction of urban sprawl. The environment benefits through the reduction of raw materials needed for a brand-new building.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="LEED" /><summary type="html">Reuse Understand the best thing you can do for the environment is reuse materials. What is the environmental benefit of reusing a building? Adaptive reuse refers to the process of reusing an old site or building for a purpose other than which it was built or designed for. Adaptive reuse is seen by many as a key factor in land conservation and the reduction of urban sprawl. The environment benefits through the reduction of raw materials needed for a brand-new building.</summary></entry><entry><title type="html">Location and transportation</title><link href="http://localhost:4000/2017/04/23/location-and-transportation.html" rel="alternate" type="text/html" title="Location and transportation" /><published>2017-04-23T00:00:00+08:00</published><updated>2017-04-23T00:00:00+08:00</updated><id>http://localhost:4000/2017/04/23/location-and-transportation</id><content type="html" xml:base="http://localhost:4000/2017/04/23/location-and-transportation.html">&lt;h4 id=&quot;site-selection&quot;&gt;Site selection&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Locating a project in a dense area near diverse uses addresses ways to reduce pollution by reducing the number of single occupant drivers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;What are examples of diverse uses?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Diverse uses are common services that people might use regularly. Diverse uses are determined by measuring 1⁄2 mile (800 meters) walking distance from the building’s main entrance. Here are some examples LEED defines the following as diverse uses:&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bank&lt;/li&gt;
+  &lt;li&gt;Church&lt;/li&gt;
+  &lt;li&gt;Supermarket / convenience store&lt;/li&gt;
+  &lt;li&gt;Day care&lt;/li&gt;
+  &lt;li&gt;Dry cleaner / laundry mat&lt;/li&gt;
+  &lt;li&gt;Fire station&lt;/li&gt;
+  &lt;li&gt;Salon&lt;/li&gt;
+  &lt;li&gt;Hardware store&lt;/li&gt;
+  &lt;li&gt;Library&lt;/li&gt;
+  &lt;li&gt;Medical / dental office&lt;/li&gt;
+  &lt;li&gt;Park&lt;/li&gt;
+  &lt;li&gt;Pharmacy&lt;/li&gt;
+  &lt;li&gt;Post office&lt;/li&gt;
+  &lt;li&gt;Restaurant&lt;/li&gt;
+  &lt;li&gt;School&lt;/li&gt;
+  &lt;li&gt;Theatre / museum&lt;/li&gt;
+  &lt;li&gt;Community center&lt;/li&gt;
+  &lt;li&gt;Gym&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;What are strategies to reduce parking?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;LEED encourages having the minimum amount of parking as required by local code. Project teams should consider:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Underground parking; or&lt;/li&gt;
+  &lt;li&gt;Sharing parking lots with neighboring properties when possible.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If parking is limited, there might be less automobile use.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What project locations are best for reducing impacts to the environment?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How is pedestrian access provided?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;People must be able to walk between the project and the service without being blocked by walls, highways, or other barriers.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;alternative-transportation&quot;&gt;Alternative transportation&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This objective addresses transportation demand and access to mass transit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;How can single occupancy driving be reduced?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Building management can create incentives for building users to carpool. There are non-cash incentives such as preferred parking spaces. Another non-cash option is employee recognition. Other ideas are to reward carpoolers with discounted parking, or to reward carpoolers with cash or points for every day they ride together.&lt;/p&gt;
+
+&lt;p&gt;Charging for parking can discourage people from driving to and from work alone. This will not work in all situations, but requiring employees to pay may encourage the use of carpooling and mass transit.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What are examples of alternative transportation?&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="LEED" /><summary type="html">Site selection Locating a project in a dense area near diverse uses addresses ways to reduce pollution by reducing the number of single occupant drivers. What are examples of diverse uses? Diverse uses are common services that people might use regularly. Diverse uses are determined by measuring 1⁄2 mile (800 meters) walking distance from the building’s main entrance. Here are some examples LEED defines the following as diverse uses:</summary></entry></feed>
