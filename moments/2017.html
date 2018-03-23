@@ -1,22 +1,18 @@
 ---
 layout: default
-title: "动态"
+title: "動態"
 ---
-
-
 
 <p class="page-title">
 	<span class="btn btn-sm btn-round btn-highlight disabled">
 		<span class="glyphicon glyphicon-refresh"></span> &nbsp;
-		<span class="chn">动态</span>
+		<span class="chn">動態</span>
 		<span class="eng">MOMENTS</span>
 	</span>
 </p>
 
 
-
-
-<table class="cover">
+<table class="grid">
 	{% for item in site.data.moments.timeline2017 %}
 	{% assign mod = forloop.index | modulo: 2 %}
 	{% if mod == 0 %}
@@ -53,7 +49,7 @@ title: "动态"
 
 
 
-<p style="margin-top: 7rem;">
+<p class="page-nav">
 	<span class="btn btn-round btn-sm disabled">
 		<span class="eng">PREV</span>
 		<span class="chn">上一年</span>

@@ -1,10 +1,58 @@
 ---
-layout: default
-title: "首页"
+title: "首頁"
 ---
 
 
-<table class="cover">
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+	<div class="front-page">
+		<center>
+			<img class="img-thumbnail" width="150px" src="/assets/img/profile.png">
+
+
+			<h3 class="slim">
+				<span class="eng">Lucas</span>
+				<span class="chn">李立</span>
+			</h3>
+			<p class="gray slim">
+				<span class="eng">
+					March 11 / Pisces
+				</span>
+				<span class="chn">
+					3月11日 / 雙魚座
+				</span>
+			</p>
+
+			<p>
+				<a class="btn btn-sm btn-round" href="/blog/index.html">
+					<span class="eng">Blog</span>
+					<span class="chn">博客</span>
+				</a>
+				&nbsp;
+				<a class="btn btn-sm btn-round" href="/about.html">
+					<span class="eng">About</span>
+					<span class="chn">關於</span>
+				</a>
+				&nbsp;
+				<a class="btn btn-round btn-sm" href="/moments/2018.html">
+					<span class="eng">Follow</span>
+					<span class="chn">動態</span>
+				</a>
+			</p>
+			<hr>
+			<p class="small gray">
+				[ <a href="javascript:;" onclick="chn()">中文</a> /
+				<a href="javascript:;" onclick="eng()">ENG</a> ]
+			</p>
+		</center>
+	</div>
+</body>
+</html>
+
+<!--table class="grid">
 	<tr>
 		<td style="background: url(/assets/img/profile_1.jpg) center center; background-size: cover;"></td>
 		<td style="background: white;">
@@ -54,4 +102,4 @@ title: "首页"
 		</td>
 		<td style="background: url(/assets/img/profile_2.jpg) center center; background-size: cover;"></td>
 	</tr>
-</table>
+</table-->
