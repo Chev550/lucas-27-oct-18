@@ -375,7 +375,7 @@ a:hover path {
 /*--------------------------------------------------------------
 17.0 Customizer
 --------------------------------------------------------------*/
-.black_overlay{
+.overlay-bg {
    /*display: none;*/
    position: absolute;
    top: 0%;
@@ -388,7 +388,7 @@ a:hover path {
    opacity: 0.5;
    filter: alpha(opacity=50);
 }
-.white_content {
+.overlay-content {
    /*background: #eee;*/
    width: 100%;
    padding: 5rem 0;
