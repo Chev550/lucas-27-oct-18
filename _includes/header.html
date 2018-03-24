@@ -2,14 +2,14 @@
 	<div class="container">
 		<nav>
 			<ul>
-				<a href="/">
+				<a href="{{ site.baseurl }}/">
 					<li>
-						<img class="logo" src="/assets/img/profile.png">
+						<img class="logo" src="{{ site.baseurl }}/assets/img/profile.png">
 					</li>
 				</a>
 
 
-				<a class="{% if page.url contains 'blog' %}active{% endif %}" href="/blog/">
+				<a class="{% if page.url contains 'blog' %}active{% endif %}" href="{{ site.baseurl }}/blog/">
 					<li>
 						博客<br>
 						<span class="x-small slim">BLOG</span>
@@ -17,14 +17,14 @@
 				</a>
 
 
-				<a class="{% if page.url contains 'about' %}active{% endif %}" href="/about.html">
+				<a class="{% if page.url contains 'about' %}active{% endif %}" href="{{ site.baseurl }}/about.html">
 					<li>
 						關於<br>
 						<span class="x-small slim">ABOUT</span>
 					</li>
 				</a>
 
-				<a class="{% if page.url contains 'moments' %}active{% endif %}" href="/moments/2018.html">
+				<a class="{% if page.url contains 'moments' %}active{% endif %}" href="{{ site.baseurl }}/moments/2018.html">
 					<li>
 						動態<br>
 						<span class="x-small slim">FOLLOW</span>

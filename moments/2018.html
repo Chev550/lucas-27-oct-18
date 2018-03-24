@@ -30,13 +30,13 @@ window.onload = function(){
 				<p>{{ item.txt }}</p>
 			</center>
 		</td>
-		<td style="background: url(/assets/img/moments/2018/{{ item.src }}.jpg) center center; background-size: cover;"></td>
+		<td style="background: url({{ site.baseurl }}/assets/img/moments/2018/{{ item.src }}.jpg) center center; background-size: cover;"></td>
 	</tr>
 	
 
 	{% else %}
 	<tr>
-		<td style="background: url(/assets/img/moments/2018/{{ item.src }}.jpg) center center; background-size: cover;"></td>
+		<td style="background: url({{ site.baseurl }}/assets/img/moments/2018/{{ item.src }}.jpg) center center; background-size: cover;"></td>
 		<td style="background: white; padding: 2em;">
 			<center>
 				<p class="slim"><span class="glyphicon glyphicon-hand-left"></span> {{ item.src }}</p>
@@ -51,7 +51,7 @@ window.onload = function(){
 
 
 <p class="page-nav">
-	<a class="btn btn-round btn-sm" href="/moments/2017.html">
+	<a class="btn btn-round btn-sm" href="{{ site.baseurl }}/moments/2017.html">
 		<span class="eng">PREV</span>
 		<span class="chn">上一年</span>
 	</a>
