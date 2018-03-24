@@ -12,6 +12,13 @@ title: "動態"
 </p>
 
 
+<script type="text/javascript">
+window.onload = function(){
+	auto();
+}
+</script>
+
+
 <table class="grid">
 	{% for item in site.data.moments.timeline2017 %}
 	{% assign mod = forloop.index | modulo: 2 %}
@@ -54,11 +61,3 @@ title: "動態"
 		<span class="chn">下一年</span>
 	</a>
 </p>
-
-
-
-<script type="text/javascript">
-window.onload = function(){
-	auto();
-}
-</script>
