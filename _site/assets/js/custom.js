@@ -10,8 +10,12 @@ function eng(){
 }
 
 
-
-
+// 自适应td高度等于宽度
+function auto() {
+	var w=$("td").width();
+	$("td").attr('height',w);
+	setTimeout(auto,10);
+}
 
 
 
@@ -42,12 +46,12 @@ function onBlur(x){
 
 // Scroll to Top
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-        $('#toTop').fadeIn("fast");
-    } 
-    else {
-        $('#toTop').fadeOut("fast");
-    }
+	if ($(this).scrollTop() > 100) {
+		$('#toTop').fadeIn("fast");
+	} 
+	else {
+		$('#toTop').fadeOut("fast");
+	}
 });
 
 

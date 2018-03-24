@@ -91,9 +91,6 @@ table.grid {
 	width: 100%;
 	text-transform: uppercase;
 }
-table.grid tr {
-	height: 350px;
-}
 table.grid tr td {
 	width: 50%;
 }
