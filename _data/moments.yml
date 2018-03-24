@@ -1,16 +1,13 @@
 timeline2018:
 
 - src: "2018-03-19"
-  eng: "One more headset"
-  chn: "长了一副缺耳机的样子"
+  txt: "長了一副缺耳機的樣子"
 
 - src: "2018-03-11"
-  eng: "Watching Diving at the Water Cube"
-  chn: "水立方看跳水"
+  txt: "China swept all golds in the FINA diving series at the Water Cube."
 
 - src: "2018-02-20"
-  eng: "Hello, Scene Stealer"
-  chn: "抢个镜头"
+  txt: "Hello, Scene Stealer"
 
 
 
@@ -20,69 +17,52 @@ timeline2018:
 timeline2017:
 
 - src: "2017-11-05"
-  eng: "Sketching"
-  chn: "重拾起了我尘封多年的素描本"
+  txt: "重拾起了我塵封多年的素描本"
 
 - src: "2017-10-18"
-  eng: "The Golden Gate Bridge"
-  chn: "金门大桥"
+  txt: "霧鎖金門"
 
 - src: "2017-10-08"
-  eng: "Cloudy Chicago"
-  chn: "芝加哥"
+  txt: "Cloudy Chicago"
 
 - src: "2017-10-05"
-  eng: "NREL"
-  chn: "国家可再生能源实验室"
+  txt: "NREL"
 
 - src: "2017-10-04"
-  eng: "Seattle"
-  chn: "西雅图"
+  txt: "Seattle"
 
 - src: "2017-10-03"
-  eng: "Flying to the U.S."
-  chn: "准备起飞"
+  txt: "Flying to the U.S."
 
 - src: "2017-09-16"
-  eng: "Beautiful Xiamen"
-  chn: "最美厦门"
+  txt: "最美廈門"
 
 - src: "2017-08-25"
-  eng: "Jay Chou concert"
-  chn: "地表最强"
+  txt: "地表最強 - Jay Chou concert"
 
 - src: "2017-07-28"
-  eng: "The Simatai Great Wall"
-  chn: "司马台长城"
+  txt: "The Simatai Great Wall"
 
 - src: "2017-07-13"
-  eng: "Tianjin"
-  chn: "天津"
+  txt: "Tianjin"
 
 - src: "2017-06-11"
-  eng: "Study hard!"
-  chn: "国家图书馆"
+  txt: "Study hard!"
 
 - src: "2017-05-19"
-  eng: "So lucky!"
-  chn: "压线过"
+  txt: "So lucky!"
 
 - src: "2017-03-31"
-  eng: "Beijing Jiaotong University"
-  chn: "北京交通大学"
+  txt: "Beijing Jiaotong University"
 
 - src: "2017-02-02"
-  eng: "Had a wonderful time with my cousins during the Spring Festival"
-  chn: "南国之春"
+  txt: "Had a wonderful time with my cousins during the Spring Festival"
 
 - src: "2017-01-21"
-  eng: "Freezing winter in Beijing"
-  chn: "北国之冬"
+  txt: "Freezing winter in Beijing"
 
 - src: "2017-01-08"
-  eng: "Biangbiang noodles, yummy!"
-  chn: "Biangbiang面"
+  txt: "Biangbiang noodles, yummy!"
 
 - src: "2017-01-07"
-  eng: "First time in Xi'an, exciting!"
-  chn: "西安"
+  txt: "First time in Xi'an, exciting!"

@@ -5,7 +5,7 @@ title: "動態"
 
 <p class="page-title">
 	<span class="btn btn-sm btn-round btn-highlight disabled">
-		<span class="glyphicon glyphicon-refresh"></span> &nbsp;
+		<span class="glyphicon glyphicon-camera"></span> &nbsp;
 		<span class="chn">動態</span>
 		<span class="eng">MOMENTS</span>
 	</span>
@@ -20,10 +20,7 @@ title: "動態"
 		<td style="background: white; padding: 2em;">
 			<center>
 				<p class="slim">{{ item.src }} <span class="glyphicon glyphicon-hand-right"></span></p>
-				<p>
-					<span class="eng">{{ item.eng }}</span>
-					<span class="chn">{{ item.chn }}</span>
-				</p>
+				<p>{{ item.txt }}</p>
 			</center>
 		</td>
 		<td style="background: url(/assets/img/moments/2017/{{ item.src }}.jpg) center center; background-size: cover;"></td>
@@ -36,10 +33,7 @@ title: "動態"
 		<td style="background: white; padding: 2em;">
 			<center>
 				<p class="slim"><span class="glyphicon glyphicon-hand-left"></span> {{ item.src }}</p>
-				<p>
-					<span class="eng">{{ item.eng }}</span>
-					<span class="chn">{{ item.chn }}</span>
-				</p>
+				<p>{{ item.txt }}</p>
 			</center>
 		</td>
 	</tr>
@@ -51,12 +45,12 @@ title: "動態"
 
 <p class="page-nav">
 	<span class="btn btn-round btn-sm disabled">
-		<span class="eng">PREV</span>
+		<span class="txt">PREV</span>
 		<span class="chn">上一年</span>
 	</span>
 
 	<a class="btn btn-round btn-sm pull-right" href="/moments/2018.html">
-		<span class="eng">NEXT</span>
+		<span class="txt">NEXT</span>
 		<span class="chn">下一年</span>
 	</a>
 </p>

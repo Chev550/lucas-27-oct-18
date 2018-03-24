@@ -24,9 +24,9 @@ title: "博客"
 	</h2>
 
 	<p class="gray slim" style="margin-bottom: 2rem;">
-		<span class="glyphicon glyphicon-time"></span> {{ post.date | date_to_string }}
+		<i data-feather="clock"></i> {{ post.date | date_to_string }}
 		&nbsp;
-		<span class="glyphicon glyphicon-tag"></span>
+		<i data-feather="tag"></i>
 		{% include post_tags.html %}
 		<!--a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"></a-->
 	</p>
