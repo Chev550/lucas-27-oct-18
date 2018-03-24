@@ -46,6 +46,7 @@ ul li {
 }
 
 
+
 /*--------------------------------------------------------------
 5.0 Fonts
 --------------------------------------------------------------*/
@@ -149,123 +150,123 @@ nav a:hover {
 /*--------------------------------------------------------------
 13.0 Layout
    13.1 Header
---------------------------------------------------------------*/
-header {
-	border-top: 7px solid DarkSlateGray;
-	border-bottom: 1px solid #eee;
-	padding: 2em 0;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background: white;
-	height: 94px;
-	z-index: 100;
-}
+   --------------------------------------------------------------*/
+   header {
+   	border-top: 7px solid DarkSlateGray;
+   	border-bottom: 1px solid #eee;
+   	padding: 2em 0;
+   	position: fixed;
+   	top: 0;
+   	width: 100%;
+   	background: white;
+   	height: 94px;
+   	z-index: 100;
+   }
 
-.language {
-	margin-top: 0.5em;
-}
-.language a {
-	margin: 0;
-}
+   .language {
+   	margin-top: 0.5em;
+   }
+   .language a {
+   	margin: 0;
+   }
 
 
 /*--------------------------------------------------------------  
    13.2 Front Page
---------------------------------------------------------------*/
-.front-page {
-	background: white;
-	width: 100%;
-	padding-top: 5rem;
-	border-top: 7px solid DarkSlateGray;
-	border-bottom: 1px solid #eee;
-	box-shadow: 0 2px 20px 0 gray;
-	text-transform: uppercase;
-	height: 400px;
-	margin-top: -200px;
-	position: absolute;
-	top: 50%;
-}
+   --------------------------------------------------------------*/
+   .front-page {
+   	background: white;
+   	width: 100%;
+   	padding-top: 5rem;
+   	border-top: 7px solid DarkSlateGray;
+   	border-bottom: 1px solid #eee;
+   	box-shadow: 0 2px 20px 0 gray;
+   	text-transform: uppercase;
+   	height: 420px;
+   	margin-top: -210px;
+   	position: absolute;
+   	top: 50%;
+   }
 
 
 /*--------------------------------------------------------------
    13.3 Regular Content
---------------------------------------------------------------*/
-section {
-	margin: 5rem 0;
-	padding: 2em;
-	border-radius: 1em;
-	border: 1px solid #ccc;
-	background: white;
-}
+   --------------------------------------------------------------*/
+   section {
+   	margin: 5rem 0;
+   	padding: 2em;
+   	border-radius: 1em;
+   	border: 1px solid #ccc;
+   	background: white;
+   }
 
 
 /*--------------------------------------------------------------
    13.4 Posts
---------------------------------------------------------------*/
-.post-title a:hover {
-	text-decoration: none;
-}
+   --------------------------------------------------------------*/
+   .post-title a:hover {
+   	text-decoration: none;
+   }
 
-.post-img {
-	margin: 0 -2em;
-}
-.post-img img {
-	width: 100%;
-}
+   .post-img {
+   	margin: 0 -2em;
+   }
+   .post-img img {
+   	width: 100%;
+   }
 
-blockquote {
-	color: gray;
-	border-left: 5px solid #ccc;
-	padding: 0.5rem 2rem;
-	margin: 1em 0;
-	background: #eee;
-}
+   blockquote {
+   	color: gray;
+   	border-left: 5px solid #ccc;
+   	padding: 0.5rem 2rem;
+   	margin: 1em 0;
+   	background: #eee;
+   }
 
-.footnotes {
-	margin-top: 4rem;
-}
-.footnotes:before {
-	content: "References";
-	font-weight: bold;
-	text-transform: uppercase;
-}
-.footnotes ol {
-	font-weight: 300;
-	margin-top: 1em;
-}
-.footnotes p {
-	margin: 0;
-}
+   .footnotes {
+   	margin-top: 4rem;
+   }
+   .footnotes:before {
+   	content: "References";
+   	font-weight: bold;
+   	text-transform: uppercase;
+   }
+   .footnotes ol {
+   	font-weight: 300;
+   	margin-top: 1em;
+   }
+   .footnotes p {
+   	margin: 0;
+   }
 
 
 /*--------------------------------------------------------------
    13.5 Pages
---------------------------------------------------------------*/
-.page-title {
-	margin: 7rem 0;
-}
-.page-nav {
-	margin: 7rem 0;
-}
+   --------------------------------------------------------------*/
+   .page-title {
+   	margin: 7rem 0;
+   }
+   .page-nav {
+   	margin: 7rem 0;
+   }
 
 
 
 /*--------------------------------------------------------------
    13.6 Footer
---------------------------------------------------------------*/
-footer {
-	border-top: 1px solid #eee;
-	border-bottom: 4px solid DarkSlateGray;
-	padding: 1em 0;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	background: white;
-	height: 50px;
-	z-index: 100;
-	text-transform: uppercase;
-}
+   --------------------------------------------------------------*/
+   footer {
+   	border-top: 1px solid #eee;
+   	border-bottom: 4px solid DarkSlateGray;
+   	padding: 1em 0;
+   	position: fixed;
+   	bottom: 0;
+   	width: 100%;
+   	background: white;
+   	height: 50px;
+   	z-index: 100;
+   	text-transform: uppercase;
+   }
 
 /*--------------------------------------------------------------
 14.0 Comments
@@ -286,8 +287,25 @@ footer {
 	box-shadow: 0 0 10px DarkSlateGray;
 }
 
+.about-cover {
+	margin: 5rem 0;
+	border-radius: 3px 3px 1em 1em;
+	border: 1px solid #ccc;
+	background: white;
+}
+.cover-img {
+	height: 250px;
+	width: 100%;
+	position: relative;
+}
+.cover-profile {
+	position: absolute;
+	left: 2em;
+	bottom: -3em;
+}
+
 .org-logo {
-	margin-top: 5rem;
+	margin: 5rem 0 7rem 0;
 }
 .org-logo img {
 	width: 60px;
@@ -320,7 +338,8 @@ svg {
 	width: 1em;
 	height: 1em;
 }
-path {
+
+/*path {
 	fill: #333333;
 }
 a path {
@@ -328,7 +347,7 @@ a path {
 }
 a:hover path {
 	fill: gray;
-}
+	}*/
 
 
 /*--------------------------------------------------------------
