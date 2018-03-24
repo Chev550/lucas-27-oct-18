@@ -81,10 +81,66 @@ document.write("<sc"+"ript type='text/javascript' src='" +
 
 				<a href="mailto:lucas.li@sdchina.org.cn"><span class="glyphicon glyphicon-envelope"></span></a> &sdot;
 
+				<a href="#" onclick="ShowDiv('MyDiv','fade')"><span class="glyphicon glyphicon-heart"></span></a> &sdot;
+
 				[ <a href="javascript:;" onclick="chn()">中文</a> /
 				<a href="javascript:;" onclick="eng()">ENG</a> ]
 			</p>
 		</center>
+	</div>
+
+
+
+	<!--弹出层时背景层DIV-->
+	<div id="fade" class="black_overlay"></div>
+
+	<div id="MyDiv" class="white_content">
+		<div class="container">
+			<span class="btn btn-sm btn-round btn-highlight disabled text-uppercase">
+				<span class="glyphicon glyphicon-gift"></span> &nbsp;
+				<span>Buy Lucas something from his wishlist!</span>
+			</span>
+
+			<section><div class="row">
+	<div class="col-sm-4 margin-btm-2">
+		<img class="img-thumbnail" src="/assets/img/mac-mini.jpg">
+		<h4>$999</h4>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="NYRNKRT6KDSGN">
+			<input type="image" src="https://www.paypalobjects.com/en_US/C2/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+
+
+	<div class="col-sm-4 margin-btm-2">
+		<img class="img-thumbnail" src="/assets/img/keyboard.jpg">
+		<h4>$99</h4>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="6YMMCCEK9G6NW">
+			<input type="image" src="https://www.paypalobjects.com/en_US/C2/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+
+	<div class="col-sm-4 margin-btm-2">
+		<img class="img-thumbnail" src="/assets/img/airpods.jpg">
+		<h4>$159</h4>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="U34PZSHQ832W8">
+			<input type="image" src="https://www.paypalobjects.com/en_US/C2/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</div>
+</div>
+</section>
+
+			<span class="btn btn-round btn-sm btn-highlight disabled">THANK YOU <span class="glyphicon glyphicon-heart"></span></span>
+			<a class="btn btn-round btn-sm pull-right" href="#" onclick="CloseDiv('MyDiv','fade')">SKIP</a>
+		</div>
 	</div>
 </body>
 </html>
