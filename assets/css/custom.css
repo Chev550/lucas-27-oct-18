@@ -384,22 +384,19 @@ a:hover path {
    height: 100%;
    background-color: #000;
    z-index: 1001;
-   -moz-opacity: 0.8;
-   opacity: 0.8;
-   filter: alpha(opacity=80);
+   -moz-opacity: 0.5;
+   opacity: 0.5;
+   filter: alpha(opacity=50);
 }
 .white_content {
-   background: #eee;
+   /*background: #eee;*/
    width: 100%;
    padding: 5rem 0;
-   border-top: 7px solid black;
-   border-bottom: 1px solid #eee;
-   box-shadow: 0 2px 20px 0 gray;
    text-transform: uppercase;
    height: 420px;
+   top: 50%;
    margin-top: -210px;
    position: absolute;
-   top: 50%;
    z-index: 1002;
    overflow: auto;
 }
