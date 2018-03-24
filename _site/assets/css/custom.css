@@ -6,7 +6,7 @@ body {
 }
 
 a {
-	color: DarkSlateGray;
+	color: black;
 }
 a:hover {
 	color: gray;
@@ -101,26 +101,26 @@ table.grid tr td {
 --------------------------------------------------------------*/
 .btn-round {
 	border-radius: 1em;
-	border: 1px solid DarkSlateGray;
+	border: 1px solid black;
 	line-height: 2em;
 	padding: 0 2em;
 }
 .btn-round:hover {
-	background: DarkSlateGray;
+	background: black;
 	color: white;
 	box-shadow: 0 2px 5px 0 gray;
 }
 .btn-highlight {
-	background: DarkSlateGray;
+	background: black;
 	color: white;
 }
 .btn-dark {
-	background: DarkSlateGray;
+	background: black;
 	color: white;
 }
 .btn-dark:hover {
 	background: transparent;
-	color: DarkSlateGray;
+	color: black;
 }
 
 
@@ -149,7 +149,7 @@ nav a:hover {
    13.1 Header
    --------------------------------------------------------------*/
    header {
-   	border-top: 7px solid DarkSlateGray;
+   	border-top: 7px solid black;
    	border-bottom: 1px solid #eee;
    	padding: 2em 0;
    	position: fixed;
@@ -175,7 +175,7 @@ nav a:hover {
    	background: white;
    	width: 100%;
    	padding-top: 5rem;
-   	border-top: 7px solid DarkSlateGray;
+   	border-top: 7px solid black;
    	border-bottom: 1px solid #eee;
    	box-shadow: 0 2px 20px 0 gray;
    	text-transform: uppercase;
@@ -254,7 +254,7 @@ nav a:hover {
    --------------------------------------------------------------*/
    footer {
    	border-top: 1px solid #eee;
-   	border-bottom: 4px solid DarkSlateGray;
+   	border-bottom: 4px solid black;
    	padding: 1em 0;
    	position: fixed;
    	bottom: 0;
@@ -281,7 +281,7 @@ nav a:hover {
 	vertical-align: bottom;
 }
 .logo:hover{
-	box-shadow: 0 0 10px DarkSlateGray;
+	box-shadow: 0 0 10px black;
 }
 
 .org-logo {
@@ -361,7 +361,7 @@ svg {
 	fill: #333333;
 }
 a path {
-	fill: DarkSlateGray;
+	fill: black;
 }
 a:hover path {
 	fill: gray;
