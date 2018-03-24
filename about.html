@@ -22,7 +22,7 @@ title: "關於"
 	<div style="padding: 2em;">
 		<table>
 			<tr>
-				<td style="width: 150px;" class="center gray">
+				<td class="center gray left-col">
 					<a class="btn btn-sm btn-round" href="#">
 						<span class="glyphicon glyphicon-file"></span> &nbsp;
 						<span class="chn">簡歷</span>
@@ -32,7 +32,7 @@ title: "關於"
 					<hr>
 					{% include social.html %}
 				</td>
-				<td style="padding-left: 2em;">
+				<td class="right-col">
 					<h3 class="slim text-uppercase">
 						<span class="eng">Lucas</span>
 						<span class="chn">李立</span>
@@ -71,6 +71,16 @@ title: "關於"
 						<span class="eng">Studied Building Environment & Facilities Engineering at <a href="http://en.tongji.edu.cn" target="_blank">Tongji University</a></span>
 						<span class="chn">就讀於 <a href="http://www.tongji.edu.cn" target="_blank">同濟大學</a> 建築環境與設備工程</span>
 					</p>
+
+					<div class="social-2">
+						<hr>
+						<a class="btn btn-sm btn-round" href="#">
+							<span class="glyphicon glyphicon-file"></span> &nbsp;
+							<span class="chn">簡歷</span>
+							<span class="eng">RESUME</span>
+						</a> &nbsp;
+						{% include social.html %}
+					</div>
 				</td>
 			</tr>
 		</table>

@@ -284,6 +284,17 @@ nav a:hover {
 	box-shadow: 0 0 10px DarkSlateGray;
 }
 
+.org-logo {
+   margin: 5rem 0 7rem 0;
+}
+.org-logo img {
+   width: 60px;
+   margin: 0 0.5em;
+}
+.org-logo a:hover {
+   opacity: 0.5;
+}
+
 .about-cover {
 	margin: 5rem 0;
 	border-radius: 4px;
@@ -301,15 +312,25 @@ nav a:hover {
 	bottom: -3em;
 }
 
-.org-logo {
-	margin: 5rem 0 7rem 0;
+@media (min-width: 768px) {
+   .left-col {
+      width: 150px;
+   }
+   .right-col {
+      padding-left: 2em;
+   }
+   .social-2 {
+      display: none;
+   }
 }
-.org-logo img {
-	width: 60px;
-	margin: 0 0.5em;
-}
-.org-logo a:hover {
-	opacity: 0.5;
+
+@media (max-width: 768px) {
+   .left-col {
+      display: none;
+   }
+   .right-col {
+      padding-top: 2em;
+   }
 }
 
 
