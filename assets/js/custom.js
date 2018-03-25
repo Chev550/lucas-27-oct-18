@@ -32,6 +32,56 @@ function CloseDiv(show_div,bg_div)
 
 
 
+
+function greetingEng(){
+	now = new Date();
+	hour = now.getHours();
+	if (hour >= 4 && hour < 7) {
+		document.write("Hello, you got up early today.")
+	}
+	else if (hour >= 7 && hour < 12) {
+		document.write("Good morning! Have a wonderful day.")
+	}
+	else if (hour >= 12 && hour < 18) {
+		document.write("Good afternoon! Have you had lunch, yet?")
+	}
+	else if (hour >= 18 && hour < 20) {
+		document.write("Hello, wanna have dinner together?")
+	}
+	else if (hour >= 20 && hour < 23) {
+		document.write("Good evening! Why not relax youself a bit?")
+	}
+	else {
+		document.write("Hey nightbird, it's bed time. Don't stay up too late.")
+	}
+}
+
+function greetingChn(){
+	now = new Date();
+	hour = now.getHours();
+	if (hour >= 4 && hour < 7) {
+		document.write("你好，早啊！")
+	}
+	else if (hour >= 7 && hour < 12) {
+		document.write("早上好！今天要加油喔。")
+	}
+	else if (hour >= 12 && hour < 18) {
+		document.write("下午好！吃過午飯了嗎？")
+	}
+	else if (hour >= 18 && hour < 20) {
+		document.write("你好，一起吃晚飯嗎？")
+	}
+	else if (hour >= 20 && hour < 23) {
+		document.write("晚上好，放鬆自己一下吧。")
+	}
+	else {
+		document.write("夜貓子，該睡覺了，不要熬夜喔。")
+	}
+}
+
+
+
+
 // form style
 function onFocus(x){
 	if (x.value == x.defaultValue){
