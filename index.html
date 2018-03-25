@@ -46,16 +46,29 @@ title: "首頁"
 			</p>
 
 			<hr>
-			<p class="small gray">
+			<p class="small gray no-link">
 				&copy;
 				<span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
-				Lucas Li &sdot;
+				<a href="{{ site.baseurl }}/">
+					<span class="chn">李立</span>
+					<span class="eng">Lucas Li</span>
+				</a> &sdot;
 
-				<a href="http://statcounter.com" target="_blank"><span class="glyphicon glyphicon-stats"></span></a> {% include stats.html %} &sdot;
+				<a href="http://statcounter.com" target="_blank"><span class="glyphicon glyphicon-stats"></span> {% include stats.html %}</a> &sdot;
 
-				<a href="{{ site.baseurl }}/contact.html"><span class="glyphicon glyphicon-envelope"></span></a> &sdot;
+				<a href="{{ site.baseurl }}/contact.html">
+					<span class="glyphicon glyphicon-envelope"></span>
+					<span class="chn">聯絡</span>
+					<span class="eng">Contact</span>
+				</a> &sdot;
 
-				<a href="#" onclick="ShowDiv('wishlist','fade')"><span class="glyphicon glyphicon-heart"></span></a> &sdot;
+				
+
+				<a href="https://www.paypal.me/lucaslionline" target="_blank">
+					<span class="glyphicon glyphicon-heart"></span>
+					<span class="chn">捐助</span>
+					<span class="eng">Donate</span>
+				</a> &sdot;
 
 				[ <a href="javascript:;" onclick="chn()">中文</a> /
 				<a href="javascript:;" onclick="eng()">ENG</a> ]
@@ -66,6 +79,8 @@ title: "首頁"
 
 
 	<!--WISHLIST-->
+	<!--a href="#" onclick="ShowDiv('wishlist','fade')"><span class="glyphicon glyphicon-heart"></span></a>
+
 	<div id="fade" class="overlay-bg"></div>
 
 	<div id="wishlist" class="overlay-content">
@@ -80,6 +95,6 @@ title: "首頁"
 			<span class="btn btn-round btn-sm btn-highlight disabled">THANK YOU <span class="glyphicon glyphicon-heart"></span></span>
 			<a class="btn btn-round btn-sm pull-right" href="#" onclick="CloseDiv('wishlist','fade')">SKIP</a>
 		</div>
-	</div>
+	</div-->
 </body>
 </html>

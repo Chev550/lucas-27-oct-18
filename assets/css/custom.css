@@ -145,6 +145,9 @@ table.grid tr td {
 /*--------------------------------------------------------------
 10.0 Links
 --------------------------------------------------------------*/
+.no-link a:hover {
+	text-decoration: none;
+}
 .btn-round {
 	border-radius: 1em;
 	border: 1px solid black;
