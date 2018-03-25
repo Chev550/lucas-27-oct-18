@@ -1,0 +1,83 @@
+---
+layout: default
+title: "聯絡"
+---
+
+<p class="page-title">
+	<span class="btn btn-sm btn-round btn-highlight disabled">
+		<span class="glyphicon glyphicon-comment"></span> &nbsp;
+		<span class="chn">留言</span>
+		<span class="eng">MESSAGE</span>
+	</span>
+</p>
+
+
+
+<form role="form" action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="post" enctype="multipart/form-data">
+	<!--input type='hidden' name='redirect_to' value='https://lucaslionline.github.io/service/pages/sent.html' /-->
+
+	<section>
+		<ul>
+			<li>
+				<img class="messager-profile" width="40px" src="{{ site.baseurl }}/assets/img/profile.png">
+				<div class="messager-left">
+					<div class="arrow"></div>
+					<span class="eng">Hello!</span>
+					<span class="chn">你好！</span>
+				</div>
+			</li>
+
+			<li class="text-right">
+				<div class="messager-right">
+					<div class="arrow"></div>
+					<span class="eng">Hi Lucas!</span>
+					<span class="chn">你好！</span>
+				</div>
+				<img class="messager-profile" width="40px" src="{{ site.baseurl }}/assets/img/profile-user.png">
+			</li>
+
+			<li>
+				<img class="messager-profile" width="40px" src="{{ site.baseurl }}/assets/img/profile.png">
+				<div class="messager-left">
+					<div class="arrow"></div>
+					<span class="eng">Welcome to my website! Should you have any comments, please feel free to leave me a message. Thanks!</span>
+					<span class="chn">歡迎訪問我的網站，如有任何意見或建議請給我留言，謝謝！</span>
+				</div>
+			</li>
+		</ul>
+
+
+		
+		
+		<hr>
+		<p>
+			<textarea name="Message" rows="5" class="form-control" placeholder="Message" required></textarea>
+		</p>
+
+		<div class="row">
+			<p class="col-sm-4">
+				<input type="text" name="Name" class="form-control" placeholder="Your Name" required>
+			</p>
+
+			<p class="col-sm-4">
+				<input type="email" name="Email" class="form-control" placeholder="Your Email" required>
+			</p>
+
+			<p class="col-sm-4">
+				<input type="file" name="Attachment" class="form-control">
+			</p>
+		</div>
+	</section>
+
+	<p class="page-nav">
+		<button type="reset" class="btn btn-sm btn-round">
+			<span class="eng">Reset</span>
+			<span class="chn">清除</span>
+		</button>
+
+		<button type="submit" class="btn btn-sm btn-round pull-right">
+			<span class="eng">Send</span>
+			<span class="chn">發送</span>
+		</button>
+	</p>
+</form>

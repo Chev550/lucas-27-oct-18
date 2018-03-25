@@ -55,7 +55,7 @@ title: "首頁"
 
 				<a href="mailto:lucas.li@sdchina.org.cn"><span class="glyphicon glyphicon-envelope"></span></a> &sdot;
 
-				<a href="#" onclick="ShowDiv('MyDiv','fade')"><span class="glyphicon glyphicon-heart"></span></a> &sdot;
+				<a href="#" onclick="ShowDiv('wishlist','fade')"><span class="glyphicon glyphicon-heart"></span></a> &sdot;
 
 				[ <a href="javascript:;" onclick="chn()">中文</a> /
 				<a href="javascript:;" onclick="eng()">ENG</a> ]
@@ -65,10 +65,10 @@ title: "首頁"
 
 
 
-	<!--弹出层时背景层DIV-->
+	<!--WISHLIST-->
 	<div id="fade" class="overlay-bg"></div>
 
-	<div id="MyDiv" class="overlay-content">
+	<div id="wishlist" class="overlay-content">
 		<div class="container">
 			<span class="btn btn-sm btn-round btn-highlight disabled">
 				<span class="glyphicon glyphicon-gift"></span> &nbsp;
@@ -78,7 +78,7 @@ title: "首頁"
 			<section>{% include shop.html %}</section>
 
 			<span class="btn btn-round btn-sm btn-highlight disabled">THANK YOU <span class="glyphicon glyphicon-heart"></span></span>
-			<a class="btn btn-round btn-sm pull-right" href="#" onclick="CloseDiv('MyDiv','fade')">SKIP</a>
+			<a class="btn btn-round btn-sm pull-right" href="#" onclick="CloseDiv('wishlist','fade')">SKIP</a>
 		</div>
 	</div>
 </body>

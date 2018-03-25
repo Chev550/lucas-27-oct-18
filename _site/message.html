@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
-	<title>李立 - 動態</title>
+	<title>李立 - 聯絡</title>
 	
 
 	<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css">
@@ -47,14 +47,14 @@
 					</li>
 				</a>
 
-				<a class="active" href="/moments/2018.html">
+				<a class="" href="/moments/2018.html">
 					<li>
 						動態<br>
 						<span class="x-small slim">FOLLOW</span>
 					</li>
 				</a>
 
-				<a class="" href="/message.html">
+				<a class="active" href="/message.html">
 					<li>
 						聯絡<br>
 						<span class="x-small slim">CONTACT</span>
@@ -74,78 +74,83 @@
 	<div class="container clearance">
 		<p class="page-title">
 	<span class="btn btn-sm btn-round btn-highlight disabled">
-		<span class="glyphicon glyphicon-camera"></span> &nbsp;
-		<span class="chn">動態</span>
-		<span class="eng">MOMENTS</span>
+		<span class="glyphicon glyphicon-comment"></span> &nbsp;
+		<span class="chn">留言</span>
+		<span class="eng">MESSAGE</span>
 	</span>
 </p>
 
 
-<script type="text/javascript">
-window.onload = function(){
-	auto();
-}
-</script>
+
+<form role="form" action="https://getsimpleform.com/messages?form_api_token=bce4fd8160c05984e7d1506b0bfe3a63" method="post" enctype="multipart/form-data">
+	<!--input type='hidden' name='redirect_to' value='https://lucaslionline.github.io/service/pages/sent.html' /-->
+
+	<section>
+		<ul>
+			<li>
+				<img class="messager-profile" width="40px" src="/assets/img/profile.png">
+				<div class="messager-left">
+					<div class="arrow"></div>
+					<span class="eng">Hello!</span>
+					<span class="chn">你好！</span>
+				</div>
+			</li>
+
+			<li class="text-right">
+				<div class="messager-right">
+					<div class="arrow"></div>
+					<span class="eng">Hi Lucas!</span>
+					<span class="chn">你好！</span>
+				</div>
+				<img class="messager-profile" width="40px" src="/assets/img/profile-user.png">
+			</li>
+
+			<li>
+				<img class="messager-profile" width="40px" src="/assets/img/profile.png">
+				<div class="messager-left">
+					<div class="arrow"></div>
+					<span class="eng">Welcome to my website! Should you have any comments, please feel free to leave me a message. Thanks!</span>
+					<span class="chn">歡迎訪問我的網站，如有任何意見或建議請給我留言，謝謝！</span>
+				</div>
+			</li>
+		</ul>
 
 
-<table class="grid">
-	
-	
-	
-	<tr>
-		<td style="background: url(/assets/img/moments/2018/2018-03-19.jpg) center center; background-size: cover;"></td>
-		<td style="background: white; padding: 2em;">
-			<center>
-				<p class="slim"><span class="glyphicon glyphicon-hand-left"></span> 2018-03-19</p>
-				<p>天生長了一副缺耳機的樣子</p>
-			</center>
-		</td>
-	</tr>
-	
-	
-	
-	
-	<tr>
-		<td style="background: white; padding: 2em;">
-			<center>
-				<p class="slim">2018-03-11 <span class="glyphicon glyphicon-hand-right"></span></p>
-				<p>China swept all golds at the Water Cube</p>
-			</center>
-		</td>
-		<td style="background: url(/assets/img/moments/2018/2018-03-11.jpg) center center; background-size: cover;"></td>
-	</tr>
-	
+		
+		
+		<hr>
+		<p>
+			<textarea name="Message" rows="5" class="form-control" placeholder="Message" required></textarea>
+		</p>
 
-	
-	
-	
-	
-	<tr>
-		<td style="background: url(/assets/img/moments/2018/2018-02-20.jpg) center center; background-size: cover;"></td>
-		<td style="background: white; padding: 2em;">
-			<center>
-				<p class="slim"><span class="glyphicon glyphicon-hand-left"></span> 2018-02-20</p>
-				<p>Hello, Scene Stealer</p>
-			</center>
-		</td>
-	</tr>
-	
-	
-</table>
+		<div class="row">
+			<p class="col-sm-4">
+				<input type="text" name="Name" class="form-control" placeholder="Your Name" required>
+			</p>
 
+			<p class="col-sm-4">
+				<input type="email" name="Email" class="form-control" placeholder="Your Email" required>
+			</p>
 
+			<p class="col-sm-4">
+				<input type="file" name="Attachment" class="form-control">
+			</p>
+		</div>
+	</section>
 
-<p class="page-nav">
-	<a class="btn btn-round btn-sm" href="/moments/2017.html">
-		<span class="eng">PREV</span>
-		<span class="chn">上一年</span>
-	</a>
+	<p class="page-nav">
+		<button type="reset" class="btn btn-sm btn-round">
+			<span class="eng">Reset</span>
+			<span class="chn">清除</span>
+		</button>
 
-	<span class="btn btn-round btn-sm pull-right disabled">
-		<span class="eng">NEXT</span>
-		<span class="chn">下一年</span>
-	</span>
-</p>
+		<button type="submit" class="btn btn-sm btn-round pull-right">
+			<span class="eng">Send</span>
+			<span class="chn">發送</span>
+		</button>
+	</p>
+</form>
+
 	</div>
 
 	<footer>

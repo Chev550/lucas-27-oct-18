@@ -62,7 +62,51 @@ ul li {
 /*--------------------------------------------------------------
 6.0 Forms
 --------------------------------------------------------------*/
-
+.messager-profile {
+	border-radius: 50%;
+	border: 1px solid #eee;
+	display: inline-block;
+}
+.messager-left {
+	position: relative;
+	background: #eee;
+	border-radius: 4px;
+	padding: 0.5em 1em;
+	margin-left: 1em;
+	display: inline-block;
+	max-width: 50%;
+}
+.messager-left .arrow {
+	position: absolute;
+	bottom: 10px;
+	left: -12px;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	border: solid 6px;
+	border-color: transparent #eee transparent transparent;
+}
+.messager-right {
+	position: relative;
+	background: LimeGreen;
+	border-radius: 4px;
+	color: white;
+	padding: 0.5em 1em;
+	margin-right: 1em;
+	display: inline-block;
+	max-width: 50%;
+	text-align: left;
+}
+.messager-right .arrow {
+	position: absolute;
+	bottom: 10px;
+	right: -12px;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	border: solid 6px;
+	border-color: transparent transparent transparent LimeGreen;
+}
 
 /*--------------------------------------------------------------
 7.0 Formatting
@@ -71,7 +115,7 @@ ul li {
 	color: gray;
 }
 .margin-btm-2 {
-   margin-bottom: 2em;
+	margin-bottom: 2em;
 }
 
 /*--------------------------------------------------------------
@@ -106,6 +150,8 @@ table.grid tr td {
 	border: 1px solid black;
 	line-height: 2em;
 	padding: 0 2em;
+	background: transparent;
+	text-transform: uppercase;
 }
 .btn-round:hover {
 	background: black;
@@ -148,126 +194,126 @@ nav a:hover {
 
 /*--------------------------------------------------------------
 13.0 Layout
-   13.1 Header
-   --------------------------------------------------------------*/
-   header {
-   	border-top: 7px solid black;
-   	border-bottom: 1px solid #eee;
-   	padding: 2em 0;
-   	position: fixed;
-   	top: 0;
-   	width: 100%;
-   	background: white;
-   	height: 94px;
-   	z-index: 100;
-   }
+	13.1 Header
+	--------------------------------------------------------------*/
+	header {
+		border-top: 7px solid black;
+		border-bottom: 1px solid #eee;
+		padding: 2em 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		background: white;
+		height: 94px;
+		z-index: 100;
+	}
 
-   .language {
-   	margin-top: 0.5em;
-   }
-   .language a {
-   	margin: 0;
-   }
+	.language {
+		margin-top: 0.5em;
+	}
+	.language a {
+		margin: 0;
+	}
 
 
 /*--------------------------------------------------------------  
-   13.2 Front Page
-   --------------------------------------------------------------*/
-   .front-page {
-   	background: white;
-   	width: 100%;
-   	padding-top: 5rem;
-   	border-top: 7px solid black;
-   	border-bottom: 1px solid #eee;
-   	box-shadow: 0 2px 20px 0 gray;
-   	text-transform: uppercase;
-   	height: 420px;
-   	margin-top: -210px;
-   	position: absolute;
-   	top: 50%;
-   }
+	13.2 Front Page
+	--------------------------------------------------------------*/
+	.front-page {
+		background: white;
+		width: 100%;
+		padding-top: 5rem;
+		border-top: 7px solid black;
+		border-bottom: 1px solid #eee;
+		box-shadow: 0 2px 20px 0 gray;
+		text-transform: uppercase;
+		height: 420px;
+		margin-top: -210px;
+		position: absolute;
+		top: 50%;
+	}
 
 
 
 
 /*--------------------------------------------------------------
-   13.3 Regular Content
-   --------------------------------------------------------------*/
-   section {
-   	margin: 5rem 0;
-   	padding: 2em;
-   	border-radius: 4px;
-   	border: 1px solid #ccc;
-   	background: white;
-   }
+	13.3 Regular Content
+	--------------------------------------------------------------*/
+	section {
+		margin: 5rem 0;
+		padding: 2em;
+		border-radius: 4px;
+		border: 1px solid #ccc;
+		background: white;
+	}
 
 
 /*--------------------------------------------------------------
-   13.4 Posts
-   --------------------------------------------------------------*/
-   .post-title a:hover {
-   	text-decoration: none;
-   }
+	13.4 Posts
+	--------------------------------------------------------------*/
+	.post-title a:hover {
+		text-decoration: none;
+	}
 
-   .post-img {
-   	margin: 0 -2em;
-   }
-   .post-img img {
-   	width: 100%;
-   }
+	.post-img {
+		margin: 0 -2em;
+	}
+	.post-img img {
+		width: 100%;
+	}
 
-   blockquote {
-   	color: gray;
-   	border-left: 5px solid #ccc;
-   	padding: 0.5rem 2rem;
-   	margin: 1em 0;
-   	background: #eee;
-   }
+	blockquote {
+		color: gray;
+		border-left: 5px solid #ccc;
+		padding: 0.5rem 2rem;
+		margin: 1em 0;
+		background: #eee;
+	}
 
-   .footnotes {
-   	margin-top: 4rem;
-   }
-   .footnotes:before {
-   	content: "References";
-   	font-weight: bold;
-   	text-transform: uppercase;
-   }
-   .footnotes ol {
-   	font-weight: 300;
-   	margin-top: 1em;
-   }
-   .footnotes p {
-   	margin: 0;
-   }
-
-
-/*--------------------------------------------------------------
-   13.5 Pages
-   --------------------------------------------------------------*/
-   .page-title {
-   	margin: 7rem 0;
-   }
-   .page-nav {
-   	margin: 7rem 0;
-   }
-
+	.footnotes {
+		margin-top: 4rem;
+	}
+	.footnotes:before {
+		content: "References";
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.footnotes ol {
+		font-weight: 300;
+		margin-top: 1em;
+	}
+	.footnotes p {
+		margin: 0;
+	}
 
 
 /*--------------------------------------------------------------
-   13.6 Footer
-   --------------------------------------------------------------*/
-   footer {
-   	border-top: 1px solid #eee;
-   	border-bottom: 4px solid black;
-   	padding: 1em 0;
-   	position: fixed;
-   	bottom: 0;
-   	width: 100%;
-   	background: white;
-   	height: 50px;
-   	z-index: 100;
-   	text-transform: uppercase;
-   }
+	13.5 Pages
+	--------------------------------------------------------------*/
+	.page-title {
+		margin: 7rem 0;
+	}
+	.page-nav {
+		margin: 7rem 0;
+	}
+
+
+
+/*--------------------------------------------------------------
+	13.6 Footer
+	--------------------------------------------------------------*/
+	footer {
+		border-top: 1px solid #eee;
+		border-bottom: 4px solid black;
+		padding: 1em 0;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		background: white;
+		height: 50px;
+		z-index: 100;
+		text-transform: uppercase;
+	}
 
 /*--------------------------------------------------------------
 14.0 Comments
@@ -289,14 +335,14 @@ nav a:hover {
 }
 
 .org-logo {
-   margin: 5rem 0 7rem 0;
+	margin: 5rem 0 7rem 0;
 }
 .org-logo img {
-   width: 60px;
-   margin: 0 0.5em;
+	width: 60px;
+	margin: 0 0.5em;
 }
 .org-logo a:hover {
-   opacity: 0.5;
+	opacity: 0.5;
 }
 
 .about-cover {
@@ -316,25 +362,27 @@ nav a:hover {
 	bottom: -3em;
 }
 
+
+
 @media (min-width: 768px) {
-   .left-col {
-      width: 150px;
-   }
-   .right-col {
-      padding-left: 2em;
-   }
-   .social-2 {
-      display: none;
-   }
+	.left-col {
+		width: 150px;
+	}
+	.right-col {
+		padding-left: 2em;
+	}
+	.social-2 {
+		display: none;
+	}
 }
 
 @media (max-width: 768px) {
-   .left-col {
-      display: none;
-   }
-   .right-col {
-      padding-top: 2em;
-   }
+	.left-col {
+		display: none;
+	}
+	.right-col {
+		padding-top: 2em;
+	}
 }
 
 
@@ -376,28 +424,27 @@ a:hover path {
 17.0 Customizer
 --------------------------------------------------------------*/
 .overlay-bg {
-   /*display: none;*/
-   position: absolute;
-   top: 0%;
-   left: 0%;
-   width: 100%;
-   height: 100%;
-   background-color: #000;
-   z-index: 1001;
-   opacity: 0.6;
-   -moz-opacity: 0.6;
-   filter: alpha(opacity=60);
+	/*display: none;*/
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index: 1001;
+	opacity: 0.6;
+	-moz-opacity: 0.6;
+	filter: alpha(opacity=60);
 }
 .overlay-content {
-   /*background: #eee;*/
-   width: 100%;
-   padding: 5rem 0;
-   border-top: 7px solid black;
-   text-transform: uppercase;
-   height: 420px;
-   top: 50%;
-   margin-top: -210px;
-   position: absolute;
-   z-index: 1002;
-   overflow: auto;
+	width: 100%;
+	padding: 5rem 0;
+	border-top: 7px solid black;
+	text-transform: uppercase;
+	height: 420px;
+	top: 50%;
+	margin-top: -210px;
+	position: absolute;
+	z-index: 1002;
+	overflow: auto;
 }
