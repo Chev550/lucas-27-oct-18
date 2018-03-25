@@ -118,6 +118,11 @@ ul li {
 	margin-bottom: 2em;
 }
 
+@media (max-width: 768px) {
+	.noshow {
+		display: none;
+	}
+}
 /*--------------------------------------------------------------
 8.0 Lists
 --------------------------------------------------------------*/
@@ -445,7 +450,6 @@ a:hover path {
 	width: 100%;
 	padding: 5rem 0;
 	border-top: 7px solid black;
-	text-transform: uppercase;
 	height: 420px;
 	top: 50%;
 	margin-top: -210px;
