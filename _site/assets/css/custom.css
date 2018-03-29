@@ -117,6 +117,9 @@ ul li {
 .margin-btm-2 {
 	margin-bottom: 2em;
 }
+.cursor {
+	cursor: pointer;
+}
 
 @media (max-width: 768px) {
 	.laptop {
