@@ -12,13 +12,6 @@ a:hover {
 	color: gray;
 }
 
-ul {
-	margin: 0;
-	padding: 0;
-}
-ul li {
-	list-style: none;
-}
 
 
 /*--------------------------------------------------------------
@@ -134,12 +127,25 @@ ul li {
 /*--------------------------------------------------------------
 8.0 Lists
 --------------------------------------------------------------*/
+ul.list {
+	margin: 0;
+	padding: 0;
+}
 ul.list li {
 	margin-bottom: 1rem;
+	list-style: none;
 }
 
 .list-title {
 	margin-bottom: 2rem;
+}
+
+ul.messager {
+	margin: 0;
+	padding: 0;
+}
+ul.messager li {
+	list-style: none;
 }
 
 
@@ -191,6 +197,10 @@ table.grid tr td {
 /*--------------------------------------------------------------
 12.0 Navigation
 --------------------------------------------------------------*/
+nav ul {
+	margin: 0;
+	padding: 0;
+}
 nav ul li {
 	display: inline-block;
 	text-align: center;
@@ -272,7 +282,8 @@ nav a:hover {
 	}
 
 	.post-img {
-		margin: 0 -2em;
+		margin-left: -2em;
+		margin-right: -2em;
 	}
 	.post-img img {
 		width: 100%;

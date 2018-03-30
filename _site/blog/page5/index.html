@@ -92,6 +92,47 @@
 	<h2 class="post-title">
 		
 
+		<a href="/2016/03/20/previous-next-post-within-a-category.html">Previous/next post within a category</a>
+	</h2>
+
+	<p class="gray slim" style="margin-bottom: 2rem;">
+		<i data-feather="clock"></i> 20 Mar 2016
+		&nbsp;
+		<i data-feather="tag"></i>
+		
+
+
+<span class="post-tags"><a href="/tags/#Jekyll">#Jekyll</a></span>
+
+		<!--a href="/2016/03/20/previous-next-post-within-a-category.html#disqus_thread"></a-->
+	</p>
+
+	<p>If your blog lists all posts in only one section, you can always use <code class="highlighter-rouge">{{post.previous.url}}</code> and <code class="highlighter-rouge">{{post.next.url}}</code> to make links to previous and next posts<sup id="fnref:jek"><a href="#fn:jek" class="footnote">1</a></sup>. However, sometimes we group our posts in defferent sections by category. In this case, <code class="highlighter-rouge">post.previous</code> and <code class="highlighter-rouge">post.next</code> are no longer handy to navigate because they will link to posts in other categries which are not supposed to be shown in current section. To navigate previous/next post within one category, the following code template is presented<sup id="fnref:tem"><a href="#fn:tem" class="footnote">2</a></sup>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:jek">
+      <p><a href="http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html">“Jekyll – how to link to next/previous post on your blog”</a>, David Elbe. <a href="#fnref:jek" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:tem">
+      <p><a href="https://github.com/jekyll/jekyll/issues/260">“Template Variables for Next/Previous Posts Within a Category”</a>, surajram. <a href="#fnref:tem" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+	<p style="margin-top: 2rem;">
+		<a class="btn btn-round btn-sm" href="/2016/03/20/previous-next-post-within-a-category.html">
+			<span class="chn">繼續閱讀 &raquo;</span>
+			<span class="eng">READ MORE &raquo;</span>
+		</a>
+	</p>
+</section>
+
+<section>
+	<h2 class="post-title">
+		
+
 		<a href="/2015/09/11/dan-stevens.html">Dan Stevens</a>
 	</h2>
 
@@ -216,38 +257,6 @@
 	</p>
 </section>
 
-<section>
-	<h2 class="post-title">
-		
-
-		<a href="/2014/06/05/brokeback-mountain.html">Brokeback Mountain</a>
-	</h2>
-
-	<p class="gray slim" style="margin-bottom: 2rem;">
-		<i data-feather="clock"></i> 05 Jun 2014
-		&nbsp;
-		<i data-feather="tag"></i>
-		
-
-
-<span class="post-tags"><a href="/tags/#Drawings">#Drawings</a></span>
-
-		<!--a href="/2014/06/05/brokeback-mountain.html#disqus_thread"></a-->
-	</p>
-
-	<div class="post-img">
-    <img src="/assets/img/portfolio/brokeback_mountain.jpg" />
-</div>
-
-
-	<p style="margin-top: 2rem;">
-		<a class="btn btn-round btn-sm" href="/2014/06/05/brokeback-mountain.html">
-			<span class="chn">繼續閱讀 &raquo;</span>
-			<span class="eng">READ MORE &raquo;</span>
-		</a>
-	</p>
-</section>
-
 
 
 
@@ -283,12 +292,16 @@
 
 	
 	
+	
+	<a href="/blog/page6/">6</a>
+	
+	
 
 	
-	<span class="btn btn-round btn-sm disabled">
+	<a class="btn btn-sm btn-round" href="/blog/page6/">
 		<span class="eng">NEXT</span>
 		<span class="chn">下一頁</span>
-	</span>
+	</a>
 	
 </p>
 
