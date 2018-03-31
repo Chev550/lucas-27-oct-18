@@ -32,5 +32,13 @@ __ENVIRONMENT__
 - a building that avoids ecological damage
 - a building that is constructed of materials with focus on reuse
 
+---
+
+Recommended steps for Active House planning:
+
+<p class="post-img">
+    <img src="{{ site.baseurl }}/assets/img/blog/activehouse2.jpg">
+</p>
+
 
 [^ref]: ["Active House"](http://www.activehouse.info)
