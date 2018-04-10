@@ -455,7 +455,7 @@ a:hover path {
 --------------------------------------------------------------*/
 /* 浮動圖層 Wishlist */
 .overlay-bg {
-	/*display: none;*/
+	display: none;
 	position: absolute;
 	top: 0%;
 	left: 0%;
@@ -468,7 +468,7 @@ a:hover path {
 	filter: alpha(opacity=60);
 }
 .overlay-content {
-	/*display: none;*/
+	display: none;
 	width: 100%;
 	padding: 5rem 0;
 	border-top: 7px solid black;
