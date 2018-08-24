@@ -86,6 +86,47 @@
 	<h2 class="post-title">
 		
 
+		<a href="/2017/04/23/energy-and-atmosphere.html">Energy and atmosphere</a>
+	</h2>
+
+	<p class="gray slim" style="margin-bottom: 2rem;">
+		<i data-feather="clock"></i> 23 Apr 2017
+		&nbsp;
+		<i data-feather="tag"></i>
+		
+
+
+<span class="post-tags"><a href="/tags/#LEED">#LEED</a></span>
+
+		<!--a href="/2017/04/23/energy-and-atmosphere.html#disqus_thread"></a-->
+	</p>
+
+	<h4 id="building-loads">Building loads</h4>
+
+<blockquote>
+  <p>Understanding the systems that consume energy in a building helps project teams focus on those systems that can have the most impact.</p>
+</blockquote>
+
+<p><strong>What is process energy?</strong></p>
+
+<p><strong>What systems consume the most energy in a building?</strong></p>
+
+<p>Lighting is often the largest contributor to a building’s energy use, so lighting design and control are critical to reducing energy consumption.</p>
+
+
+
+	<p style="margin-top: 2rem;">
+		<a class="btn btn-round btn-sm" href="/2017/04/23/energy-and-atmosphere.html">
+			<span class="chn">繼續閱讀 &raquo;</span>
+			<span class="eng">READ MORE &raquo;</span>
+		</a>
+	</p>
+</section>
+
+<section>
+	<h2 class="post-title">
+		
+
 		<a href="/2017/04/22/setting-up-a-custom-domain-for-your-github-site.html">Setting up a custom domain for your GitHub site</a>
 	</h2>
 
@@ -253,59 +294,6 @@
 
 	<p style="margin-top: 2rem;">
 		<a class="btn btn-round btn-sm" href="/2017/04/16/pagination.html">
-			<span class="chn">繼續閱讀 &raquo;</span>
-			<span class="eng">READ MORE &raquo;</span>
-		</a>
-	</p>
-</section>
-
-<section>
-	<h2 class="post-title">
-		
-
-		<a href="/2016/05/11/group-posts-by-year.html">Group posts by year</a>
-	</h2>
-
-	<p class="gray slim" style="margin-bottom: 2rem;">
-		<i data-feather="clock"></i> 11 May 2016
-		&nbsp;
-		<i data-feather="tag"></i>
-		
-
-
-<span class="post-tags"><a href="/tags/#Jekyll">#Jekyll</a></span>
-
-		<!--a href="/2016/05/11/group-posts-by-year.html#disqus_thread"></a-->
-	</p>
-
-	<p>Here is the code template I am using to make a chronological archive<sup id="fnref:mik"><a href="#fn:mik" class="footnote">1</a></sup>.</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">{% for post in site.categories.[page.category] %}
-{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-
-{% if forloop.first %}
-<span class="nt">&lt;p&gt;</span>{{ year }}<span class="nt">&lt;/p&gt;&lt;ul&gt;</span>
-{% elsif year != nyear %}
-<span class="nt">&lt;/ul&gt;&lt;p&gt;</span>{{ year }}<span class="nt">&lt;/p&gt;&lt;ul&gt;</span>
-{% endif %}
-
-<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"{{site.baseurl}}{{post.url}}"</span><span class="nt">&gt;</span>{{ post.title }}<span class="nt">&lt;/a&gt;</span>
-{{ post.date | date: "%-m/%-d/%y" }}<span class="nt">&lt;/li&gt;</span>
-{% endfor %}
-<span class="nt">&lt;/ul&gt;</span></code></pre></figure>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:mik">
-      <p><a href="http://mikerowecode.com/2010/08/jekyll_archives_grouped_by_year.html">“Jekyll archives grouped by date”</a>, mikerowecode. <a href="#fnref:mik" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
-
-
-	<p style="margin-top: 2rem;">
-		<a class="btn btn-round btn-sm" href="/2016/05/11/group-posts-by-year.html">
 			<span class="chn">繼續閱讀 &raquo;</span>
 			<span class="eng">READ MORE &raquo;</span>
 		</a>

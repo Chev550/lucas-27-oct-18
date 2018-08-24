@@ -1,4 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-15T11:26:09+08:00</updated><id>http://localhost:4000/</id><title type="html">李立</title><entry><title type="html">Active House</title><link href="http://localhost:4000/2018/03/29/active-house.html" rel="alternate" type="text/html" title="Active House" /><published>2018-03-29T00:00:00+08:00</published><updated>2018-03-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/03/29/active-house</id><content type="html" xml:base="http://localhost:4000/2018/03/29/active-house.html">&lt;p&gt;The Active House label is a worldwide quality stamp for comfortable and sustainable buildings. It advices on elements that are important to humans life and living in their home. The Active House label can be issued to buildings that has been evaluated in accordance with the &lt;a href=&quot;/assets/doc/activehouse_specifications_2nd_edition.pdf&quot;&gt;Active House specifications&lt;/a&gt; and meet the minimum demands for indoor comfort, energy efficiency and environment.&lt;sup id=&quot;fnref:ref&quot;&gt;&lt;a href=&quot;#fn:ref&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-24T23:01:44+08:00</updated><id>http://localhost:4000/</id><title type="html">李立</title><entry><title type="html">Solar Decathlon China 2018</title><link href="http://localhost:4000/2018/04/17/c.html" rel="alternate" type="text/html" title="Solar Decathlon China 2018" /><published>2018-04-17T00:00:00+08:00</published><updated>2018-04-17T00:00:00+08:00</updated><id>http://localhost:4000/2018/04/17/c</id><content type="html" xml:base="http://localhost:4000/2018/04/17/c.html">&lt;p&gt;&lt;strong&gt;STANDING&lt;/strong&gt;&lt;/p&gt;
+
+&lt;!-- 为ECharts准备一个具备大小（宽高）的Dom --&gt;
+&lt;div id=&quot;standing&quot; style=&quot;width:100%; height:500px;&quot;&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('standing'));
+
+        // 指定图表的配置项和数据
+        var option = {
+        	tooltip : {
+        		trigger: 'axis',
+        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+        }
+    },
+    legend: {
+    	data:['Architecture', 'Market Appeal','Engineering','Communications','Innovation', 'Comfort Zone', 'Appliances', 'Home Life', 'Commuting', 'Energy']
+    },
+    toolbox: {
+    	show: true,
+        bottom: 0,
+    	feature: {
+    		mark: {show: true},
+    		dataView: {show: true, readOnly: false},
+    		magicType: {show: true, type: ['line', 'bar', 'stack', 'tiled']},
+    		restore: {show: true},
+    		saveAsImage: {show: true}
+    	}
+    },
+    calculable : true,
+    xAxis: [
+    {
+    	type: 'value',
+        name: 'Points'
+    }
+    ],
+    yAxis: [
+    {
+    	type: 'category',
+        name: 'Team',
+    	data: ['SHUNYA','B&amp;R','SUES-XD','PKU*','CNBM-WIN','XJTU-WNEU-POLIMI','SOLAR OFFSPRING', 'YI', 'SIE', 'XAUAT', 'SJTUIUC', 'MONTREAL', 'TJU-TUDA', 'BJTU', 'TUBSEU', 'JIA+', 'THU', 'SCUT-POLITO']
+    }
+    ],
+    series: [
+    {
+    	name:'Architecture',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[67.00, 74.00, 65.00, 83.00, 85.00, 76.00, 76.00, 74.00, 78.00, 81.00, 88.00, 97.00, 92.00, 89.00, 95.00, 87.00, 93.00, 96.00]
+    },
+    {
+    	name:'Market Appeal',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[74.00, 83.70, 61.70, 79.30, 87.40, 70.60, 72.60, 68.50, 79.00, 74.70, 85.50, 97.80, 87.30, 79.30, 85.60, 90.30, 95.10, 97.70]
+    },
+    {
+    	name:'Engineering',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[78.00, 76.00, 75.00, 75.00, 84.00, 83.00, 81.00, 80.00, 86.00, 82.00, 85.30, 94.00, 85.30, 87.00, 92.30, 93.00, 95.00, 96.00]
+    },
+    {
+    	name:'Communications',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[84.30, 64.90, 37.40, 52.80, 92.10, 87.20, 75.80, 74.30, 70.40, 73.50, 82.60, 97.00, 92.60, 88.30, 90.40, 94.00, 96.90, 92.60]
+    },
+    {
+    	name:'Innovation',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[45.00, 70.00, 45.00, 55.00, 65.00, 50.00, 58.00, 65.00, 62.00, 60.00, 75.00, 87.00, 79.00, 82.00, 85.00, 82.00, 90.00, 95.00]
+    },
+    {
+    	name:'Comfort Zone',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[41.16, 55.62, 88.16, 57.59, 76.62, 53.04, 85.16, 80.39, 73.54, 80.75, 84.29, 43.19, 87.91, 78.88, 88.77, 85.75, 93.93, 94.08]
+    },
+    {
+    	name:'Appliances',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[63.52, 67.93, 89.54, 91.14, 91.94, 97.81, 87.31, 93.04, 85.75, 99.27, 88.58, 82.67, 81.68, 99.05, 97.26, 96.66, 99.70, 98.68]
+    },
+    {
+    	name:'Home Life',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[62.52, 73.39, 98.50, 91.26, 88.73, 84.44, 88.02, 98.88, 96.21, 98.58, 82.62, 79.60, 89.17, 97.90, 99.22, 99.40, 97.68, 99.23]
+    },
+    {
+    	name:'Commuting',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[100.00, 99.38, 100.00, 100.00, 100.00, 100.00, 100.00, 100.00, 100.00, 100.00, 100.00, 100.00, 87.50, 100.00, 100.00, 100.00, 100.00, 100.00]
+    },
+    {
+    	name:'Energy',
+    	type:'bar',
+    	stack: 'Total',
+    	itemStyle : { normal: {label : {show: true, position: 'insideRight'}}},
+    	data:[13.10, 9.29, 91.90, 90.20, 6.44, 90.45, 87.24, 90.44, 93.28, 90.45, 91.88, 85.56, 90.94, 100.00, 87.25, 90.77, 91.09, 91.95]
+    }
+    ]
+};
+
+
+// 使用刚指定的配置项和数据显示图表。
+myChart.setOption(option);
+&lt;/script&gt;</content><author><name></name></author><category term="SDC" /><summary type="html">STANDING</summary></entry><entry><title type="html">Active House</title><link href="http://localhost:4000/2018/03/29/active-house.html" rel="alternate" type="text/html" title="Active House" /><published>2018-03-29T00:00:00+08:00</published><updated>2018-03-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/03/29/active-house</id><content type="html" xml:base="http://localhost:4000/2018/03/29/active-house.html">&lt;p&gt;The Active House label is a worldwide quality stamp for comfortable and sustainable buildings. It advices on elements that are important to humans life and living in their home. The Active House label can be issued to buildings that has been evaluated in accordance with the &lt;a href=&quot;/assets/doc/activehouse_specifications_2nd_edition.pdf&quot;&gt;Active House specifications&lt;/a&gt; and meet the minimum demands for indoor comfort, energy efficiency and environment.&lt;sup id=&quot;fnref:ref&quot;&gt;&lt;a href=&quot;#fn:ref&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;!-- more --&gt;
 
@@ -483,100 +605,4 @@ The heat island effect is created when developed areas have higher temperatures 
 
 &lt;p&gt;&lt;strong&gt;What are regional priority credits?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Regional Priority acknowledges that different regions in the world have different needs and has selected existing credits in the rating systems that should be a priority. Regional Priority credits are listed by country, state and zip code. The intent of the regional priority credits and points is to encourage teams to attempt LEED credits that address specific environmental priorities in the project’s region. Teams can only earn up to 4 points in this category.&lt;/p&gt;</content><author><name></name></author><category term="LEED" /><summary type="html">Environmental impacts of the built environment This section has questions on the ‘why’ of green building What is the triple bottom line? True sustainability has three key aspects: Economics Environment Social responsibility</summary></entry><entry><title type="html">Materials and resources</title><link href="http://localhost:4000/2017/04/23/materials-and-resources.html" rel="alternate" type="text/html" title="Materials and resources" /><published>2017-04-23T00:00:00+08:00</published><updated>2017-04-23T00:00:00+08:00</updated><id>http://localhost:4000/2017/04/23/materials-and-resources</id><content type="html" xml:base="http://localhost:4000/2017/04/23/materials-and-resources.html">&lt;h4 id=&quot;reuse&quot;&gt;Reuse&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Understand the best thing you can do for the environment is reuse materials.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;What is the environmental benefit of reusing a building?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Adaptive reuse refers to the process of reusing an old site or building for a purpose other than which it was built or designed for. Adaptive reuse is seen by many as a key factor in land conservation and the reduction of urban sprawl. The environment benefits through the reduction of raw materials needed for a brand-new building.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;&lt;strong&gt;What is a social benefit of reusing materials?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Reused materials do not become waste, so they don’t end up in landfills. Reusing materials can also be considered a way of reducing waste. Salvaged, refurbished, and reused materials can all contribute to reducing the demand for virgin materials. Some people confuse reused materials with recycled materials. One way to think about reused materials is to ask, ‘Is the material being used in a similar fashion to the way it was used in its original life?’&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;life-cycle-impacts&quot;&gt;Life-cycle impacts&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Describe what a life-cycle assessment is and how it would be used by the project team to influence the decision making process.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;What information does a life-cycle assessment provide?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Life cycle assessment (LCA) is a measurement of a product’s environmental impact throughout its life cycle, beginning with extraction through manufacturing, shipping, use, and then reuse or end of life. The goal of LCA is to compare the full range of environmental and social damages assignable to products and services and to be able to choose the least burdensome ones.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What are examples of materials that have a reduced impact on the environment?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Since many industrial materials are used to replace non-renewable virgin materials that must be mined and processed for use, industrial recycled materials conserve natural resources and reduce energy use and pollution associated with these activities. For example, substituting coal fly ash for Portland cement in concrete saves energy and greenhouse gas emissions associated with producing cement. The beneficial use of industrial materials results in less material being sent to disposal facilities, which saves landfill space, and further reduces greenhouse gas emissions and other pollutants.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What is an example of designing for flexibility?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Adaptive reuse can also refer to the design of a new building with consideration to what it could be used for in the future. For example in the design of an office building, could the walls be designed to more easily accommodate apartments in 20 years?&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;waste&quot;&gt;Waste&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Be able to identify ways to reduce construction waste.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;What types of materials can be recycled or reused?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;At a minimum a LEED project must recycle:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;paper&lt;/li&gt;
-  &lt;li&gt;corrugated cardboard&lt;/li&gt;
-  &lt;li&gt;glass&lt;/li&gt;
-  &lt;li&gt;plastics&lt;/li&gt;
-  &lt;li&gt;metals&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Recycling can also cover durable goods such as furniture, electronics, and appliances.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What is source reduction?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Source reduction has the greatest impact on reducing waste because it begins at product design. Source reduction ties into environmentally preferable purchasing. This means buying “products or services that have a lesser or reduced effect on human health and the environment when compared with competing products or services that serve the same purpose”. The comparison of these products applies to raw materials, manufacturing, packaging, distribution, use, reuse, operation, maintenance, and disposal.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What goes into a construction waste management plan?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Before construction begins, a construction waste management plan should be developed that identifies potential waste streams and where waste diversion can be put in place – salvage this waste, reuse it, and recycle it. If the waste can be taken out of the building and reused elsewhere, it avoids waste disposal in landfills and incinerators.&lt;/p&gt;
-
-&lt;p&gt;There are tons and tons of construction, demolition and land clearing debris (CDL) generated that have value: Brick, metal, wood, carpet, wallboard, glass, plastic, cardboard, lighting accessories, top soil, fill dirt, rock.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What is a waste stream audit?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A waste stream audit in an existing building can be a measure and verification of the company’s recycling program. All waste from the project must be checked and categorized. The team can decide on how many categories, but they should include recyclable items, compostable items, and true waste. This should be done occasionally to check and ensure recycling items are in fact being recycled and that any waste education in the project is being followed by occupants.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;purchasing-and-declarations&quot;&gt;Purchasing and declarations&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Understand the product documentation available and use it to make better material choices.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;What is an environmental product declaration (EPD)?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Environmental Product Declaration (EPD) is a standardized way of quantifying the environmental impact of a product or system. Typically, an EPD will include information about a product’s impact on global warming, ozone depletion, water pollution, ozone creation, and greenhouse gas emissions. An EPD can also include other impacts that are of particular interest to the discloser, such as human toxicity risk and corporate social responsibility.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What information is included in a health product declaration (HPD)?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Health Product Declaration (HPDs) provide a full disclosure of the potential chemicals of concern in products by comparing product ingredients to a wide variety of “hazard” lists published by government authorities and scientific associations. The HPD itself does not indicate if a product is healthy - it merely reports on the material ingredients.&lt;/p&gt;
-
-&lt;p&gt;HPD is a format for reporting product contents and health information about products and materials. EPDs include information not in HPDs such as: the environmental impact of raw material acquisition, energy use and efficiency, emissions to air, soil and water and waste generation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What documentation provides transparency for a product?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Environmental Product Declaration (EPD)&lt;/li&gt;
-  &lt;li&gt;Corporate sustainability report (CSR)&lt;/li&gt;
-  &lt;li&gt;Health Product Declaration (HPD)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="LEED" /><summary type="html">Reuse Understand the best thing you can do for the environment is reuse materials. What is the environmental benefit of reusing a building? Adaptive reuse refers to the process of reusing an old site or building for a purpose other than which it was built or designed for. Adaptive reuse is seen by many as a key factor in land conservation and the reduction of urban sprawl. The environment benefits through the reduction of raw materials needed for a brand-new building.</summary></entry></feed>
+&lt;p&gt;Regional Priority acknowledges that different regions in the world have different needs and has selected existing credits in the rating systems that should be a priority. Regional Priority credits are listed by country, state and zip code. The intent of the regional priority credits and points is to encourage teams to attempt LEED credits that address specific environmental priorities in the project’s region. Teams can only earn up to 4 points in this category.&lt;/p&gt;</content><author><name></name></author><category term="LEED" /><summary type="html">Environmental impacts of the built environment This section has questions on the ‘why’ of green building What is the triple bottom line? True sustainability has three key aspects: Economics Environment Social responsibility</summary></entry></feed>
