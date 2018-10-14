@@ -4,6 +4,5 @@ title: "Solar Decathlon China 2018"
 tags: SDC
 ---
 
-__STANDING__
+來北京已兩年
 
-{% include contents/standing.html %}
