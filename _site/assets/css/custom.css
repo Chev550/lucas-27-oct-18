@@ -50,7 +50,12 @@ a:hover {
 .slim {
 	font-weight: 200;
 }
-
+.bold {
+	font-weight: bold;
+}
+.ltr-sp {
+	letter-spacing: 0.1em;
+}
 
 /*--------------------------------------------------------------
 6.0 Forms
