@@ -1,52 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-16T18:26:32+08:00</updated><id>http://localhost:4000/</id><title type="html">李立</title><entry><title type="html">Solar Decathlon China 2018</title><link href="http://localhost:4000/2018/08/17/solar-decathlon-china-2018.html" rel="alternate" type="text/html" title="Solar Decathlon China 2018" /><published>2018-08-17T00:00:00+08:00</published><updated>2018-08-17T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/17/solar-decathlon-china-2018</id><content type="html" xml:base="http://localhost:4000/2018/08/17/solar-decathlon-china-2018.html">&lt;p&gt;來北京已兩年&lt;/p&gt;</content><author><name></name></author><category term="SDC" /><summary type="html">來北京已兩年</summary></entry><entry><title type="html">Active House</title><link href="http://localhost:4000/2018/03/29/active-house.html" rel="alternate" type="text/html" title="Active House" /><published>2018-03-29T00:00:00+08:00</published><updated>2018-03-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/03/29/active-house</id><content type="html" xml:base="http://localhost:4000/2018/03/29/active-house.html">&lt;p&gt;The Active House label is a worldwide quality stamp for comfortable and sustainable buildings. It advices on elements that are important to humans life and living in their home. The Active House label can be issued to buildings that has been evaluated in accordance with the &lt;a href=&quot;/assets/doc/activehouse_specifications_2nd_edition.pdf&quot;&gt;Active House specifications&lt;/a&gt; and meet the minimum demands for indoor comfort, energy efficiency and environment.&lt;sup id=&quot;fnref:ref&quot;&gt;&lt;a href=&quot;#fn:ref&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p class=&quot;post-img&quot;&gt;
-    &lt;img src=&quot;/assets/img/blog/activehouse.jpg&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;The Active House key principles are as follows:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;COMFORT&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;a building that provides an indoor climate that promotes health, comfort and sense of well-being&lt;/li&gt;
-  &lt;li&gt;a building that ensures good indoor air quality, adequate thermal climate and appropriate visual and acoustical comfort&lt;/li&gt;
-  &lt;li&gt;a building that at the same time encourages responsible environmental behaviour&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;ENERGY&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;a building that is energy efficient and easy to operate&lt;/li&gt;
-  &lt;li&gt;a building that substantially exceeds the statutory minimum in terms of energy efficiency&lt;/li&gt;
-  &lt;li&gt;a building that exploits a variety of energy sources integrated in the overall design&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;ENVIRONMENT&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;a building that exerts the minimum impact on environmental and cultural resources&lt;/li&gt;
-  &lt;li&gt;a building that avoids ecological damage&lt;/li&gt;
-  &lt;li&gt;a building that is constructed of materials with focus on reuse&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Recommended steps for Active House planning:&lt;/p&gt;
-
-&lt;p class=&quot;post-img&quot;&gt;
-    &lt;img src=&quot;/assets/img/blog/activehouse2.jpg&quot; /&gt;
-&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:ref&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://www.activehouse.info&quot;&gt;“Active House”&lt;/a&gt; &lt;a href=&quot;#fnref:ref&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="Building" /><summary type="html">The Active House label is a worldwide quality stamp for comfortable and sustainable buildings. It advices on elements that are important to humans life and living in their home. The Active House label can be issued to buildings that has been evaluated in accordance with the Active House specifications and meet the minimum demands for indoor comfort, energy efficiency and environment.1 “Active House” &amp;#8617;</summary></entry><entry><title type="html">Installing Tomcat on macOS Sierra</title><link href="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html" rel="alternate" type="text/html" title="Installing Tomcat on macOS Sierra" /><published>2017-07-12T00:00:00+08:00</published><updated>2017-07-12T00:00:00+08:00</updated><id>http://localhost:4000/2017/07/12/installing-tomcat-on-mac</id><content type="html" xml:base="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html">&lt;p&gt;Download Apache Tomcat on &lt;a href=&quot;http://tomcat.apache.org&quot;&gt;http://tomcat.apache.org&lt;/a&gt;. Select the latest version, and download the binary distribution of the core module in &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-16T19:20:03+08:00</updated><id>http://localhost:4000/</id><title type="html">李立</title><entry><title type="html">Installing Tomcat on macOS Sierra</title><link href="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html" rel="alternate" type="text/html" title="Installing Tomcat on macOS Sierra" /><published>2017-07-12T00:00:00+08:00</published><updated>2017-07-12T00:00:00+08:00</updated><id>http://localhost:4000/2017/07/12/installing-tomcat-on-mac</id><content type="html" xml:base="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html">&lt;p&gt;Download Apache Tomcat on &lt;a href=&quot;http://tomcat.apache.org&quot;&gt;http://tomcat.apache.org&lt;/a&gt;. Select the latest version, and download the binary distribution of the core module in &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Unzip the &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt; file. You may use the freeware app &lt;strong&gt;Unarchiver&lt;/strong&gt;, which is perfect for all kinds of compressed files.&lt;/p&gt;
 
@@ -161,326 +113,392 @@ Your browser does not support the audio element.
       &lt;p&gt;&lt;a href=&quot;https://jekyllrb.com&quot;&gt;“Jekyll”&lt;/a&gt;, Simple, blog-aware, static sites &lt;a href=&quot;#fnref:ref&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="Jekyll" /><summary type="html">Quick Start:1 ~ $ gem install jekyll bundler ~ $ jekyll new my-awesome-site ~ $ cd my-awsome-site ~/my-awesome-site $ bundle exec jekyll serve Now browse to http://localhost:4000 “Jekyll”, Simple, blog-aware, static sites &amp;#8617;</summary></entry><entry><title type="html">Residential cooling and heating load calculations</title><link href="http://localhost:4000/2017/05/06/residential-cooling-and-heating-load-calculations.html" rel="alternate" type="text/html" title="Residential cooling and heating load calculations" /><published>2017-05-06T00:00:00+08:00</published><updated>2017-05-06T00:00:00+08:00</updated><id>http://localhost:4000/2017/05/06/residential-cooling-and-heating-load-calculations</id><content type="html" xml:base="http://localhost:4000/2017/05/06/residential-cooling-and-heating-load-calculations.html">&lt;h4 id=&quot;residential-features&quot;&gt;Residential features&lt;/h4&gt;
-
-&lt;p&gt;The following unique features distinguish residences from other types of buildings:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Smaller internal heat gains&lt;/li&gt;
-  &lt;li&gt;Varied use of spaces&lt;/li&gt;
-  &lt;li&gt;Fewer zones&lt;/li&gt;
-  &lt;li&gt;Greater distribution losses&lt;/li&gt;
-  &lt;li&gt;Partial loads&lt;/li&gt;
-  &lt;li&gt;Dehumidification issues&lt;/li&gt;
-  &lt;li&gt;Single-family detached vs. Multifamily&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- more --&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;design-conditions&quot;&gt;Design conditions&lt;/h4&gt;
-
-&lt;p&gt;The initial step in the load calculation is selecting indoor and outdoor design conditions.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Indoor Conditions&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Cooling: &lt;code class=&quot;highlighter-rouge&quot;&gt;24°C db&lt;/code&gt; and a maximum of &lt;code class=&quot;highlighter-rouge&quot;&gt;50 to 65% rh&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Heating: &lt;code class=&quot;highlighter-rouge&quot;&gt;20°C db&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;30% rh&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;Outdoor Conditions&lt;/em&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Cooling: &lt;code class=&quot;highlighter-rouge&quot;&gt;1%&lt;/code&gt; design dry-bulb temperature and mean coincident wet bulb temperature; &lt;code class=&quot;highlighter-rouge&quot;&gt;3.4 m/s&lt;/code&gt; wind speed; hottest-month dry-bulb temperature daily range.&lt;/li&gt;
-  &lt;li&gt;Heating: &lt;code class=&quot;highlighter-rouge&quot;&gt;99%&lt;/code&gt; design dry-bulb temperature.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;cooling-load&quot;&gt;Cooling Load&lt;/h4&gt;
-
-&lt;p&gt;&lt;em&gt;Sensible cooling load:&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="Jekyll" /><summary type="html">Quick Start:1 ~ $ gem install jekyll bundler ~ $ jekyll new my-awesome-site ~ $ cd my-awsome-site ~/my-awesome-site $ bundle exec jekyll serve Now browse to http://localhost:4000 “Jekyll”, Simple, blog-aware, static sites &amp;#8617;</summary></entry><entry><title type="html">Setting up a custom domain for your GitHub site</title><link href="http://localhost:4000/2017/04/22/setting-up-a-custom-domain-for-your-github-site.html" rel="alternate" type="text/html" title="Setting up a custom domain for your GitHub site" /><published>2017-04-22T00:00:00+08:00</published><updated>2017-04-22T00:00:00+08:00</updated><id>http://localhost:4000/2017/04/22/setting-up-a-custom-domain-for-your-github-site</id><content type="html" xml:base="http://localhost:4000/2017/04/22/setting-up-a-custom-domain-for-your-github-site.html">&lt;p&gt;Configure the custom domain on your GitHub Pages site&lt;sup id=&quot;fnref:ref1&quot;&gt;&lt;a href=&quot;#fn:ref1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Exterior opaque surfaces&lt;/li&gt;
-  &lt;li&gt;Exterior transparent fenestration surfaces&lt;/li&gt;
-  &lt;li&gt;Partitions to unconditioned buffer space&lt;/li&gt;
-  &lt;li&gt;Ventilation/infiltration&lt;/li&gt;
-  &lt;li&gt;Occupants and appliances&lt;/li&gt;
-  &lt;li&gt;Distribution&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;em&gt;Latent cooling load:&lt;/em&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Ventilation/infiltration&lt;/li&gt;
-  &lt;li&gt;Internal gain (occupants, cooking, laundry, and bathing)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;heating-load&quot;&gt;Heating Load&lt;/h4&gt;
-
-&lt;p&gt;Heating calculations use simple worst-case assumptions, ignoring solar and internal gains, and building heat storage. With these simplifications, the heating problem is reduced to a basic &lt;code class=&quot;highlighter-rouge&quot;&gt;UAΔt&lt;/code&gt; calculation.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Exterior surfaces above grade&lt;/li&gt;
-  &lt;li&gt;Partitions to unconditioned buffer space&lt;/li&gt;
-  &lt;li&gt;Walls below grade&lt;/li&gt;
-  &lt;li&gt;Floors on grade&lt;/li&gt;
-  &lt;li&gt;Floors below grade&lt;/li&gt;
-  &lt;li&gt;Ventilation/infiltration&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="ASHRAE" /><summary type="html">Residential features The following unique features distinguish residences from other types of buildings: Smaller internal heat gains Varied use of spaces Fewer zones Greater distribution losses Partial loads Dehumidification issues Single-family detached vs. Multifamily</summary></entry><entry><title type="html">Climatic design information</title><link href="http://localhost:4000/2017/05/06/climatic-design-information.html" rel="alternate" type="text/html" title="Climatic design information" /><published>2017-05-06T00:00:00+08:00</published><updated>2017-05-06T00:00:00+08:00</updated><id>http://localhost:4000/2017/05/06/climatic-design-information</id><content type="html" xml:base="http://localhost:4000/2017/05/06/climatic-design-information.html">&lt;h4 id=&quot;annual-design-conditions&quot;&gt;Annual design conditions&lt;/h4&gt;
-
-&lt;p&gt;Warm-season temperature and humidity conditions are based on annual percentiles of &lt;code class=&quot;highlighter-rouge&quot;&gt;0.4&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;1.0&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;2.0&lt;/code&gt;. Cold-season conditions are based on annual percentiles of &lt;code class=&quot;highlighter-rouge&quot;&gt;99.6&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;99.0&lt;/code&gt;. The use of annual percentiles to define design conditions ensures that they represent the same probability of occurrence in any climate, regardless of the seasonal distribution of extreme temperature and humidity.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;Values of ambient dry-bulb, dew-point, and wet-bulb temperature and wind speed corresponding to the various annual percentiles represent the value that is &lt;strong&gt;exceeded&lt;/strong&gt; on average by the indicated percentage of the total number of hours in a year (&lt;code class=&quot;highlighter-rouge&quot;&gt;8760&lt;/code&gt;). The &lt;code class=&quot;highlighter-rouge&quot;&gt;0.4&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;1.0&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;2.0&lt;/code&gt;% values are exceeded on average &lt;code class=&quot;highlighter-rouge&quot;&gt;35&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;88&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;175&lt;/code&gt; h per year, respectively, for the period of record. The design values occur more frequently than the corresponding nominal percentile in some years and less frequently in others. The &lt;code class=&quot;highlighter-rouge&quot;&gt;99.0&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;99.6&lt;/code&gt;% (cold-season) values are defined in the same way but are usually viewed as the values for which the corresponding weather element is &lt;strong&gt;less than&lt;/strong&gt; the design condition for &lt;code class=&quot;highlighter-rouge&quot;&gt;88&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;35&lt;/code&gt; h, respectively.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;degree-days&quot;&gt;Degree-days&lt;/h4&gt;
-
-&lt;p&gt;Heating and cooling degree-days are calculated as the sum of the differences between daily average temperatures and the base temperature.&lt;/p&gt;</content><author><name></name></author><category term="ASHRAE" /><summary type="html">Annual design conditions Warm-season temperature and humidity conditions are based on annual percentiles of 0.4, 1.0, and 2.0. Cold-season conditions are based on annual percentiles of 99.6 and 99.0. The use of annual percentiles to define design conditions ensures that they represent the same probability of occurrence in any climate, regardless of the seasonal distribution of extreme temperature and humidity.</summary></entry><entry><title type="html">Water efficiency</title><link href="http://localhost:4000/2017/04/23/water-efficiency.html" rel="alternate" type="text/html" title="Water efficiency" /><published>2017-04-23T00:00:00+08:00</published><updated>2017-04-23T00:00:00+08:00</updated><id>http://localhost:4000/2017/04/23/water-efficiency</id><content type="html" xml:base="http://localhost:4000/2017/04/23/water-efficiency.html">&lt;h4 id=&quot;outdoor-water-use&quot;&gt;Outdoor water use&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This objective tests the different strategies for reducing water use on a project.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;How can you reduce landscape irrigation needs?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Drip irrigation minimizes the use of water and fertilizer by allowing water to drip slowly to the roots of plants, either onto the soil surface or directly onto the root zone, through a network of valves, pipes, or tubing. Conventional irrigation has an irrigation efficiency of about 65%. Drip irrigation has an irrigation efficiency of 90%.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;A single ‘deep’ watering for an extended period of time is much better than watering every day for a fraction of the time. Water the landscape during the coolest part of the day (generally in the morning), and avoid watering on windy days.&lt;/p&gt;
-
-&lt;p&gt;Weather- or sensor-based irrigation control technology uses local weather and landscape conditions to tailor irrigation schedules to actual conditions on the site or historical weather data.&lt;/p&gt;
-
-&lt;p&gt;Perform at least an annual water audit of how much water is being provided to different areas of the landscape in order to evaluate the needs of the area and to reduce water use.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What is rainwater harvesting?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Rainwater can be collected in cisterns, barrels, or storage tanks. This approach is called rainwater harvesting.&lt;/p&gt;
-
-&lt;p&gt;Keep in mind that using reclaimed rainwater limits the amount of rainwater flowing into the drains and into neighboring properties or streets. This helps with the rainwater management issues from the Sustainable Sites category.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What type of water should be used for irrigation?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Municipal water use for landscaping can be reduced if not eliminated by choosing alternative water sources. Both rainwater and graywater, considered non-potable, are excellent alternatives.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;indoor-water-use&quot;&gt;Indoor water use&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You will hear about the types and quality of water repeatedly in LEED, because there are many synergies between the water credits and other credit categories.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;What is an example of a waterless fixture?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The waterless urinal is one of those rare products that can save money and time while improving hygiene and protecting the environment.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What is the flow rate of a standard shower?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;1.75 gpm.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What is graywater?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Graywater is untreated household waste water which has not come into contact with toilet waste. Gray water is water that can be used twice. Graywater comprises 50-80% of residential wastewater. Graywater can come from:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;bathtubs, showers, bathroom sinks&lt;/li&gt;
-  &lt;li&gt;washing machines and laundry tubs&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Graywater does not include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;potable water&lt;/li&gt;
-  &lt;li&gt;waste water from kitchen sinks&lt;/li&gt;
-  &lt;li&gt;water from dishwashers&lt;/li&gt;
-  &lt;li&gt;waste water from toilets and urinals&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;What is blackwater?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Blackwater is untreated wastewater from toilets and urinals. Blackwater cannot be used for irrigation and also does not have one standard definition.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;water-performance-management&quot;&gt;Water Performance Management&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This objective addresses metering of water consuming systems.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;What are submeters used for?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Installing water meters for different areas, called submetering, will help in measurement and verification of water usage. Usually meters measure cold potable water use.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What building systems should be metered?&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><category term="LEED" /><summary type="html">Outdoor water use This objective tests the different strategies for reducing water use on a project. How can you reduce landscape irrigation needs? Drip irrigation minimizes the use of water and fertilizer by allowing water to drip slowly to the roots of plants, either onto the soil surface or directly onto the root zone, through a network of valves, pipes, or tubing. Conventional irrigation has an irrigation efficiency of about 65%. Drip irrigation has an irrigation efficiency of 90%.</summary></entry><entry><title type="html">Sustainable sites</title><link href="http://localhost:4000/2017/04/23/sustainable-sites.html" rel="alternate" type="text/html" title="Sustainable sites" /><published>2017-04-23T00:00:00+08:00</published><updated>2017-04-23T00:00:00+08:00</updated><id>http://localhost:4000/2017/04/23/sustainable-sites</id><content type="html" xml:base="http://localhost:4000/2017/04/23/sustainable-sites.html">&lt;h4 id=&quot;site-assessment&quot;&gt;Site assessment&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Understand the importance of doing a site assessment.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;When should a site assessment occur?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A site assessment assesses site conditions before design to evaluate sustainable options and inform related decisions about site design.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;&lt;strong&gt;What would a site assessment reveal?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;An assessment reviews the sites:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Topography&lt;/li&gt;
-  &lt;li&gt;Hydrology&lt;/li&gt;
-  &lt;li&gt;Climate&lt;/li&gt;
-  &lt;li&gt;Vegetation&lt;/li&gt;
-  &lt;li&gt;Soils&lt;/li&gt;
-  &lt;li&gt;Human use&lt;/li&gt;
-  &lt;li&gt;Human health effects&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;site-design-and-development&quot;&gt;Site design and development&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This exam objective covers all of the different impacts the design decisions will have once a site is selected.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;What strategies will prevent construction activity pollution prevention?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The loss of valuable topsoil is one of the biggest environmental impacts of the site during the construction process. Prior to construction, there must be a plan to address construction activities and prevent erosion and sedimentation. Among the methods to limit erosion and sedimentation are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mulching&lt;/li&gt;
-  &lt;li&gt;Erosion control blankets&lt;/li&gt;
-  &lt;li&gt;Sediment (silt) fencing&lt;/li&gt;
-  &lt;li&gt;Berms and constructed ponds&lt;/li&gt;
-  &lt;li&gt;Seeding&lt;/li&gt;
-  &lt;li&gt;Straw bales&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;What are the benefits of rainwater management?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Reduce runoff. Cutting back on the quantity of rainwater entering a combined system results in a reduction in water that needs to be treated by already overburdened sewage treatment plants and reducing the energy that is used to treat sewage. Reducing rainwater runoff and filtering rainwater before it leaves the site can prevent sedimentation.&lt;/li&gt;
-  &lt;li&gt;Reduce impervious surfaces. Permeable paving surfaces keep the pollutants in the soil or other material underlying the roadway, and allow water seepage to recharge groundwater while preventing stream erosion.&lt;/li&gt;
-  &lt;li&gt;Reuse rainwater. Rainwater can be used for irrigation or processes inside the building. Innovative collection features can be made to look like pieces of art, and the water can be used for process water, toilet flushing water and more.&lt;/li&gt;
-  &lt;li&gt;Low impact development. If rainwater must leave the site, the water should not run so quickly as to cause erosion of surrounding areas.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;How can you reduce light pollution?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Good lighting design involves reducing three forms of light pollution: uplight, glare, and light trespass. The backlight, uplight, glare (BUG) method is used in LEED for light pollution reduction.&lt;/p&gt;
-
-&lt;p&gt;Automatic light shut offs can ensure that lights are not left on after work hours or when they are not needed.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What is a heat island?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Heat islands are temperature differences between developed and undeveloped areas.
-The heat island effect is created when developed areas have higher temperatures than surrounding rural areas. An urban heat island effect is caused by sunlight heating up dark colored surfaces such as roads and rooftops. Urban heat islands effects can also be created by narrows streets and tall buildings reducing the air flow through the city, as well as vehicle exhaust.&lt;/p&gt;
-
-&lt;p&gt;Urban heat islands refer to the elevated temperatures of up to 10 degrees in developed areas compared to more rural surroundings. Urban heat islands not only create discomfort, but they also contribute to smog.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What is SRI?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The solar reflectance index (SRI) is the most effective measure to determine how a roofing material will reject solar heat.&lt;/p&gt;
-
-&lt;p&gt;For non-roof materials such as vegetation, architectural shading devices, and materials that have more thermal mass but are less reflective, the solar reflectance (SR) measurement is used instead.&lt;/p&gt;
-
-&lt;p&gt;Another energy use factor is emissivity. Emissivity measures how much heat or infrared radiation a material is able to shed back into the atmosphere. The emittance of a material refers to its ability to release absorbed heat.&lt;/p&gt;
-
-&lt;p&gt;The combination of both solar reflectance and thermal emittance gives a more accurate and complete picture of a surfaces’ ability to reduce the energy consumption associated with air conditioning. The solar reflectance index (SRI) is a combined metric of these two factors. A general rule of thumb is the higher the number on a scale of 0 to 100, the better.&lt;/p&gt;</content><author><name></name></author><category term="LEED" /><summary type="html">Site assessment Understand the importance of doing a site assessment. When should a site assessment occur? A site assessment assesses site conditions before design to evaluate sustainable options and inform related decisions about site design.</summary></entry><entry><title type="html">Project surroundings and public outreach</title><link href="http://localhost:4000/2017/04/23/project-surroundings-and-public-outreach.html" rel="alternate" type="text/html" title="Project surroundings and public outreach" /><published>2017-04-23T00:00:00+08:00</published><updated>2017-04-23T00:00:00+08:00</updated><id>http://localhost:4000/2017/04/23/project-surroundings-and-public-outreach</id><content type="html" xml:base="http://localhost:4000/2017/04/23/project-surroundings-and-public-outreach.html">&lt;h4 id=&quot;environmental-impacts-of-the-built-environment&quot;&gt;Environmental impacts of the built environment&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This section has questions on the ‘why’ of green building&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;What is the triple bottom line?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;True sustainability has three key aspects:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Economics&lt;/li&gt;
-  &lt;li&gt;Environment&lt;/li&gt;
-  &lt;li&gt;Social responsibility&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;On GitHub, navigate to your GitHub Pages site’s repository.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Under your repository name, click &lt;code class=&quot;highlighter-rouge&quot;&gt;Settings&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Under “Custom domain”, add or remove your custom domain and click &lt;code class=&quot;highlighter-rouge&quot;&gt;Save&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;!-- more --&gt;
 
-&lt;p&gt;&lt;strong&gt;What design decisions would positively impact the social aspect of the triple bottom line?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Brighter light bulbs create a better work environment for employees, and reduced pollution creates more breathable air in the surrounding communities.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why do we need green buildings?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Green building is the practice of creating structures and using processes that are environmentally responsible and resource efficient throughout a building’s life cycle. That life cycle respectfully analyzes and integrates site selection through design, construction, operation, maintenance, renovation and deconstruction. The practice expands and also complements the classical building design concerns of economy, utility, durability, and comfort.&lt;/p&gt;
-
-&lt;p&gt;Green buildings are specifically designed structures that reduce the overall negative impact of the built environment on human health and the natural environment. High-performance green buildings address sustainable development throughout the building’s entire life cycle – from the beginning with the building’s site selection and design all the way through to the end of the building’s life. Sustainable buildings are significantly better than standard buildings. They use less energy, save money over time, provide better occupant health and comfort, and are better for the environment.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How much energy do buildings use?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In the United States, buildings account for&lt;/p&gt;
+&lt;p&gt;Set up your custom domain with your DNS provider, depending on the type of custom domain you have&lt;sup id=&quot;fnref:ref2&quot;&gt;&lt;a href=&quot;#fn:ref2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;36% of total energy use&lt;/li&gt;
-  &lt;li&gt;65% of electricity consumption&lt;/li&gt;
-  &lt;li&gt;30% of greenhouse gas emissions&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain/&quot;&gt;Setting up an apex domain&lt;/a&gt; such as &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-a-www-subdomain/&quot;&gt;Setting up a &lt;code class=&quot;highlighter-rouge&quot;&gt;www&lt;/code&gt; subdomain&lt;/a&gt; such as &lt;code class=&quot;highlighter-rouge&quot;&gt;www.example.com&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/&quot;&gt;Setting up an apex domain and &lt;code class=&quot;highlighter-rouge&quot;&gt;www&lt;/code&gt; subdomain&lt;/a&gt; such as &lt;code class=&quot;highlighter-rouge&quot;&gt;example.com&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;www.example.com&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-subdomain/&quot;&gt;Setting up a custom subdomain&lt;/a&gt; such as &lt;code class=&quot;highlighter-rouge&quot;&gt;blog.example.com&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:ref1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/adding-or-removing-a-custom-domain-for-your-github-pages-site/&quot;&gt;“Adding or removing a custom domain for your GitHub Pages site”&lt;/a&gt;, GitHub Help. &lt;a href=&quot;#fnref:ref1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:ref2&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://help.github.com/articles/quick-start-setting-up-a-custom-domain/&quot;&gt;“Quick start: Setting up a custom domain”&lt;/a&gt;, GitHub Help. &lt;a href=&quot;#fnref:ref2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="GitHub" /><summary type="html">Configure the custom domain on your GitHub Pages site1: On GitHub, navigate to your GitHub Pages site’s repository. Under your repository name, click Settings. Under “Custom domain”, add or remove your custom domain and click Save. “Adding or removing a custom domain for your GitHub Pages site”, GitHub Help. &amp;#8617;</summary></entry><entry><title type="html">Making the connection to MySQL with Java</title><link href="http://localhost:4000/2017/04/22/making-the-connection-to-mysql-with-java.html" rel="alternate" type="text/html" title="Making the connection to MySQL with Java" /><published>2017-04-22T00:00:00+08:00</published><updated>2017-04-22T00:00:00+08:00</updated><id>http://localhost:4000/2017/04/22/making-the-connection-to-mysql-with-java</id><content type="html" xml:base="http://localhost:4000/2017/04/22/making-the-connection-to-mysql-with-java.html">&lt;p&gt;Java has libraries for connecting to and working with SQL databases built right in to the standard Java SDK. This article assumes some knowledge of Java, and that you’re here to figure out how to work with a database&lt;sup id=&quot;fnref:ref&quot;&gt;&lt;a href=&quot;#fn:ref&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;h4 id=&quot;code&quot;&gt;Code&lt;/h4&gt;
+&lt;p&gt;This is the code to connect to a MySQL database server on your own computer, hence the loopback ip. We’re pretending it has a database called &lt;code class=&quot;highlighter-rouge&quot;&gt;myDatabase&lt;/code&gt; which has a table called &lt;code class=&quot;highlighter-rouge&quot;&gt;users&lt;/code&gt; with some user data.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;First we’ll select some data, then insert a new row, and then update an existing row, all with the same database and connection.&lt;/p&gt;
+
+&lt;p&gt;Hopefully this will be enough to get you started. Once you have the basics, the rest is pretty self explanatory. You’re basically just using SQL statements you (probably) already know inside of Java.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;c1&quot;&gt;//First, some imports. Be careful with the Date and Timestamp imports, there's a java.sql.Date class too:&lt;/span&gt;
+
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;java.sql.Connection&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;java.sql.DriverManager&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;java.sql.PreparedStatement&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;java.sql.Statement&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;java.sql.SQLException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;java.sql.Timestamp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;java.util.Date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;DBTest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Some variables:&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;db_ip&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;127.0.0.1&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;db_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;myDatabase&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;db_user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;username&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;db_pass&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;password&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Connection&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;dbTest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Now, to connect:&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    
+           &lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DriverManager&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getConnection&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;jdbc:mysql://&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;db_ip&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;:3306/&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;db_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;db_user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;db_pass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; 
+                                                 
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SQLException&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;//do something with the error&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;//Now we should have a connection, but it's foot to check that it isn't null, then select some data&lt;/span&gt;
+
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt;  &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;//Let's get a list of users who live in the zip code 11111.&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;zipToGet&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;11111&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userQuery&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;SELECT age, user_name, created_on FROM users WHERE zip = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;zipToGet&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;Statement&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userStatement&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;createStatement&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;ResultSet&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userResult&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userStatement&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;exequteQuery&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;userQuery&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;//Not to scary so far, right? in the userQuery we're saying we want the age, user_name, and created_on fields from the &lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//users table whenever the zip is the one we specified. This is just a MySQL statement.&lt;/span&gt;
+
+
+    &lt;span class=&quot;c1&quot;&gt;//userResult will be null if something went wrong, or if there's just no result.&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;userResult&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+         &lt;span class=&quot;n&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ArrayList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//hypothetical user class&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;userResult&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;hasNext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
+        &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getInt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;age&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;username&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;user_name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;Date&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;createdOn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getTimestamp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;created_on&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//This returns a Timestamp, but it can be cast directly into a date&lt;/span&gt;
+
+       &lt;span class=&quot;c1&quot;&gt;//Do stuff with this data:&lt;/span&gt;
+       &lt;span class=&quot;c1&quot;&gt;//Using the hypothetical user class with what data we have&lt;/span&gt;
+
+        &lt;span class=&quot;n&quot;&gt;User&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; 
+        &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;createDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;createdOn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;//do something with the users&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;//here is where you put code to deal with no result from user query&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//Now we'll work on inserting new data into the database. Keep in mind that manipulating that data has no affect on the //database, for that we need to to create another statement:&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;PreparedStatement&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;insertStatement&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;insertString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;INSERT INTO users (user_name, created_on, age) VALUES (?,?,?)&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;prepareStatement&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;insertString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//creates the statement&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;insert&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;newUserName); // 1 represents the position of the question mark we left in the insertString
+
+Date now = new Date();
+
+insert.setTimestamp(2, new Timestamp(now.getTime()); 
+
+insert.setInt(3, 28);
+
+insert.execute();
+
+insert.close();
+}
+ 
+//Now we've selected and inserted, we can also update:
+
+if(conn != null){
+
+String update = &quot;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPDATE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;users&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SET&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;user_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someUser&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;c1&quot;&gt;//this assumes usernames are unique, usually would use an id number&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;Statement&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;updateStatement&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;createStatement&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;updateStatement&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;execute&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//And of course close the connection when you're done:&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;conn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;close&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;There you have it. Java and MySQL.  You can use this example code as a basis to get you started on your project that requires you to connect to a MySQL database using Java.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:ref&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.thoughtco.com/mysql-and-java-2694108&quot;&gt;“MySQL and java”&lt;/a&gt;, ThoughtCo. &lt;a href=&quot;#fnref:ref&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="MySQL" /><category term="Java" /><summary type="html">Java has libraries for connecting to and working with SQL databases built right in to the standard Java SDK. This article assumes some knowledge of Java, and that you’re here to figure out how to work with a database1. This is the code to connect to a MySQL database server on your own computer, hence the loopback ip. We’re pretending it has a database called myDatabase which has a table called users with some user data. “MySQL and java”, ThoughtCo. &amp;#8617;</summary></entry><entry><title type="html">Installing MySQL on MacOS</title><link href="http://localhost:4000/2017/04/22/installing-mysql-on-macos.html" rel="alternate" type="text/html" title="Installing MySQL on MacOS" /><published>2017-04-22T00:00:00+08:00</published><updated>2017-04-22T00:00:00+08:00</updated><id>http://localhost:4000/2017/04/22/installing-mysql-on-macos</id><content type="html" xml:base="http://localhost:4000/2017/04/22/installing-mysql-on-macos.html">&lt;p&gt;Oracle’s MySQL is a popular open source relational database management system that is based on Structured Query Language (SQL). Installing MySQL on an Mac is easier than you might expect, particularly if you use the native installation package instead of the TAR package, which requires access and changes to the command line in Terminal mode&lt;sup id=&quot;fnref:ins&quot;&gt;&lt;a href=&quot;#fn:ins&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Download the latest version of MySQL for MacOS from the &lt;a href=&quot;https://dev.mysql.com/downloads/mysql/&quot;&gt;MySQL website&lt;/a&gt;. Select the native package DMG archive version, instead of the TAR version.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- more --&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Double-click the .dmg icon to mount the archive, which contains the installer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Double-click the .pkg icon for the MySQL package installer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click &lt;code class=&quot;highlighter-rouge&quot;&gt;Continue&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Agree&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Install&lt;/code&gt; to execute the installation using all defaults.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Record the temporary password&lt;/strong&gt; that displays during the installation process (&lt;code class=&quot;highlighter-rouge&quot;&gt;v7xtQSB?kgSj&lt;/code&gt;). This password cannot be recovered. You must save it. After you log in to MySQL, you’ll be prompted to create a new password.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Press &lt;code class=&quot;highlighter-rouge&quot;&gt;Close&lt;/code&gt; to complete the installation.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now the MySQL server is installed on the Mac, but it does not load by default. Start MySQL by clicking &lt;code class=&quot;highlighter-rouge&quot;&gt;Start MySQL Server&lt;/code&gt; using the MySQL Preference Pane, which was installed during the default installation, from System Preferences. You can configure MySQL to automatically start when you turn on your computer using the MySQL Preference Pane.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:ins&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.thoughtco.com/installing-mysql-on-mac-2693866&quot;&gt;“Installing MySQL on a Mac is Easier Than You Think”&lt;/a&gt;, ThoughtCo. &lt;a href=&quot;#fnref:ins&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="MySQL" /><summary type="html">Oracle’s MySQL is a popular open source relational database management system that is based on Structured Query Language (SQL). Installing MySQL on an Mac is easier than you might expect, particularly if you use the native installation package instead of the TAR package, which requires access and changes to the command line in Terminal mode1. Download the latest version of MySQL for MacOS from the MySQL website. Select the native package DMG archive version, instead of the TAR version. “Installing MySQL on a Mac is Easier Than You Think”, ThoughtCo. &amp;#8617;</summary></entry><entry><title type="html">Pagination</title><link href="http://localhost:4000/2017/04/16/pagination.html" rel="alternate" type="text/html" title="Pagination" /><published>2017-04-16T00:00:00+08:00</published><updated>2017-04-16T00:00:00+08:00</updated><id>http://localhost:4000/2017/04/16/pagination</id><content type="html" xml:base="http://localhost:4000/2017/04/16/pagination.html">&lt;p&gt;With many websites, especially blogs, it’s very common to break the main listing of posts up into smaller lists and display them over multiple pages. Jekyll offers a pagination plugin, so you can automatically generate the appropriate files and folders you need for paginated listings&lt;sup id=&quot;fnref:pag&quot;&gt;&lt;a href=&quot;#fn:pag&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;For Jekyll 3, include the &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-paginate&lt;/code&gt; plugin in your Gemfile and in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; under &lt;code class=&quot;highlighter-rouge&quot;&gt;gems&lt;/code&gt;. For Jekyll 2, this is standard:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gems: [jekyll-paginate]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;!-- more --&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Every project will have state and local codes that need to be followed. You don’t need to learn all the codes in your city. You do need to know that there are codes, and that local codes always take precedent over any LEED rules.&lt;/p&gt;
+  &lt;p&gt;Pagination does not work from within Markdown or Textile files from your Jekyll site. Pagination works when called from within the HTML file, named &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;, which optionally may reside in and produce pagination from within a subdirectory, via the &lt;code class=&quot;highlighter-rouge&quot;&gt;paginate_path&lt;/code&gt; configuration value.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;hr /&gt;
+&lt;h4 id=&quot;enable-pagination&quot;&gt;Enable pagination&lt;/h4&gt;
 
-&lt;h4 id=&quot;values-of-sustainable-design&quot;&gt;Values of sustainable design&lt;/h4&gt;
+&lt;p&gt;To enable pagination for your blog, add a line to the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file that specifies how many items should be displayed per page. The number should be the maximum number of Posts you’d like to be displayed per-page in the generated site:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;What are hard costs, life cycle costs, and soft costs?&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;paginate: 5
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;em&gt;Hard costs&lt;/em&gt; deal with fixed assets. They are directly related to improving real property.&lt;/p&gt;
+&lt;p&gt;You may also specify the destination of the pagination pages:&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Soft costs&lt;/em&gt; are costs not directly related to building, construction, etc. These include architectural, legal, financing, engineering fees and other costs incurred before and after construction. These costs make construction possible but are not directly related to building the project.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;paginate_path: &quot;/blog/page:num/&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;em&gt;Life cycle cost (LCC)&lt;/em&gt; is the sum of all recurring and one-time (non-recurring) costs over the full life span or a specified period of a good, service, structure, or system. The life cycle cost includes the purchase price, installation cost, operating costs, maintenance and upgrade costs, and remaining (residual or salvage) value at the end of ownership or its useful life.&lt;/p&gt;
+&lt;p&gt;This will read in &lt;code class=&quot;highlighter-rouge&quot;&gt;blog/index.html&lt;/code&gt;, send it each pagination page in Liquid as &lt;code class=&quot;highlighter-rouge&quot;&gt;paginator&lt;/code&gt; and write the output to &lt;code class=&quot;highlighter-rouge&quot;&gt;blog/page:num/&lt;/code&gt;, where &lt;code class=&quot;highlighter-rouge&quot;&gt;:num&lt;/code&gt; is the pagination page number, starting with &lt;code class=&quot;highlighter-rouge&quot;&gt;2&lt;/code&gt;. If a site has 12 posts and specifies &lt;code class=&quot;highlighter-rouge&quot;&gt;paginate: 5&lt;/code&gt;, Jekyll will write &lt;code class=&quot;highlighter-rouge&quot;&gt;blog/index.html&lt;/code&gt; with the first 5 posts, &lt;code class=&quot;highlighter-rouge&quot;&gt;blog/page2/index.html&lt;/code&gt; with the next 5 posts and &lt;code class=&quot;highlighter-rouge&quot;&gt;blog/page3/index.html&lt;/code&gt; with the last 2 posts into the destination directory.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;What type of cost is the purchase of the site?&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Pagination does not support tags or categories&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;What is life cycle costing?&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;Pagination pages through every post in the &lt;code class=&quot;highlighter-rouge&quot;&gt;posts&lt;/code&gt; variable unless a post has &lt;code class=&quot;highlighter-rouge&quot;&gt;hidden: true&lt;/code&gt; in its YAML Front Matter. It does not currently allow paging over groups of posts linked by a common tag or category. It cannot include any collection of documents because it is restricted to posts.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Life-cycle costing (LCC) determines the cost of a product or system over its life time including payback periods, operational and maintenance costs, replacement, cost savings, etc.&lt;/p&gt;
+&lt;h4 id=&quot;render-the-paginated-posts&quot;&gt;Render the paginated Posts&lt;/h4&gt;
 
-&lt;p&gt;&lt;strong&gt;What is life cycle assessment?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The next thing you need to do is to actually display your posts in a list using the &lt;code class=&quot;highlighter-rouge&quot;&gt;paginator&lt;/code&gt; variable that will now be available to you. You’ll probably want to do this in one of the main pages of your site. Here’s one example of a simple way of rendering paginated Posts in a HTML file:&lt;/p&gt;
 
-&lt;p&gt;Life cycle assessment (LCA) is a measurement of a product’s environmental impact throughout its life cycle, beginning with extraction through manufacturing, shipping, use, and then reuse or end of life.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- This loops through the paginated posts --&amp;gt;&lt;/span&gt;
+{% for post in paginator.posts %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ post.url }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ post.title }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;author&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ post.date }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;content&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	{{ post.content }}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+{% endfor %}
 
-&lt;p&gt;&lt;strong&gt;How does the cost of a green building differ than that of a conventional building?&lt;/strong&gt;&lt;/p&gt;
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Pagination links --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pagination&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	{% if paginator.previous_page %}
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ paginator.previous_page_path }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;previous&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Previous&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+	{% else %}
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;previous&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Previous&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+	{% endif %}
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;page_number &quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Page: {{ paginator.page }} of {{ paginator.total_pages }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+	{% if paginator.next_page %}
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ paginator.next_page_path }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;next&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Next&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+	{% else %}
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;next&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Next&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+	{% endif %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Green building projects have hard and soft costs just like traditional building, but the project team also considers life cycle costs. Green building also differs from traditional design by considering the operating and maintenance costs of the building over its lifetime, not just the construction costs.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Beware the page one edge-case&lt;/strong&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
+  &lt;p&gt;Jekyll does not generate a ‘page1’ folder, so the above code will not work when a &lt;code class=&quot;highlighter-rouge&quot;&gt;/page1&lt;/code&gt; link is produced. See below for a way to handle this if it’s a problem for you.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h4 id=&quot;regional-design&quot;&gt;Regional design&lt;/h4&gt;
+&lt;p&gt;The following HTML snippet should handle page one, and render a list of each page with links to all but the current page.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;What climates are not good for a high reflectance roof?&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Pagination links --&amp;gt;&lt;/span&gt;
+{% if paginator.total_pages &amp;gt; 1 %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pagination&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+	{% if paginator.previous_page %}
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;ni&quot;&gt;&amp;amp;laquo;&lt;/span&gt; Prev&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+	{% else %}
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&lt;/span&gt;&lt;span class=&quot;ni&quot;&gt;&amp;amp;laquo;&lt;/span&gt; Prev&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+	{% endif %}
 
-&lt;p&gt;Cold climates.&lt;/p&gt;
+	{% for page in (1..paginator.total_pages) %}
+	{% if page == paginator.page %}
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;em&amp;gt;&lt;/span&gt;{{ page }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/em&amp;gt;&lt;/span&gt;
+	{% elsif page == 1 %}
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ page }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+	{% else %}
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ page }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+	{% endif %}
+	{% endfor %}
 
-&lt;p&gt;In warm and sunny climates highly emissive roof products can help reduce the cooling load on the building by releasing the remaining heat absorbed from the sun. There is also evidence that low emissivity may benefit those buildings located in colder climates by retaining heat and reducing the heating load.&lt;/p&gt;
+	{% if paginator.next_page %}
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Next &lt;span class=&quot;ni&quot;&gt;&amp;amp;raquo;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+	{% else %}
+	&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&amp;gt;&lt;/span&gt;Next &lt;span class=&quot;ni&quot;&gt;&amp;amp;raquo;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+	{% endif %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+{% endif %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;strong&gt;What are regional priority credits?&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:pag&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/pagination/&quot;&gt;“Pagination”&lt;/a&gt;, Jekyll &lt;a href=&quot;#fnref:pag&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="Jekyll" /><summary type="html">With many websites, especially blogs, it’s very common to break the main listing of posts up into smaller lists and display them over multiple pages. Jekyll offers a pagination plugin, so you can automatically generate the appropriate files and folders you need for paginated listings1. For Jekyll 3, include the jekyll-paginate plugin in your Gemfile and in your _config.yml under gems. For Jekyll 2, this is standard: gems: [jekyll-paginate] “Pagination”, Jekyll &amp;#8617;</summary></entry><entry><title type="html">Group posts by year</title><link href="http://localhost:4000/2016/05/11/group-posts-by-year.html" rel="alternate" type="text/html" title="Group posts by year" /><published>2016-05-11T00:00:00+08:00</published><updated>2016-05-11T00:00:00+08:00</updated><id>http://localhost:4000/2016/05/11/group-posts-by-year</id><content type="html" xml:base="http://localhost:4000/2016/05/11/group-posts-by-year.html">&lt;p&gt;Here is the code template I am using to make a chronological archive&lt;sup id=&quot;fnref:mik&quot;&gt;&lt;a href=&quot;#fn:mik&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;p&gt;Regional Priority acknowledges that different regions in the world have different needs and has selected existing credits in the rating systems that should be a priority. Regional Priority credits are listed by country, state and zip code. The intent of the regional priority credits and points is to encourage teams to attempt LEED credits that address specific environmental priorities in the project’s region. Teams can only earn up to 4 points in this category.&lt;/p&gt;</content><author><name></name></author><category term="LEED" /><summary type="html">Environmental impacts of the built environment This section has questions on the ‘why’ of green building What is the triple bottom line? True sustainability has three key aspects: Economics Environment Social responsibility</summary></entry></feed>
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% for post in site.categories.[page.category] %}
+{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+
+{% if forloop.first %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;{{ year }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+{% elsif year != nyear %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;&lt;/span&gt;{{ year }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+{% endif %}
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{site.baseurl}}{{post.url}}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ post.title }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+{{ post.date | date: &quot;%-m/%-d/%y&quot; }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+{% endfor %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:mik&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://mikerowecode.com/2010/08/jekyll_archives_grouped_by_year.html&quot;&gt;“Jekyll archives grouped by date”&lt;/a&gt;, mikerowecode. &lt;a href=&quot;#fnref:mik&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="Jekyll" /><summary type="html">Here is the code template I am using to make a chronological archive1. {% for post in site.categories.[page.category] %} {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %} {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %} {% if forloop.first %} &amp;lt;p&amp;gt;{{ year }}&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt; {% elsif year != nyear %} &amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;{{ year }}&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt; {% endif %} &amp;lt;li&amp;gt;&amp;lt;a href=&quot;{{site.baseurl}}{{post.url}}&quot;&amp;gt;{{ post.title }}&amp;lt;/a&amp;gt; {{ post.date | date: &quot;%-m/%-d/%y&quot; }}&amp;lt;/li&amp;gt; {% endfor %} &amp;lt;/ul&amp;gt; “Jekyll archives grouped by date”, mikerowecode. &amp;#8617;</summary></entry><entry><title type="html">Previous/next post within a category</title><link href="http://localhost:4000/2016/03/20/previous-next-post-within-a-category.html" rel="alternate" type="text/html" title="Previous/next post within a category" /><published>2016-03-20T00:00:00+08:00</published><updated>2016-03-20T00:00:00+08:00</updated><id>http://localhost:4000/2016/03/20/previous-next-post-within-a-category</id><content type="html" xml:base="http://localhost:4000/2016/03/20/previous-next-post-within-a-category.html">&lt;p&gt;If your blog lists all posts in only one section, you can always use &lt;code class=&quot;highlighter-rouge&quot;&gt;{{post.previous.url}}&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;{{post.next.url}}&lt;/code&gt; to make links to previous and next posts&lt;sup id=&quot;fnref:jek&quot;&gt;&lt;a href=&quot;#fn:jek&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. However, sometimes we group our posts in defferent sections by category. In this case, &lt;code class=&quot;highlighter-rouge&quot;&gt;post.previous&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;post.next&lt;/code&gt; are no longer handy to navigate because they will link to posts in other categries which are not supposed to be shown in current section. To navigate previous/next post within one category, the following code template is presented&lt;sup id=&quot;fnref:tem&quot;&gt;&lt;a href=&quot;#fn:tem&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% if page.categories %}
+    {% assign category = page.categories[0] %}
+    {% assign posts = site.categories[category] %}
+
+    {% for post in posts %}
+        {% if post.url == page.url %}
+            {% assign post_index0 = forloop.index0 %}
+            {% assign post_index1 = forloop.index %}
+        {% endif %}
+    {% endfor %}
+
+    {% for post in posts %}
+        {% if post_index0 == forloop.index %}
+            {% assign next_post = post %}
+        {% endif %}
+        {% if post_index1 == forloop.index0 %}
+            {% assign prev_post = post %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+{% if next_post %}
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{site.baseurl}}{{next_post.url}}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;prev&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;ni&quot;&gt;&amp;amp;laquo;&lt;/span&gt; {{next_post.title}}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+{% endif %}
+
+{% if prev_post %}
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{site.baseurl}}{{prev_post.url}}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;next&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{prev_post.title}} &lt;span class=&quot;ni&quot;&gt;&amp;amp;raquo;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+{% endif %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:jek&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://david.elbe.me/jekyll/2015/06/20/how-to-link-to-next-and-previous-post-with-jekyll.html&quot;&gt;“Jekyll – how to link to next/previous post on your blog”&lt;/a&gt;, David Elbe. &lt;a href=&quot;#fnref:jek&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:tem&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll/issues/260&quot;&gt;“Template Variables for Next/Previous Posts Within a Category”&lt;/a&gt;, surajram. &lt;a href=&quot;#fnref:tem&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="Jekyll" /><summary type="html">If your blog lists all posts in only one section, you can always use {{post.previous.url}} and {{post.next.url}} to make links to previous and next posts1. However, sometimes we group our posts in defferent sections by category. In this case, post.previous and post.next are no longer handy to navigate because they will link to posts in other categries which are not supposed to be shown in current section. To navigate previous/next post within one category, the following code template is presented2. “Jekyll – how to link to next/previous post on your blog”, David Elbe. &amp;#8617; “Template Variables for Next/Previous Posts Within a Category”, surajram. &amp;#8617;</summary></entry><entry><title type="html">Dan Stevens</title><link href="http://localhost:4000/2015/09/11/dan-stevens.html" rel="alternate" type="text/html" title="Dan Stevens" /><published>2015-09-11T00:00:00+08:00</published><updated>2015-09-11T00:00:00+08:00</updated><id>http://localhost:4000/2015/09/11/dan-stevens</id><content type="html" xml:base="http://localhost:4000/2015/09/11/dan-stevens.html">&lt;div class=&quot;post-img&quot;&gt;
+    &lt;img src=&quot;/assets/img/portfolio/dan_stevens.jpg&quot; /&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="Drawings" /><summary type="html"></summary></entry></feed>
