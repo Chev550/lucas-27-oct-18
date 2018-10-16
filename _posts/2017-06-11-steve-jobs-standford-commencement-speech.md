@@ -5,17 +5,22 @@ categories: bookmarked
 tags: Speech
 ---
 
+<p class="post-img">
+    <img src="{{ site.baseurl }}/assets/img/blog/steve-jobs-2005-stanford-commencement-address.jpg">
+</p>
+
+
 <audio src="{{ site.baseurl }}/assets/mp3/Steve_Jobs-2005-Stanford-Commencement-Address.mp3" controls="controls">
 Your browser does not support the audio element.
 </audio>
 
-_This is the Commencement address delivered by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, on June 12, 2005._[^ref]
+_The Commencement address delivered by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, June 12, 2005._[^ref]
+
+<!-- more -->
 
 ---
 
 I am honored to be with you today at your commencement from one of the finest universities in the world. I never graduated from college. Truth be told, this is the closest I’ve ever gotten to a college graduation. Today I want to tell you three stories from my life. That’s it. No big deal. Just three stories.
-
-<!-- more -->
 
 The first story is about connecting the dots.
 

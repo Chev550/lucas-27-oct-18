@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-16T19:44:40+08:00</updated><id>http://localhost:4000/</id><title type="html">李立</title><entry><title type="html">Installing Tomcat on macOS Sierra</title><link href="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html" rel="alternate" type="text/html" title="Installing Tomcat on macOS Sierra" /><published>2017-07-12T00:00:00+08:00</published><updated>2017-07-12T00:00:00+08:00</updated><id>http://localhost:4000/2017/07/12/installing-tomcat-on-mac</id><content type="html" xml:base="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html">&lt;p&gt;Download Apache Tomcat on &lt;a href=&quot;http://tomcat.apache.org&quot;&gt;http://tomcat.apache.org&lt;/a&gt;. Select the latest version, and download the binary distribution of the core module in &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-16T21:02:19+08:00</updated><id>http://localhost:4000/</id><title type="html">李立</title><entry><title type="html">Installing Tomcat on macOS Sierra</title><link href="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html" rel="alternate" type="text/html" title="Installing Tomcat on macOS Sierra" /><published>2017-07-12T00:00:00+08:00</published><updated>2017-07-12T00:00:00+08:00</updated><id>http://localhost:4000/2017/07/12/installing-tomcat-on-mac</id><content type="html" xml:base="http://localhost:4000/2017/07/12/installing-tomcat-on-mac.html">&lt;p&gt;Download Apache Tomcat on &lt;a href=&quot;http://tomcat.apache.org&quot;&gt;http://tomcat.apache.org&lt;/a&gt;. Select the latest version, and download the binary distribution of the core module in &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Unzip the &lt;code class=&quot;highlighter-rouge&quot;&gt;tar.gz&lt;/code&gt; file. You may use the freeware app &lt;strong&gt;Unarchiver&lt;/strong&gt;, which is perfect for all kinds of compressed files.&lt;/p&gt;
 
@@ -18,17 +18,21 @@
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo chmod +x /Library/Tomcat/bin/*.sh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Download the freeware app &lt;strong&gt;Tomcat Controller&lt;/strong&gt;. Set up the Preferences as follows: Tomcat Home Directory &lt;code class=&quot;highlighter-rouge&quot;&gt;/Library/Tomcat&lt;/code&gt;. Tomcat Port &lt;code class=&quot;highlighter-rouge&quot;&gt;8080&lt;/code&gt;. Default Application &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><category term="Java" /><summary type="html">Download Apache Tomcat on http://tomcat.apache.org. Select the latest version, and download the binary distribution of the core module in tar.gz. Unzip the tar.gz file. You may use the freeware app Unarchiver, which is perfect for all kinds of compressed files. Move the unarchived folder to /Library. If you cannot find the Library folder, Go to Finder &amp;gt; Go &amp;gt; Go to Folder…, input /Library and click Go.</summary></entry><entry><title type="html">You’ve got to find what you love</title><link href="http://localhost:4000/bookmarked/2017/06/11/steve-jobs-standford-commencement-speech.html" rel="alternate" type="text/html" title="You've got to find what you love" /><published>2017-06-11T00:00:00+08:00</published><updated>2017-06-11T00:00:00+08:00</updated><id>http://localhost:4000/bookmarked/2017/06/11/steve-jobs-standford-commencement-speech</id><content type="html" xml:base="http://localhost:4000/bookmarked/2017/06/11/steve-jobs-standford-commencement-speech.html">&lt;audio src=&quot;/assets/mp3/Steve_Jobs-2005-Stanford-Commencement-Address.mp3&quot; controls=&quot;controls&quot;&gt;
+&lt;p&gt;Download the freeware app &lt;strong&gt;Tomcat Controller&lt;/strong&gt;. Set up the Preferences as follows: Tomcat Home Directory &lt;code class=&quot;highlighter-rouge&quot;&gt;/Library/Tomcat&lt;/code&gt;. Tomcat Port &lt;code class=&quot;highlighter-rouge&quot;&gt;8080&lt;/code&gt;. Default Application &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;.&lt;/p&gt;</content><author><name></name></author><category term="Java" /><summary type="html">Download Apache Tomcat on http://tomcat.apache.org. Select the latest version, and download the binary distribution of the core module in tar.gz. Unzip the tar.gz file. You may use the freeware app Unarchiver, which is perfect for all kinds of compressed files. Move the unarchived folder to /Library. If you cannot find the Library folder, Go to Finder &amp;gt; Go &amp;gt; Go to Folder…, input /Library and click Go.</summary></entry><entry><title type="html">You’ve got to find what you love</title><link href="http://localhost:4000/bookmarked/2017/06/11/steve-jobs-standford-commencement-speech.html" rel="alternate" type="text/html" title="You've got to find what you love" /><published>2017-06-11T00:00:00+08:00</published><updated>2017-06-11T00:00:00+08:00</updated><id>http://localhost:4000/bookmarked/2017/06/11/steve-jobs-standford-commencement-speech</id><content type="html" xml:base="http://localhost:4000/bookmarked/2017/06/11/steve-jobs-standford-commencement-speech.html">&lt;p class=&quot;post-img&quot;&gt;
+    &lt;img src=&quot;/assets/img/blog/steve-jobs-2005-stanford-commencement-address.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;audio src=&quot;/assets/mp3/Steve_Jobs-2005-Stanford-Commencement-Address.mp3&quot; controls=&quot;controls&quot;&gt;
 Your browser does not support the audio element.
 &lt;/audio&gt;
 
-&lt;p&gt;&lt;em&gt;This is the Commencement address delivered by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, on June 12, 2005.&lt;/em&gt;&lt;sup id=&quot;fnref:ref&quot;&gt;&lt;a href=&quot;#fn:ref&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Commencement address delivered by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, June 12, 2005.&lt;/em&gt;&lt;sup id=&quot;fnref:ref&quot;&gt;&lt;a href=&quot;#fn:ref&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;I am honored to be with you today at your commencement from one of the finest universities in the world. I never graduated from college. Truth be told, this is the closest I’ve ever gotten to a college graduation. Today I want to tell you three stories from my life. That’s it. No big deal. Just three stories.&lt;/p&gt;
-
-&lt;!-- more --&gt;
 
 &lt;p&gt;The first story is about connecting the dots.&lt;/p&gt;
 
@@ -88,7 +92,7 @@ Your browser does not support the audio element.
       &lt;p&gt;&lt;a href=&quot;http://news.stanford.edu/2005/06/14/jobs-061505/&quot;&gt;“‘You’ve got to find what you love,’ Jobs says”&lt;/a&gt;, Stanford University &lt;a href=&quot;#fnref:ref&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="Speech" /><summary type="html">Your browser does not support the audio element. This is the Commencement address delivered by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, on June 12, 2005.1 I am honored to be with you today at your commencement from one of the finest universities in the world. I never graduated from college. Truth be told, this is the closest I’ve ever gotten to a college graduation. Today I want to tell you three stories from my life. That’s it. No big deal. Just three stories. “‘You’ve got to find what you love,’ Jobs says”, Stanford University &amp;#8617;</summary></entry><entry><title type="html">Jekyll Command Lines</title><link href="http://localhost:4000/2017/06/03/jekyll-command-lines.html" rel="alternate" type="text/html" title="Jekyll Command Lines" /><published>2017-06-03T00:00:00+08:00</published><updated>2017-06-03T00:00:00+08:00</updated><id>http://localhost:4000/2017/06/03/jekyll-command-lines</id><content type="html" xml:base="http://localhost:4000/2017/06/03/jekyll-command-lines.html">&lt;p&gt;Quick Start:&lt;sup id=&quot;fnref:ref&quot;&gt;&lt;a href=&quot;#fn:ref&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="Speech" /><summary type="html">Your browser does not support the audio element. The Commencement address delivered by Steve Jobs, CEO of Apple Computer and of Pixar Animation Studios, June 12, 2005.1 “‘You’ve got to find what you love,’ Jobs says”, Stanford University &amp;#8617;</summary></entry><entry><title type="html">Jekyll Command Lines</title><link href="http://localhost:4000/2017/06/03/jekyll-command-lines.html" rel="alternate" type="text/html" title="Jekyll Command Lines" /><published>2017-06-03T00:00:00+08:00</published><updated>2017-06-03T00:00:00+08:00</updated><id>http://localhost:4000/2017/06/03/jekyll-command-lines</id><content type="html" xml:base="http://localhost:4000/2017/06/03/jekyll-command-lines.html">&lt;p&gt;Quick Start:&lt;sup id=&quot;fnref:ref&quot;&gt;&lt;a href=&quot;#fn:ref&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~ $ gem install jekyll bundler
 ~ $ jekyll new my-awesome-site
@@ -434,7 +438,51 @@ String update = &quot;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPDATE&lt;/sp
       &lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/docs/pagination/&quot;&gt;“Pagination”&lt;/a&gt;, Jekyll &lt;a href=&quot;#fnref:pag&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="Jekyll" /><summary type="html">With many websites, especially blogs, it’s very common to break the main listing of posts up into smaller lists and display them over multiple pages. Jekyll offers a pagination plugin, so you can automatically generate the appropriate files and folders you need for paginated listings1. For Jekyll 3, include the jekyll-paginate plugin in your Gemfile and in your _config.yml under gems. For Jekyll 2, this is standard: gems: [jekyll-paginate] “Pagination”, Jekyll &amp;#8617;</summary></entry><entry><title type="html">Group posts by year</title><link href="http://localhost:4000/2016/05/11/group-posts-by-year.html" rel="alternate" type="text/html" title="Group posts by year" /><published>2016-05-11T00:00:00+08:00</published><updated>2016-05-11T00:00:00+08:00</updated><id>http://localhost:4000/2016/05/11/group-posts-by-year</id><content type="html" xml:base="http://localhost:4000/2016/05/11/group-posts-by-year.html">&lt;p&gt;Here is the code template I am using to make a chronological archive&lt;sup id=&quot;fnref:mik&quot;&gt;&lt;a href=&quot;#fn:mik&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="Jekyll" /><summary type="html">With many websites, especially blogs, it’s very common to break the main listing of posts up into smaller lists and display them over multiple pages. Jekyll offers a pagination plugin, so you can automatically generate the appropriate files and folders you need for paginated listings1. For Jekyll 3, include the jekyll-paginate plugin in your Gemfile and in your _config.yml under gems. For Jekyll 2, this is standard: gems: [jekyll-paginate] “Pagination”, Jekyll &amp;#8617;</summary></entry><entry><title type="html">If I Stay</title><link href="http://localhost:4000/2016/07/02/if-i-stay.html" rel="alternate" type="text/html" title="If I Stay" /><published>2016-07-02T00:00:00+08:00</published><updated>2016-07-02T00:00:00+08:00</updated><id>http://localhost:4000/2016/07/02/if-i-stay</id><content type="html" xml:base="http://localhost:4000/2016/07/02/if-i-stay.html">&lt;p class=&quot;post-img&quot;&gt;
+    &lt;img src=&quot;/assets/img/blog/if-i-stay.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;audio src=&quot;/assets/mp3/Shaun_Gibson-If_I_Stay.mp3&quot; controls=&quot;controls&quot;&gt;
+Your browser does not support the audio element.
+&lt;/audio&gt;
+
+&lt;p&gt;&lt;em&gt;By Shaun Gibson&lt;/em&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Don’t you ever question why I’m by your side /
+I’m here when you cry cos he told you lies so slyly /
+I run my fingers through your hair and show I care /
+But I’m not the one that your heart belongs to nightly&lt;/p&gt;
+
+&lt;p&gt;But if I stay would you kiss me in the summer rain /
+Or let me wash away into the sand /
+Would we lie together underneath the burning sun /
+And let our two hearts beat as one&lt;/p&gt;
+
+&lt;p&gt;If I stay would you let me hold you in my arms /
+And later take a walk beneath the stars /
+Woah, tell me someday these could all be real /
+And end this heartache I’m pained to feel&lt;/p&gt;
+
+&lt;p&gt;I’ve loved you without regret since the day we met /
+If what you see’s what you get /
+Well I’ve had nothing yet for these past years /
+Tell me will you ever feel the same if my love won’t tame /
+Or just like cellophane /
+Will I call your name unto deaf ears&lt;/p&gt;
+
+&lt;p&gt;And if I stay would you kiss me in the summer rain /
+Or let me wash away into the sand /
+Would we lie together underneath the burning sun /
+And let our two hearts beat as one&lt;/p&gt;
+
+&lt;p&gt;If I stay would you let me hold you in my arms /
+And later take a walk beneath the stars /
+Woah, tell me someday these could all be real /
+And end this heartache I’m pained to feel&lt;/p&gt;</content><author><name></name></author><category term="Life" /><summary type="html">Your browser does not support the audio element. By Shaun Gibson</summary></entry><entry><title type="html">Group posts by year</title><link href="http://localhost:4000/2016/05/11/group-posts-by-year.html" rel="alternate" type="text/html" title="Group posts by year" /><published>2016-05-11T00:00:00+08:00</published><updated>2016-05-11T00:00:00+08:00</updated><id>http://localhost:4000/2016/05/11/group-posts-by-year</id><content type="html" xml:base="http://localhost:4000/2016/05/11/group-posts-by-year.html">&lt;p&gt;Here is the code template I am using to make a chronological archive&lt;sup id=&quot;fnref:mik&quot;&gt;&lt;a href=&quot;#fn:mik&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% for post in site.categories.[page.category] %}
 {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
@@ -499,6 +547,4 @@ String update = &quot;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPDATE&lt;/sp
       &lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll/issues/260&quot;&gt;“Template Variables for Next/Previous Posts Within a Category”&lt;/a&gt;, surajram. &lt;a href=&quot;#fnref:tem&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="Jekyll" /><summary type="html">If your blog lists all posts in only one section, you can always use {{post.previous.url}} and {{post.next.url}} to make links to previous and next posts1. However, sometimes we group our posts in defferent sections by category. In this case, post.previous and post.next are no longer handy to navigate because they will link to posts in other categries which are not supposed to be shown in current section. To navigate previous/next post within one category, the following code template is presented2. “Jekyll – how to link to next/previous post on your blog”, David Elbe. &amp;#8617; “Template Variables for Next/Previous Posts Within a Category”, surajram. &amp;#8617;</summary></entry><entry><title type="html">Dan Stevens</title><link href="http://localhost:4000/2015/09/11/dan-stevens.html" rel="alternate" type="text/html" title="Dan Stevens" /><published>2015-09-11T00:00:00+08:00</published><updated>2015-09-11T00:00:00+08:00</updated><id>http://localhost:4000/2015/09/11/dan-stevens</id><content type="html" xml:base="http://localhost:4000/2015/09/11/dan-stevens.html">&lt;div class=&quot;post-img&quot;&gt;
-    &lt;img src=&quot;/assets/img/portfolio/dan_stevens.jpg&quot; /&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="Drawings" /><summary type="html"></summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="Jekyll" /><summary type="html">If your blog lists all posts in only one section, you can always use {{post.previous.url}} and {{post.next.url}} to make links to previous and next posts1. However, sometimes we group our posts in defferent sections by category. In this case, post.previous and post.next are no longer handy to navigate because they will link to posts in other categries which are not supposed to be shown in current section. To navigate previous/next post within one category, the following code template is presented2. “Jekyll – how to link to next/previous post on your blog”, David Elbe. &amp;#8617; “Template Variables for Next/Previous Posts Within a Category”, surajram. &amp;#8617;</summary></entry></feed>

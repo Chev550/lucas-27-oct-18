@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Here is the code template I am using to make a chronological archive1.{% for post in site.categories.[page.category] %}{% capture year %}{{ post.date | date:...">
-	<title>李立 - Group posts by year</title>
+	<meta name="description" content="    Your browser does not support the audio element.By Shaun Gibson">
+	<title>李立 - If I Stay</title>
 	
 
 	<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css">
@@ -72,57 +72,78 @@
 
 	<div class="container clearance">
 		<section style="margin-top: 7rem;">
-	<h2>Group posts by year</h2>
+	<h2>If I Stay</h2>
 	<p class="slim gray" style="margin-bottom: 4rem;">
 		<i data-feather="clock"></i>
-		11 May 2016
+		02 Jul 2016
 		&nbsp;
 		<i data-feather="tag"></i>
 		
 
 
-<span class="post-tags"><a href="/tags/#Jekyll">#Jekyll</a></span>
+<span class="post-tags"><a href="/tags/#Life">#Life</a></span>
 
 	</p>
 
-	<p>Here is the code template I am using to make a chronological archive<sup id="fnref:mik"><a href="#fn:mik" class="footnote">1</a></sup>.</p>
+	<p class="post-img">
+    <img src="/assets/img/blog/if-i-stay.jpg" />
+</p>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html">{% for post in site.categories.[page.category] %}
-{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+<audio src="/assets/mp3/Shaun_Gibson-If_I_Stay.mp3" controls="controls">
+Your browser does not support the audio element.
+</audio>
 
-{% if forloop.first %}
-<span class="nt">&lt;p&gt;</span>{{ year }}<span class="nt">&lt;/p&gt;&lt;ul&gt;</span>
-{% elsif year != nyear %}
-<span class="nt">&lt;/ul&gt;&lt;p&gt;</span>{{ year }}<span class="nt">&lt;/p&gt;&lt;ul&gt;</span>
-{% endif %}
+<p><em>By Shaun Gibson</em></p>
 
-<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"{{site.baseurl}}{{post.url}}"</span><span class="nt">&gt;</span>{{ post.title }}<span class="nt">&lt;/a&gt;</span>
-{{ post.date | date: "%-m/%-d/%y" }}<span class="nt">&lt;/li&gt;</span>
-{% endfor %}
-<span class="nt">&lt;/ul&gt;</span></code></pre></figure>
+<!-- more -->
 
-<div class="footnotes">
-  <ol>
-    <li id="fn:mik">
-      <p><a href="http://mikerowecode.com/2010/08/jekyll_archives_grouped_by_year.html">“Jekyll archives grouped by date”</a>, mikerowecode. <a href="#fnref:mik" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+<hr />
+
+<p>Don’t you ever question why I’m by your side /
+I’m here when you cry cos he told you lies so slyly /
+I run my fingers through your hair and show I care /
+But I’m not the one that your heart belongs to nightly</p>
+
+<p>But if I stay would you kiss me in the summer rain /
+Or let me wash away into the sand /
+Would we lie together underneath the burning sun /
+And let our two hearts beat as one</p>
+
+<p>If I stay would you let me hold you in my arms /
+And later take a walk beneath the stars /
+Woah, tell me someday these could all be real /
+And end this heartache I’m pained to feel</p>
+
+<p>I’ve loved you without regret since the day we met /
+If what you see’s what you get /
+Well I’ve had nothing yet for these past years /
+Tell me will you ever feel the same if my love won’t tame /
+Or just like cellophane /
+Will I call your name unto deaf ears</p>
+
+<p>And if I stay would you kiss me in the summer rain /
+Or let me wash away into the sand /
+Would we lie together underneath the burning sun /
+And let our two hearts beat as one</p>
+
+<p>If I stay would you let me hold you in my arms /
+And later take a walk beneath the stars /
+Woah, tell me someday these could all be real /
+And end this heartache I’m pained to feel</p>
 
 </section>
 
 
 <p class="page-nav">
 	
-<a class="btn btn-round btn-sm" href="/2016/03/20/previous-next-post-within-a-category.html">
+<a class="btn btn-round btn-sm" href="/2016/05/11/group-posts-by-year.html">
 	<span class="eng">PREV</span>
 	<span class="chn">上一篇</span>
 </a>
 
 
 
-<a class="btn btn-round btn-sm pull-right" href="/2016/07/02/if-i-stay.html">
+<a class="btn btn-round btn-sm pull-right" href="/2017/04/16/pagination.html">
 	<span class="eng">NEXT</span>
 	<span class="chn">下一篇</span>
 </a>
