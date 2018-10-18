@@ -125,6 +125,17 @@ function hide(){
 }
 
 
+
+// Toggle
+$(document).ready(function(){
+	$(".toggle-btn1").click(function(){
+		$(".misc").slideToggle("normal");
+	});
+});
+
+
+
+
 // Log in 
 function login() {
 	var p = document.getElementById("password").value;

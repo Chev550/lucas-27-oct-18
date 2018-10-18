@@ -1,21 +1,32 @@
 <footer>
-	<div class="container small no-link">
-		&copy;
-		<span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
-		<a href="{{ site.baseurl }}/">
-			<span class="chn">李立</span>
-			<span class="eng">Lucas Li</span>
-		</a> &sdot;
+	<div class="container small">
+		<div class="no-link">
+			&copy;
+			<span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
+			<a href="{{ site.baseurl }}/">
+				<span class="chn">李立</span>
+				<span class="eng">LUCAS LI</span>
+			</a> &sdot;
 
-		<a href="http://statcounter.com" target="_blank"><span class="glyphicon glyphicon-stats"></span> {% include stats.html %}</a> &sdot;
+			<a href="http://statcounter.com" target="_blank"><span class="glyphicon glyphicon-stats"></span> </a> &sdot;
 
-		<a href="https://www.paypal.me/lucaslionline" target="_blank">
-			<span class="glyphicon glyphicon-heart"></span>
-			<span class="chn">捐助</span>
-			<span class="eng">Donate</span>
-		</a>
+			<a href="https://www.paypal.me/lucaslionline" target="_blank">
+				<span class="glyphicon glyphicon-heart"></span>
+				<span class="chn">捐助</span>
+				<span class="eng">DONATE</span>
+			</a> &sdot;
 
-		<span class="pull-right laptop">{% include social.html %}&nbsp;</span>
+			<span class="toggle-btn1 as-link">
+				<span class="glyphicon glyphicon-th"></span>
+				<span class="chn">其它</span>
+				<span class="eng">MISC</span>
+			</span>
+
+			<span class="pull-right laptop">{% include social.html %}&nbsp;</span>
+		</div>
+
+
+		<div class="misc gray">{% include misc.html %}</div>
 	</div>
 </footer>
 
