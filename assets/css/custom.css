@@ -38,6 +38,9 @@ a:hover {
 	margin-bottom: 50px;
 }
 
+.no-padding {
+	padding: 0;
+}
 
 
 /*--------------------------------------------------------------
@@ -437,14 +440,15 @@ nav a:hover {
 15.0 Widgets
 --------------------------------------------------------------*/
 .carousel {
-	height: 300px;
+	height: 375px;
 }
 .carousel-caption {
 	z-index: 10;
 }
 .carousel .item {
-	height: 300px;
+	height: 375px;
 	background-color: #ddd;
+	border-radius: 4px;
 }
 
 

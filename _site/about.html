@@ -8,15 +8,20 @@
 	<title>李立 - 關於</title>
 	
 
-	<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-4.0.css">
 	<link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
 	<link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+
+	<!-- ================== Mapbox ==================== -->
+	<link href='/assets/css/mapbox-gl.css' rel='stylesheet' />
+
 
 	<script src="/assets/js/jquery-1.11.3.js"></script>
 	<script src="/assets/js/bootstrap.js"></script>
 	<script src="/assets/js/chart.js"></script>
 	<script src="/assets/js/feather.js"></script>
 	<script src="/assets/js/custom.js"></script>
+	<script src='/assets/js/mapbox-gl.js'></script>
 </head>
 
 
@@ -242,8 +247,101 @@
 
 
 
-<section>
-	<canvas id="myChart" width="100%" height="40"></canvas>
+<section class="no-padding">
+	<div id='map' style='width: 100%; height: 375px;'></div>
+
+
+
+
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoibHVjYXNsaW9ubGluZSIsImEiOiJjajNmZGdwZWowMHphMnFwODc3MHlxZzNmIn0.vWNrnvAvrycCab9p3ogUIA';
+
+var map = new mapboxgl.Map({
+	container: 'map',
+	style: 'mapbox://styles/mapbox/light-v9',
+	center: [0, 25],
+	zoom: 1.00
+});
+
+map.on('load', function () {
+	// Add a layer showing the places.
+	map.addLayer({
+		"id": "places",
+		"type": "symbol",
+		"source": {
+			"type": "geojson",
+			"data": {
+				"type": "FeatureCollection",
+				"features": [{
+					"type": "Feature",
+					"properties": {
+						"description": "<h5>Shiping</h5>1990 - 2008<br>Born in Longpeng on March 11, 1990",
+						"icon": "marker"
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [102.579,23.888]
+					}
+				}, {
+					"type": "Feature",
+					"properties": {
+						"description": "<h5>Shanghai</h5>2008 - 2012<br> Undergraduate study at Tongji University",
+						"icon": "marker"
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [121.507, 31.283]
+					}
+				}, {
+					"type": "Feature",
+					"properties": {
+						"description": "<h5>Beijing</h5>2016 - Present<br>Competition Manager at Solar Decathlon China",
+						"icon": "marker"
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [116.425,39.900]
+					}
+				}, {
+					"type": "Feature",
+					"properties": {
+						"description": "<h5>West Lafayette</h5>2013 - 2015<br>Graduate study at Purdue University",
+						"icon": "marker"
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [-86.914, 40.428]
+					}
+				}]
+			}
+		},
+		"layout": {
+			"icon-image": "{icon}-15",
+			"icon-allow-overlap": true
+		}
+	});
+
+	// When a click event occurs on a feature in the places layer, open a popup at the
+	// location of the feature, with description HTML from its properties.
+	map.on('click', 'places', function (e) {
+		new mapboxgl.Popup()
+		.setLngLat(e.features[0].geometry.coordinates)
+		.setHTML(e.features[0].properties.description)
+		.addTo(map);
+	});
+
+	// Change the cursor to a pointer when the mouse is over the places layer.
+	map.on('mouseenter', 'places', function () {
+		map.getCanvas().style.cursor = 'pointer';
+	});
+
+	// Change it back to a pointer when it leaves.
+	map.on('mouseleave', 'places', function () {
+		map.getCanvas().style.cursor = '';
+	});
+});
+</script>
 </section>
 
 
@@ -256,57 +354,6 @@
 
 	<a href="http://www.tongji.edu.cn" target="_blank"><img src="/assets/img/logo_tongji.png"></a>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-var ctx = document.getElementById("myChart").getContext('2d');
-var myChart = new Chart(ctx, {
-	type: 'bar',
-	data: {
-		labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
-		datasets: [{
-			label: '# of Votes',
-			data: [12, 19, 3, 5, 2, 3],
-			backgroundColor: [
-			'rgba(255, 99, 132, 0.2)',
-			'rgba(54, 162, 235, 0.2)',
-			'rgba(255, 206, 86, 0.2)',
-			'rgba(75, 192, 192, 0.2)',
-			'rgba(153, 102, 255, 0.2)',
-			'rgba(255, 159, 64, 0.2)'
-			],
-			borderColor: [
-			'rgba(255,99,132,1)',
-			'rgba(54, 162, 235, 1)',
-			'rgba(255, 206, 86, 1)',
-			'rgba(75, 192, 192, 1)',
-			'rgba(153, 102, 255, 1)',
-			'rgba(255, 159, 64, 1)'
-			],
-			borderWidth: 1
-		}]
-	},
-	options: {
-		scales: {
-			yAxes: [{
-				ticks: {
-					beginAtZero:true
-				}
-			}]
-		}
-	}
-});
-</script>
 	</div>
 
 	<footer>

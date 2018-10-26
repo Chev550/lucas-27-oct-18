@@ -1,0 +1,94 @@
+<div id='map' style='width: 100%; height: 375px;'></div>
+
+
+
+
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoibHVjYXNsaW9ubGluZSIsImEiOiJjajNmZGdwZWowMHphMnFwODc3MHlxZzNmIn0.vWNrnvAvrycCab9p3ogUIA';
+
+var map = new mapboxgl.Map({
+	container: 'map',
+	style: 'mapbox://styles/mapbox/light-v9',
+	center: [0, 25],
+	zoom: 1.00
+});
+
+map.on('load', function () {
+	// Add a layer showing the places.
+	map.addLayer({
+		"id": "places",
+		"type": "symbol",
+		"source": {
+			"type": "geojson",
+			"data": {
+				"type": "FeatureCollection",
+				"features": [{
+					"type": "Feature",
+					"properties": {
+						"description": "<h5>Shiping</h5>1990 - 2008<br>Born in Longpeng on March 11, 1990",
+						"icon": "marker"
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [102.579,23.888]
+					}
+				}, {
+					"type": "Feature",
+					"properties": {
+						"description": "<h5>Shanghai</h5>2008 - 2012<br> Undergraduate study at Tongji University",
+						"icon": "marker"
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [121.507, 31.283]
+					}
+				}, {
+					"type": "Feature",
+					"properties": {
+						"description": "<h5>Beijing</h5>2016 - Present<br>Competition Manager at Solar Decathlon China",
+						"icon": "marker"
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [116.425,39.900]
+					}
+				}, {
+					"type": "Feature",
+					"properties": {
+						"description": "<h5>West Lafayette</h5>2013 - 2015<br>Graduate study at Purdue University",
+						"icon": "marker"
+					},
+					"geometry": {
+						"type": "Point",
+						"coordinates": [-86.914, 40.428]
+					}
+				}]
+			}
+		},
+		"layout": {
+			"icon-image": "{icon}-15",
+			"icon-allow-overlap": true
+		}
+	});
+
+	// When a click event occurs on a feature in the places layer, open a popup at the
+	// location of the feature, with description HTML from its properties.
+	map.on('click', 'places', function (e) {
+		new mapboxgl.Popup()
+		.setLngLat(e.features[0].geometry.coordinates)
+		.setHTML(e.features[0].properties.description)
+		.addTo(map);
+	});
+
+	// Change the cursor to a pointer when the mouse is over the places layer.
+	map.on('mouseenter', 'places', function () {
+		map.getCanvas().style.cursor = 'pointer';
+	});
+
+	// Change it back to a pointer when it leaves.
+	map.on('mouseleave', 'places', function () {
+		map.getCanvas().style.cursor = '';
+	});
+});
+</script>
