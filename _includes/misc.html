@@ -1,6 +1,6 @@
 <hr>
 <ul class="icons">
-	<li class="active">
+	<li>
 		<a href="#finder" data-toggle="tab" aria-expanded="false">
 			<img class="" src="{{ site.baseurl }}/assets/img/icon-finder.png"><br>
 			<span class="chn">訪達</span>
@@ -9,7 +9,7 @@
 	</li>
 
 	<li>
-		<a href="#enquiry" data-toggle="tab" aria-expanded="false">
+		<a href="#docs" data-toggle="tab" aria-expanded="false">
 			<img class="" src="{{ site.baseurl }}/assets/img/icon-docs.png"><br>
 			<span class="chn">文檔</span>
 			<span class="eng">Documents</span>
@@ -23,14 +23,14 @@
 		</a>
 	</li>
 	<li>
-		<a href="#enquiry" data-toggle="tab" aria-expanded="false">
+		<a href="#movies" data-toggle="tab" aria-expanded="false">
 			<img class="" src="{{ site.baseurl }}/assets/img/icon-movie.png"><br>
 			<span class="chn">電影</span>
 			<span class="eng">Movies</span>
 		</a>
 	</li>
 	<li>
-		<a href="#enquiry" data-toggle="tab" aria-expanded="false">
+		<a href="#pics" data-toggle="tab" aria-expanded="false">
 			<img class="" src="{{ site.baseurl }}/assets/img/icon-picture.png"><br>
 			<span class="chn">圖片</span>
 			<span class="eng">Pictures</span>
@@ -43,20 +43,61 @@
 			<span class="eng">Sites</span>
 		</a>
 	</li>
+	<li>
+		<a href="#user" data-toggle="tab" aria-expanded="false">
+			<img class="" src="{{ site.baseurl }}/assets/img/icon-user.png"><br>
+			<span class="chn">用戶</span>
+			<span class="eng">User</span>
+		</a>
+	</li>
+	<li class="active">
+		<a href="#desk" data-toggle="tab" aria-expanded="false">
+			<img class="" src="{{ site.baseurl }}/assets/img/icon-home.png"><br>
+			<span class="chn">桌面</span>
+			<span class="eng">Desk</span>
+		</a>
+	</li>
 </ul>
 
 
 <div id="myTabContent" class="tab-content">
-	<div class="tab-pane fade active in" id="finder">
+	
+
+	<div class="tab-pane fade" id="finder">
 		{% include finder.html %}
+	</div>
+
+	<div class="tab-pane fade" id="docs">
+		{% include docs.html %}
 	</div>
 
 	<div class="tab-pane fade" id="music">
 		{% include music.html %}
 	</div>
 
+	<div class="tab-pane fade" id="movies">
+		{% include movies.html %}
+	</div>
+
+	<div class="tab-pane fade" id="pics">
+		<hr>
+		<p>
+			<span class="glyphicon glyphicon-th"></span> &raquo;
+			<span class="chn">圖片</span>
+			<span class="eng">Pictures</span>
+		</p>
+		{% include carousel.html %}
+	</div>
+
 	<div class="tab-pane fade" id="sites">
 		{% include sites.html %}
+	</div>
+
+	<div class="tab-pane fade" id="user">
+		{% include user.html %}
+	</div>
+
+	<div class="tab-pane fade active in" id="desk">
 	</div>
 </div>
 

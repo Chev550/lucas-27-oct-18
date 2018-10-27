@@ -164,6 +164,7 @@ ul.messager li {
 ul.icons {
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 ul.icons li {
 	list-style: none;
