@@ -161,6 +161,50 @@ ul.messager li {
 }
 
 
+ul.icons {
+	margin: 0;
+	padding: 0;
+}
+ul.icons li {
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	margin: 0 1em;
+}
+ul.icons li:first-child {
+	margin-left: 0;
+}
+ul.icons li:last-child {
+	margin-right: 0;
+}
+ul.icons li a {
+	color: gray;
+}
+ul.icons li a:hover {
+	color: black;
+	text-decoration: none;
+}
+ul.icons li.active a {
+	color: black;
+}
+
+
+
+
+#playlist {
+	margin: 0;
+	padding: 0;
+}
+#playlist li {
+	list-style: none;
+}
+#playlist li.active a {
+	color: gray;
+}
+#playlist li.active a:hover {
+	text-decoration: none;
+	cursor: default;
+}
 /*--------------------------------------------------------------
 9.0 Tables
 --------------------------------------------------------------*/
@@ -476,7 +520,7 @@ a:hover path {
 --------------------------------------------------------------*/
 /* 浮動圖層 Wishlist */
 .overlay-bg {
-	display: ;
+	display: none;
 	position: absolute;
 	top: 0%;
 	left: 0%;
@@ -489,7 +533,7 @@ a:hover path {
 	filter: alpha(opacity=60);
 }
 .overlay-content {
-	display: ;
+	display: none;
 	width: 100%;
 	padding: 5rem 0;
 	border-top: 7px solid black;

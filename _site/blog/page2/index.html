@@ -377,10 +377,186 @@ Your browser does not support the audio element.
 
 
 		<div class="misc gray"><hr>
+<ul class="icons">
+	<li class="active">
+		<a href="#finder" data-toggle="tab" aria-expanded="false">
+			<img class="" src="/assets/img/icon-finder.png"><br>
+			<span class="chn">訪達</span>
+			<span class="eng">Finder</span>
+		</a>
+	</li>
+
+	<li>
+		<a href="#enquiry" data-toggle="tab" aria-expanded="false">
+			<img class="" src="/assets/img/icon-docs.png"><br>
+			<span class="chn">文檔</span>
+			<span class="eng">Documents</span>
+		</a>
+	</li>
+	<li>
+		<a href="#music" data-toggle="tab" aria-expanded="false">
+			<img class="" src="/assets/img/icon-music.png"><br>
+			<span class="chn">音樂</span>
+			<span class="eng">Music</span>
+		</a>
+	</li>
+	<li>
+		<a href="#enquiry" data-toggle="tab" aria-expanded="false">
+			<img class="" src="/assets/img/icon-movie.png"><br>
+			<span class="chn">電影</span>
+			<span class="eng">Movies</span>
+		</a>
+	</li>
+	<li>
+		<a href="#enquiry" data-toggle="tab" aria-expanded="false">
+			<img class="" src="/assets/img/icon-picture.png"><br>
+			<span class="chn">圖片</span>
+			<span class="eng">Pictures</span>
+		</a>
+	</li>
+	<li>
+		<a href="#sites" data-toggle="tab" aria-expanded="false">
+			<img class="" src="/assets/img/icon-site.png"><br>
+			<span class="chn">站點</span>
+			<span class="eng">Sites</span>
+		</a>
+	</li>
+</ul>
+
+
+<div id="myTabContent" class="tab-content">
+	<div class="tab-pane fade active in" id="finder">
+		<hr>
 <p>
 	<span class="glyphicon glyphicon-th"></span> &raquo;
-	<span class="chn">站外鏈接</span>
-	<span class="eng">External URLs</span>
+	<span class="chn">訪達</span>
+	<span class="eng">Finder</span>
+</p>
+
+
+<div class="row">
+	<div class="col-sm-4">
+		<form method="get" action="https://www.google.com/search" target="_blank">
+			<input type="text" name="q" size="25" class="form-control" placeholder="Google" required>
+		</form>
+	</div>
+
+	<div class="col-sm-4">
+		<form method="get" action="http://global.bing.com/search" target="_blank">
+			<input type="text" name="q" size="25" class="form-control" placeholder="Bing" required>
+		</form>
+	</div>
+
+	<div class="col-sm-4">
+		<form method="get" action="https://www.baidu.com/s" target="_blank">
+			<input type="text" name="word" size="25" class="form-control" placeholder="百度一下" required>
+		</form>
+	</div>
+</div>
+	</div>
+
+	<div class="tab-pane fade" id="music">
+		<hr>
+<p>
+	<span class="glyphicon glyphicon-th"></span> &raquo;
+	<span class="chn">音樂</span>
+	<span class="eng">Music</span>
+</p>
+
+<p><audio id="audio" preload="auto" tabindex="0" controls="" style="width:100%"></audio></p>
+
+<ol id="playlist">
+	<div class="row">
+		<div class="col-sm-4">
+			<strong>
+				<span class="chn">崇拜</span>
+				<span class="eng">Worship</span>
+			</strong><br>
+			<li><a href="/assets/mp3/Matt_Redman-Fires.mp3">Fires - Matt Redman</a></li>
+			<li><a href="/assets/mp3/Matt_Redman-10000_Reasons.mp3">10000 Reasons - Matt Redman</a></li>
+			<li><a href="/assets/mp3/Hillsong_United-Mighty_To_Save.mp3">Mighty To Save - Hillsong United</a></li>
+			<li><a href="/assets/mp3/Hillsong_United-Oceans.mp3">Oceans - Hillsong United</a></li>
+			<li><a href="/assets/mp3/Newsboys-In_Christ_Alone.mp3">In Christ Alone - Newsboys</a></li>
+			<li><a href="/assets/mp3/Michael_W._Smith-Above_All.mp3">Above All - Michael W. Smith</a></li>
+		</div>
+
+		<div class="col-sm-4">
+			<strong>
+				<span class="chn">流行</span>
+				<span class="eng">Pop</span>
+			</strong><br>
+			<li><a href="/assets/mp3/TheChainsmokersColdplay-SomethingJustLikeThis.mp3">Something Just Like This - The Chainsmokers & Coldplay</a></li>
+			<li><a href="/assets/mp3/TheBeatles-HeyJude.mp3">Hey Jude - The Beatles</a></li>
+			<li><a href="/assets/mp3/OneRepublic-Love_Runs_Out.mp3">Love Runs Out - One Republic</a></li>
+			<li><a href="/assets/mp3/3union-Lovesick.mp3">Lovesick - 3union</a></li>
+		</div>
+
+
+		<div class="col-sm-4">
+			<strong>
+				<span class="chn">古典</span>
+				<span class="eng">Classic</span>
+			</strong><br>
+		</div>
+	</ol>
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript">
+	var audio;
+	var playlist;
+	var tracks;
+	var current;
+
+	init();
+	function init(){
+		current = 0;
+		audio = $('#audio');
+		playlist = $('#playlist');
+		tracks = playlist.find('a');
+		len = tracks.length - 1;
+		audio[0].play();
+		playlist.find('a').click(function(e){
+			e.preventDefault();
+			link = $(this);
+			current = link.parent().index();
+			run(link, audio[0]);
+		});
+		audio[0].addEventListener('ended',function(e){
+			current++;
+			if(current == len){
+				current = 0;
+				link = playlist.find('a')[0];
+			}else{
+				link = playlist.find('a')[current];    
+			}
+			run($(link),audio[0]);
+		});
+	}
+	function run(link, player){
+		player.src = link.attr('href');
+		par = link.parent();
+		par.addClass('active').siblings().removeClass('active');
+		audio[0].load();
+		audio[0].play();
+	}
+	</script>
+
+	</div>
+
+	<div class="tab-pane fade" id="sites">
+		<hr>
+<p>
+	<span class="glyphicon glyphicon-th"></span> &raquo;
+	<span class="chn">站點</span>
+	<span class="eng">Sites</span>
 </p>
 
 
@@ -426,6 +602,9 @@ Your browser does not support the audio element.
 		<a href="https://www.covenantepc.org" target="_blank">Covenant Church</a>
 	</div>
 </div>
+	</div>
+</div>
+
 </div>
 	</div>
 </footer>

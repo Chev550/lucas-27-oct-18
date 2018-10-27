@@ -1,0 +1,69 @@
+---
+layout: default
+title: "音樂"
+---
+
+<p class="page-title">
+	<span class="btn btn-sm btn-round btn-highlight disabled">
+		<span class="glyphicon glyphicon-envelope"></span> &nbsp;
+		<span class="chn">音樂</span>
+		<span class="eng">MUSIC</span>
+	</span>
+</p>
+
+
+<audio id="audio" preload="auto" tabindex="0" controls="" style="width:100%"></audio>
+
+<div class="list-group" id="playlist">
+	<a class="list-group-item" href="{{ site.baseurl }}/assets/mp3/Matt_Redman-Fires.mp3">Matt Redman - Fires</a>
+	<a class="list-group-item active" href="{{ site.baseurl }}/assets/mp3/Michael_W._Smith-Above_All.mp3">Michael W. Smith - Above All</a>
+	<a class="list-group-item" href="{{ site.baseurl }}/assets/mp3/Hillsong_United-Mighty_To_Save.mp3">Hillsong United - Mighty To Save</a>
+	<a class="list-group-item" href="{{ site.baseurl }}/assets/mp3/Hillsong_United-Oceans.mp3">Hillsong United - Oceans</a>
+	<a class="list-group-item" href="{{ site.baseurl }}/assets/mp3/Matt_Redman-10000_Reasons.mp3">Matt Redman - 10000 Reasons</a>
+	<a class="list-group-item" href="{{ site.baseurl }}/assets/mp3/Newsboys-In_Christ_Alone.mp3">Newsboys - In Christ Alone</a></li>
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+var audio;
+var playlist;
+var tracks;
+var current;
+
+init();
+function init(){
+	current = 0;
+	audio = $('#audio');
+	playlist = $('#playlist');
+	tracks = playlist.find('a');
+	len = tracks.length - 1;
+	audio[0].play();
+	playlist.find('a').click(function(e){
+		e.preventDefault();
+		link = $(this);
+		current = link.parent().index();
+		run(link, audio[0]);
+	});
+	audio[0].addEventListener('ended',function(e){
+		current++;
+		if(current == len){
+			current = 0;
+			link = playlist.find('a')[0];
+		}else{
+			link = playlist.find('a')[current];    
+		}
+		run($(link),audio[0]);
+	});
+}
+function run(link, player){
+	player.src = link.attr('href');
+	par = link.parent();
+	par.addClass('active').siblings().removeClass('active');
+	audio[0].load();
+	audio[0].play();
+}
+</script>
